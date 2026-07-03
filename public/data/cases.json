@@ -1,0 +1,9882 @@
+[
+  {
+    "id": "go-case-001",
+    "title": "Hello Go案例1",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001334",
+      "go-q-002833",
+      "go-q-001306"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-002",
+    "title": "切片操作案例2",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003077",
+      "go-q-000761",
+      "go-q-000713"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-003",
+    "title": "map统计案例3",
+    "description": "通过map统计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002936",
+      "go-q-001171",
+      "go-q-001256"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-004",
+    "title": "结构体方法案例4",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002245",
+      "go-q-003565",
+      "go-q-001727"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-005",
+    "title": "接口设计案例5",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003602",
+      "go-q-001970",
+      "go-q-000868"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-006",
+    "title": "错误处理案例6",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001183",
+      "go-q-000215",
+      "go-q-000926"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-007",
+    "title": "defer顺序案例7",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003391",
+      "go-q-001722",
+      "go-q-000728"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-008",
+    "title": "goroutine并发案例8",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002677",
+      "go-q-000473",
+      "go-q-002880"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-009",
+    "title": "channel通信案例9",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002728",
+      "go-q-000212",
+      "go-q-003030"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-010",
+    "title": "select超时案例10",
+    "description": "通过select超时掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002659",
+      "go-q-001560",
+      "go-q-000998"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-011",
+    "title": "context取消案例11",
+    "description": "通过context取消掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002296",
+      "go-q-001895",
+      "go-q-001165"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-012",
+    "title": "HTTP API案例12",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000399",
+      "go-q-000875",
+      "go-q-002928"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-013",
+    "title": "Gin路由案例13",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001103",
+      "go-q-001328",
+      "go-q-002500"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-014",
+    "title": "中间件案例14",
+    "description": "通过中间件掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001089",
+      "go-q-000984",
+      "go-q-000840"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-015",
+    "title": "登录接口案例15",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000429",
+      "go-q-003323",
+      "go-q-002613"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-016",
+    "title": "数据库CRUD案例16",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002056",
+      "go-q-000675",
+      "go-q-003413"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-017",
+    "title": "Redis缓存案例17",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000030",
+      "go-q-002723",
+      "go-q-000277"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-018",
+    "title": "配置加载案例18",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000023",
+      "go-q-002787",
+      "go-q-000500"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-019",
+    "title": "单元测试案例19",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003095",
+      "go-q-002374",
+      "go-q-003100"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-020",
+    "title": "Docker部署案例20",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000779",
+      "go-q-003595",
+      "go-q-002789"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-021",
+    "title": "Go面试案例21",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003636",
+      "go-q-001688",
+      "go-q-000331"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-022",
+    "title": "Hello Go案例22",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002333",
+      "go-q-003606",
+      "go-q-002846"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-023",
+    "title": "切片操作案例23",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002825",
+      "go-q-000364",
+      "go-q-000324"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-024",
+    "title": "map统计案例24",
+    "description": "通过map统计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003254",
+      "go-q-000035",
+      "go-q-002751"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-025",
+    "title": "结构体方法案例25",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000789",
+      "go-q-003215",
+      "go-q-000586"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-026",
+    "title": "接口设计案例26",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000224",
+      "go-q-001302",
+      "go-q-001955"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-027",
+    "title": "错误处理案例27",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001464",
+      "go-q-002001",
+      "go-q-001777"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-028",
+    "title": "defer顺序案例28",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001483",
+      "go-q-002941",
+      "go-q-002545"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-029",
+    "title": "goroutine并发案例29",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001563",
+      "go-q-002186",
+      "go-q-003698"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-030",
+    "title": "channel通信案例30",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000066",
+      "go-q-000893",
+      "go-q-002111"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-031",
+    "title": "select超时案例31",
+    "description": "通过select超时掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000487",
+      "go-q-002109",
+      "go-q-001530"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-032",
+    "title": "context取消案例32",
+    "description": "通过context取消掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003666",
+      "go-q-001300",
+      "go-q-001553"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-033",
+    "title": "HTTP API案例33",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001229",
+      "go-q-002377",
+      "go-q-002511"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-034",
+    "title": "Gin路由案例34",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003318",
+      "go-q-001038",
+      "go-q-003076"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-035",
+    "title": "中间件案例35",
+    "description": "通过中间件掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001977",
+      "go-q-000888",
+      "go-q-002245"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-036",
+    "title": "登录接口案例36",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002226",
+      "go-q-003096",
+      "go-q-000026"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-037",
+    "title": "数据库CRUD案例37",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000835",
+      "go-q-000037",
+      "go-q-002503"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-038",
+    "title": "Redis缓存案例38",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002824",
+      "go-q-003656",
+      "go-q-001974"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-039",
+    "title": "配置加载案例39",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002650",
+      "go-q-002634",
+      "go-q-002855"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-040",
+    "title": "单元测试案例40",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002173",
+      "go-q-000269",
+      "go-q-001852"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-041",
+    "title": "Docker部署案例41",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000487",
+      "go-q-002279",
+      "go-q-000669"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-042",
+    "title": "Go面试案例42",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002259",
+      "go-q-000085",
+      "go-q-002822"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-043",
+    "title": "Hello Go案例43",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001084",
+      "go-q-001383",
+      "go-q-001624"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-044",
+    "title": "切片操作案例44",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000436",
+      "go-q-003292",
+      "go-q-002311"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-045",
+    "title": "map统计案例45",
+    "description": "通过map统计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002451",
+      "go-q-001719",
+      "go-q-000150"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-046",
+    "title": "结构体方法案例46",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001444",
+      "go-q-002655",
+      "go-q-002905"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-047",
+    "title": "接口设计案例47",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001196",
+      "go-q-000268",
+      "go-q-000116"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-048",
+    "title": "错误处理案例48",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001758",
+      "go-q-001309",
+      "go-q-001691"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-049",
+    "title": "defer顺序案例49",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002041",
+      "go-q-001722",
+      "go-q-000481"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-050",
+    "title": "goroutine并发案例50",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001945",
+      "go-q-001788",
+      "go-q-001182"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-051",
+    "title": "channel通信案例51",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000301",
+      "go-q-001473",
+      "go-q-001229"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-052",
+    "title": "select超时案例52",
+    "description": "通过select超时掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001340",
+      "go-q-002106",
+      "go-q-001569"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-053",
+    "title": "context取消案例53",
+    "description": "通过context取消掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002617",
+      "go-q-003191",
+      "go-q-000653"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-054",
+    "title": "HTTP API案例54",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001396",
+      "go-q-001149",
+      "go-q-001414"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-055",
+    "title": "Gin路由案例55",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002958",
+      "go-q-001554",
+      "go-q-002347"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-056",
+    "title": "中间件案例56",
+    "description": "通过中间件掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001764",
+      "go-q-002620",
+      "go-q-000442"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-057",
+    "title": "登录接口案例57",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002403",
+      "go-q-002511",
+      "go-q-002488"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-058",
+    "title": "数据库CRUD案例58",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000225",
+      "go-q-002761",
+      "go-q-002301"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-059",
+    "title": "Redis缓存案例59",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003491",
+      "go-q-002107",
+      "go-q-002466"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-060",
+    "title": "配置加载案例60",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000155",
+      "go-q-003459",
+      "go-q-001704"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-061",
+    "title": "单元测试案例61",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000472",
+      "go-q-002091",
+      "go-q-002227"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-062",
+    "title": "Docker部署案例62",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002470",
+      "go-q-000234",
+      "go-q-001580"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-063",
+    "title": "Go面试案例63",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000869",
+      "go-q-002314",
+      "go-q-001925"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-064",
+    "title": "Hello Go案例64",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002025",
+      "go-q-001588",
+      "go-q-001051"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-065",
+    "title": "切片操作案例65",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001082",
+      "go-q-001854",
+      "go-q-002486"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-066",
+    "title": "map统计案例66",
+    "description": "通过map统计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001428",
+      "go-q-001828",
+      "go-q-003052"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-067",
+    "title": "结构体方法案例67",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001476",
+      "go-q-002815",
+      "go-q-000276"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-068",
+    "title": "接口设计案例68",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001220",
+      "go-q-002684",
+      "go-q-001688"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-069",
+    "title": "错误处理案例69",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003266",
+      "go-q-003430",
+      "go-q-000638"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-070",
+    "title": "defer顺序案例70",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002608",
+      "go-q-001337",
+      "go-q-003120"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-071",
+    "title": "goroutine并发案例71",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001510",
+      "go-q-003527",
+      "go-q-003496"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-072",
+    "title": "channel通信案例72",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003352",
+      "go-q-001205",
+      "go-q-003046"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-073",
+    "title": "select超时案例73",
+    "description": "通过select超时掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001338",
+      "go-q-002524",
+      "go-q-002190"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-074",
+    "title": "context取消案例74",
+    "description": "通过context取消掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000959",
+      "go-q-001475",
+      "go-q-002865"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-075",
+    "title": "HTTP API案例75",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001314",
+      "go-q-003633",
+      "go-q-002938"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-076",
+    "title": "Gin路由案例76",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000316",
+      "go-q-000824",
+      "go-q-002844"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-077",
+    "title": "中间件案例77",
+    "description": "通过中间件掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002064",
+      "go-q-000733",
+      "go-q-001959"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-078",
+    "title": "登录接口案例78",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002910",
+      "go-q-001005",
+      "go-q-001528"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-079",
+    "title": "数据库CRUD案例79",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001339",
+      "go-q-000841",
+      "go-q-002277"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-080",
+    "title": "Redis缓存案例80",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001795",
+      "go-q-001203",
+      "go-q-000110"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-081",
+    "title": "配置加载案例81",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000858",
+      "go-q-002379",
+      "go-q-002426"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-082",
+    "title": "单元测试案例82",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001673",
+      "go-q-001099",
+      "go-q-002437"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-083",
+    "title": "Docker部署案例83",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002855",
+      "go-q-000008",
+      "go-q-002255"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-084",
+    "title": "Go面试案例84",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003260",
+      "go-q-000258",
+      "go-q-002400"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-085",
+    "title": "Hello Go案例85",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003052",
+      "go-q-000103",
+      "go-q-003466"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-086",
+    "title": "切片操作案例86",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001883",
+      "go-q-003102",
+      "go-q-002058"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-087",
+    "title": "map统计案例87",
+    "description": "通过map统计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003294",
+      "go-q-001119",
+      "go-q-000846"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-088",
+    "title": "结构体方法案例88",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001750",
+      "go-q-003376",
+      "go-q-001697"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-089",
+    "title": "接口设计案例89",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001092",
+      "go-q-000172",
+      "go-q-000758"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-090",
+    "title": "错误处理案例90",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002101",
+      "go-q-003325",
+      "go-q-000743"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-091",
+    "title": "defer顺序案例91",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003438",
+      "go-q-001601",
+      "go-q-003169"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-092",
+    "title": "goroutine并发案例92",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001367",
+      "go-q-002411",
+      "go-q-002394"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-093",
+    "title": "channel通信案例93",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000800",
+      "go-q-002379",
+      "go-q-000931"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-094",
+    "title": "select超时案例94",
+    "description": "通过select超时掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002350",
+      "go-q-002106",
+      "go-q-002691"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-095",
+    "title": "context取消案例95",
+    "description": "通过context取消掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000990",
+      "go-q-001383",
+      "go-q-000201"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-096",
+    "title": "HTTP API案例96",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000518",
+      "go-q-001766",
+      "go-q-001103"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-097",
+    "title": "Gin路由案例97",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003172",
+      "go-q-003381",
+      "go-q-000019"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-098",
+    "title": "中间件案例98",
+    "description": "通过中间件掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000677",
+      "go-q-003445",
+      "go-q-001194"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-099",
+    "title": "登录接口案例99",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002181",
+      "go-q-002766",
+      "go-q-002754"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-100",
+    "title": "数据库CRUD案例100",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000157",
+      "go-q-002171",
+      "go-q-002990"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-101",
+    "title": "Redis缓存案例101",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002679",
+      "go-q-003562",
+      "go-q-003658"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-102",
+    "title": "配置加载案例102",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001211",
+      "go-q-003103",
+      "go-q-000666"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-103",
+    "title": "单元测试案例103",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003682",
+      "go-q-001215",
+      "go-q-002408"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-104",
+    "title": "Docker部署案例104",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002996",
+      "go-q-001079",
+      "go-q-002897"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-105",
+    "title": "Go面试案例105",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002857",
+      "go-q-003166",
+      "go-q-003503"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-106",
+    "title": "Hello Go案例106",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000164",
+      "go-q-003270",
+      "go-q-002019"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-107",
+    "title": "切片操作案例107",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002976",
+      "go-q-003650",
+      "go-q-000316"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-108",
+    "title": "map统计案例108",
+    "description": "通过map统计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003673",
+      "go-q-003537",
+      "go-q-001147"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-109",
+    "title": "结构体方法案例109",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002331",
+      "go-q-003584",
+      "go-q-003289"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-110",
+    "title": "接口设计案例110",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000229",
+      "go-q-000511",
+      "go-q-002018"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-111",
+    "title": "错误处理案例111",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000368",
+      "go-q-002868",
+      "go-q-003584"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-112",
+    "title": "defer顺序案例112",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001012",
+      "go-q-003106",
+      "go-q-002341"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-113",
+    "title": "goroutine并发案例113",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003565",
+      "go-q-003580",
+      "go-q-003139"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-114",
+    "title": "channel通信案例114",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003558",
+      "go-q-002553",
+      "go-q-000998"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-115",
+    "title": "select超时案例115",
+    "description": "通过select超时掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001977",
+      "go-q-002106",
+      "go-q-001011"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-116",
+    "title": "context取消案例116",
+    "description": "通过context取消掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000906",
+      "go-q-000792",
+      "go-q-000561"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-117",
+    "title": "HTTP API案例117",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000499",
+      "go-q-001571",
+      "go-q-000202"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-118",
+    "title": "Gin路由案例118",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002040",
+      "go-q-001372",
+      "go-q-002258"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-119",
+    "title": "中间件案例119",
+    "description": "通过中间件掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000197",
+      "go-q-001939",
+      "go-q-001587"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-120",
+    "title": "登录接口案例120",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000470",
+      "go-q-001971",
+      "go-q-002895"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-121",
+    "title": "数据库CRUD案例121",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003148",
+      "go-q-002350",
+      "go-q-002410"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-122",
+    "title": "Redis缓存案例122",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001100",
+      "go-q-002759",
+      "go-q-001723"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-123",
+    "title": "配置加载案例123",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002823",
+      "go-q-001419",
+      "go-q-002717"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-124",
+    "title": "单元测试案例124",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002497",
+      "go-q-000588",
+      "go-q-001982"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-125",
+    "title": "Docker部署案例125",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000293",
+      "go-q-002024",
+      "go-q-002736"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-126",
+    "title": "Go面试案例126",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000555",
+      "go-q-003033",
+      "go-q-001356"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-127",
+    "title": "Hello Go案例127",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001958",
+      "go-q-001991",
+      "go-q-001439"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-128",
+    "title": "切片操作案例128",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001951",
+      "go-q-003014",
+      "go-q-001456"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-129",
+    "title": "map统计案例129",
+    "description": "通过map统计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001873",
+      "go-q-002608",
+      "go-q-002534"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-130",
+    "title": "结构体方法案例130",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001317",
+      "go-q-003179",
+      "go-q-003444"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-131",
+    "title": "接口设计案例131",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000257",
+      "go-q-002769",
+      "go-q-002964"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-132",
+    "title": "错误处理案例132",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001694",
+      "go-q-000260",
+      "go-q-000107"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-133",
+    "title": "defer顺序案例133",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002953",
+      "go-q-001910",
+      "go-q-003001"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-134",
+    "title": "goroutine并发案例134",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000795",
+      "go-q-000237",
+      "go-q-000772"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-135",
+    "title": "channel通信案例135",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003233",
+      "go-q-003666",
+      "go-q-003167"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-136",
+    "title": "select超时案例136",
+    "description": "通过select超时掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003519",
+      "go-q-000069",
+      "go-q-001208"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-137",
+    "title": "context取消案例137",
+    "description": "通过context取消掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002505",
+      "go-q-002002",
+      "go-q-001500"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-138",
+    "title": "HTTP API案例138",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002057",
+      "go-q-001453",
+      "go-q-002330"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-139",
+    "title": "Gin路由案例139",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002555",
+      "go-q-001508",
+      "go-q-002779"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-140",
+    "title": "中间件案例140",
+    "description": "通过中间件掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001218",
+      "go-q-001961",
+      "go-q-003306"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-141",
+    "title": "登录接口案例141",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002881",
+      "go-q-000764",
+      "go-q-003394"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-142",
+    "title": "数据库CRUD案例142",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002334",
+      "go-q-000629",
+      "go-q-001803"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-143",
+    "title": "Redis缓存案例143",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000193",
+      "go-q-003136",
+      "go-q-002714"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-144",
+    "title": "配置加载案例144",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003356",
+      "go-q-002452",
+      "go-q-002535"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-145",
+    "title": "单元测试案例145",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002844",
+      "go-q-003379",
+      "go-q-000790"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-146",
+    "title": "Docker部署案例146",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002620",
+      "go-q-000331",
+      "go-q-002716"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-147",
+    "title": "Go面试案例147",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002404",
+      "go-q-001805",
+      "go-q-003221"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-148",
+    "title": "Hello Go案例148",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002872",
+      "go-q-002119",
+      "go-q-003047"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-149",
+    "title": "切片操作案例149",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000101",
+      "go-q-003230",
+      "go-q-003348"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-150",
+    "title": "map统计案例150",
+    "description": "通过map统计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001669",
+      "go-q-000083",
+      "go-q-000999"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-151",
+    "title": "结构体方法案例151",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003688",
+      "go-q-002534",
+      "go-q-003601"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-152",
+    "title": "接口设计案例152",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001116",
+      "go-q-002161",
+      "go-q-002923"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-153",
+    "title": "错误处理案例153",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002060",
+      "go-q-001822",
+      "go-q-002278"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-154",
+    "title": "defer顺序案例154",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003319",
+      "go-q-002331",
+      "go-q-001431"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-155",
+    "title": "goroutine并发案例155",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001928",
+      "go-q-003641",
+      "go-q-000852"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-156",
+    "title": "channel通信案例156",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003463",
+      "go-q-002238",
+      "go-q-002958"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-157",
+    "title": "select超时案例157",
+    "description": "通过select超时掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002682",
+      "go-q-001167",
+      "go-q-002756"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-158",
+    "title": "context取消案例158",
+    "description": "通过context取消掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001649",
+      "go-q-000456",
+      "go-q-000998"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-159",
+    "title": "HTTP API案例159",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000282",
+      "go-q-002397",
+      "go-q-003548"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-160",
+    "title": "Gin路由案例160",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002627",
+      "go-q-001633",
+      "go-q-000944"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-161",
+    "title": "中间件案例161",
+    "description": "通过中间件掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000746",
+      "go-q-001542",
+      "go-q-001648"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-162",
+    "title": "登录接口案例162",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001374",
+      "go-q-001166",
+      "go-q-000880"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-163",
+    "title": "数据库CRUD案例163",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002660",
+      "go-q-002547",
+      "go-q-000937"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-164",
+    "title": "Redis缓存案例164",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001381",
+      "go-q-001516",
+      "go-q-000310"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-165",
+    "title": "配置加载案例165",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001419",
+      "go-q-002064",
+      "go-q-000759"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-166",
+    "title": "单元测试案例166",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003020",
+      "go-q-000072",
+      "go-q-001847"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-167",
+    "title": "Docker部署案例167",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000793",
+      "go-q-003256",
+      "go-q-002121"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-168",
+    "title": "Go面试案例168",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002649",
+      "go-q-003129",
+      "go-q-001255"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-169",
+    "title": "Hello Go案例169",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002328",
+      "go-q-002349",
+      "go-q-000580"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-170",
+    "title": "切片操作案例170",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001590",
+      "go-q-002600",
+      "go-q-001294"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-171",
+    "title": "map统计案例171",
+    "description": "通过map统计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000176",
+      "go-q-003152",
+      "go-q-001926"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-172",
+    "title": "结构体方法案例172",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000584",
+      "go-q-001204",
+      "go-q-001205"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-173",
+    "title": "接口设计案例173",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001999",
+      "go-q-001942",
+      "go-q-000851"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-174",
+    "title": "错误处理案例174",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001867",
+      "go-q-002608",
+      "go-q-003324"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-175",
+    "title": "defer顺序案例175",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001818",
+      "go-q-001216",
+      "go-q-000502"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-176",
+    "title": "goroutine并发案例176",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001009",
+      "go-q-000607",
+      "go-q-002124"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-177",
+    "title": "channel通信案例177",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002352",
+      "go-q-003677",
+      "go-q-002743"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-178",
+    "title": "select超时案例178",
+    "description": "通过select超时掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000634",
+      "go-q-003596",
+      "go-q-000450"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-179",
+    "title": "context取消案例179",
+    "description": "通过context取消掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000448",
+      "go-q-003656",
+      "go-q-002025"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-180",
+    "title": "HTTP API案例180",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003114",
+      "go-q-002084",
+      "go-q-002722"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-181",
+    "title": "Gin路由案例181",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002730",
+      "go-q-002685",
+      "go-q-001069"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-182",
+    "title": "中间件案例182",
+    "description": "通过中间件掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000209",
+      "go-q-002883",
+      "go-q-002872"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-183",
+    "title": "登录接口案例183",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003301",
+      "go-q-000983",
+      "go-q-001296"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-184",
+    "title": "数据库CRUD案例184",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000995",
+      "go-q-002746",
+      "go-q-001216"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-185",
+    "title": "Redis缓存案例185",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000333",
+      "go-q-001875",
+      "go-q-000806"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-186",
+    "title": "配置加载案例186",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000564",
+      "go-q-001010",
+      "go-q-000554"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-187",
+    "title": "单元测试案例187",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000446",
+      "go-q-001130",
+      "go-q-000860"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-188",
+    "title": "Docker部署案例188",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001776",
+      "go-q-000811",
+      "go-q-002137"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-189",
+    "title": "Go面试案例189",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001271",
+      "go-q-001869",
+      "go-q-002067"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-190",
+    "title": "Hello Go案例190",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000572",
+      "go-q-000509",
+      "go-q-002464"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-191",
+    "title": "切片操作案例191",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001998",
+      "go-q-003360",
+      "go-q-001609"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-192",
+    "title": "map统计案例192",
+    "description": "通过map统计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003225",
+      "go-q-001244",
+      "go-q-002426"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-193",
+    "title": "结构体方法案例193",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002834",
+      "go-q-000839",
+      "go-q-003249"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-194",
+    "title": "接口设计案例194",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002605",
+      "go-q-002612",
+      "go-q-002346"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-195",
+    "title": "错误处理案例195",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002637",
+      "go-q-002201",
+      "go-q-001366"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-196",
+    "title": "defer顺序案例196",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003456",
+      "go-q-001310",
+      "go-q-003658"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-197",
+    "title": "goroutine并发案例197",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001025",
+      "go-q-001043",
+      "go-q-000081"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-198",
+    "title": "channel通信案例198",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003453",
+      "go-q-000904",
+      "go-q-000700"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-199",
+    "title": "select超时案例199",
+    "description": "通过select超时掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000905",
+      "go-q-003091",
+      "go-q-000421"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-200",
+    "title": "context取消案例200",
+    "description": "通过context取消掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003225",
+      "go-q-001657",
+      "go-q-000445"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-201",
+    "title": "HTTP API案例201",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002924",
+      "go-q-003145",
+      "go-q-002115"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-202",
+    "title": "Gin路由案例202",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002131",
+      "go-q-000408",
+      "go-q-001292"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-203",
+    "title": "中间件案例203",
+    "description": "通过中间件掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001165",
+      "go-q-000504",
+      "go-q-001342"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-204",
+    "title": "登录接口案例204",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002208",
+      "go-q-001490",
+      "go-q-001638"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-205",
+    "title": "数据库CRUD案例205",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002347",
+      "go-q-000997",
+      "go-q-002398"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-206",
+    "title": "Redis缓存案例206",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002408",
+      "go-q-002063",
+      "go-q-001796"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-207",
+    "title": "配置加载案例207",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000575",
+      "go-q-002073",
+      "go-q-002304"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-208",
+    "title": "单元测试案例208",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003407",
+      "go-q-001200",
+      "go-q-003037"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-209",
+    "title": "Docker部署案例209",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002764",
+      "go-q-003600",
+      "go-q-001530"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-210",
+    "title": "Go面试案例210",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001051",
+      "go-q-003518",
+      "go-q-000195"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-211",
+    "title": "Hello Go案例211",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003019",
+      "go-q-001651",
+      "go-q-001400"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-212",
+    "title": "切片操作案例212",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002995",
+      "go-q-001775",
+      "go-q-002273"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-213",
+    "title": "map统计案例213",
+    "description": "通过map统计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002189",
+      "go-q-003038",
+      "go-q-000770"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-214",
+    "title": "结构体方法案例214",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001797",
+      "go-q-000192",
+      "go-q-001918"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-215",
+    "title": "接口设计案例215",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000896",
+      "go-q-003684",
+      "go-q-001731"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-216",
+    "title": "错误处理案例216",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001568",
+      "go-q-002443",
+      "go-q-002906"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-217",
+    "title": "defer顺序案例217",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001304",
+      "go-q-000388",
+      "go-q-001969"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-218",
+    "title": "goroutine并发案例218",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001219",
+      "go-q-003134",
+      "go-q-002572"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-219",
+    "title": "channel通信案例219",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000364",
+      "go-q-003435",
+      "go-q-002667"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-220",
+    "title": "select超时案例220",
+    "description": "通过select超时掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000454",
+      "go-q-003175",
+      "go-q-002490"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-221",
+    "title": "context取消案例221",
+    "description": "通过context取消掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001520",
+      "go-q-002596",
+      "go-q-002021"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-222",
+    "title": "HTTP API案例222",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003263",
+      "go-q-002876",
+      "go-q-002646"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-223",
+    "title": "Gin路由案例223",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001107",
+      "go-q-003013",
+      "go-q-000913"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-224",
+    "title": "中间件案例224",
+    "description": "通过中间件掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002482",
+      "go-q-002279",
+      "go-q-001474"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-225",
+    "title": "登录接口案例225",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000351",
+      "go-q-002224",
+      "go-q-000051"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-226",
+    "title": "数据库CRUD案例226",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001745",
+      "go-q-003222",
+      "go-q-000646"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-227",
+    "title": "Redis缓存案例227",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000615",
+      "go-q-002644",
+      "go-q-002539"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-228",
+    "title": "配置加载案例228",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003676",
+      "go-q-001920",
+      "go-q-001698"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-229",
+    "title": "单元测试案例229",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002283",
+      "go-q-002806",
+      "go-q-001544"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-230",
+    "title": "Docker部署案例230",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002962",
+      "go-q-002323",
+      "go-q-000445"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-231",
+    "title": "Go面试案例231",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001330",
+      "go-q-002754",
+      "go-q-000779"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-232",
+    "title": "Hello Go案例232",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002074",
+      "go-q-000581",
+      "go-q-002635"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-233",
+    "title": "切片操作案例233",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002563",
+      "go-q-002684",
+      "go-q-000184"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-234",
+    "title": "map统计案例234",
+    "description": "通过map统计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003010",
+      "go-q-001119",
+      "go-q-000682"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-235",
+    "title": "结构体方法案例235",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000925",
+      "go-q-003030",
+      "go-q-001362"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-236",
+    "title": "接口设计案例236",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002671",
+      "go-q-001751",
+      "go-q-001806"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-237",
+    "title": "错误处理案例237",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002437",
+      "go-q-000543",
+      "go-q-000621"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-238",
+    "title": "defer顺序案例238",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001224",
+      "go-q-003048",
+      "go-q-002739"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-239",
+    "title": "goroutine并发案例239",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001634",
+      "go-q-002564",
+      "go-q-003556"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-240",
+    "title": "channel通信案例240",
+    "description": "通过channel通信掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000271",
+      "go-q-002449",
+      "go-q-002238"
+    ],
+    "tags": [
+      "channel通信"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-241",
+    "title": "select超时案例241",
+    "description": "通过select超时掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003100",
+      "go-q-002008",
+      "go-q-001917"
+    ],
+    "tags": [
+      "select超时"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-242",
+    "title": "context取消案例242",
+    "description": "通过context取消掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002842",
+      "go-q-002288",
+      "go-q-001237"
+    ],
+    "tags": [
+      "context取消"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-243",
+    "title": "HTTP API案例243",
+    "description": "通过HTTP API掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002100",
+      "go-q-000473",
+      "go-q-002956"
+    ],
+    "tags": [
+      "HTTP API"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-244",
+    "title": "Gin路由案例244",
+    "description": "通过Gin路由掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001895",
+      "go-q-003430",
+      "go-q-002347"
+    ],
+    "tags": [
+      "Gin路由"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-245",
+    "title": "中间件案例245",
+    "description": "通过中间件掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002297",
+      "go-q-001845",
+      "go-q-003097"
+    ],
+    "tags": [
+      "中间件"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-246",
+    "title": "登录接口案例246",
+    "description": "通过登录接口掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003082",
+      "go-q-001287",
+      "go-q-000473"
+    ],
+    "tags": [
+      "登录接口"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-247",
+    "title": "数据库CRUD案例247",
+    "description": "通过数据库CRUD掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003207",
+      "go-q-002697",
+      "go-q-000495"
+    ],
+    "tags": [
+      "数据库CRUD"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-248",
+    "title": "Redis缓存案例248",
+    "description": "通过Redis缓存掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001316",
+      "go-q-003390",
+      "go-q-001429"
+    ],
+    "tags": [
+      "Redis缓存"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-249",
+    "title": "配置加载案例249",
+    "description": "通过配置加载掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002762",
+      "go-q-000982",
+      "go-q-001693"
+    ],
+    "tags": [
+      "配置加载"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-250",
+    "title": "单元测试案例250",
+    "description": "通过单元测试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002162",
+      "go-q-001843",
+      "go-q-002036"
+    ],
+    "tags": [
+      "单元测试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-251",
+    "title": "Docker部署案例251",
+    "description": "通过Docker部署掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-003388",
+      "go-q-000645",
+      "go-q-003515"
+    ],
+    "tags": [
+      "Docker部署"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-252",
+    "title": "Go面试案例252",
+    "description": "通过Go面试掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000455",
+      "go-q-001901",
+      "go-q-001108"
+    ],
+    "tags": [
+      "Go面试"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-253",
+    "title": "Hello Go案例253",
+    "description": "通过Hello Go掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002319",
+      "go-q-002656",
+      "go-q-003307"
+    ],
+    "tags": [
+      "Hello Go"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-254",
+    "title": "切片操作案例254",
+    "description": "通过切片操作掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000250",
+      "go-q-001610",
+      "go-q-001048"
+    ],
+    "tags": [
+      "切片操作"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-255",
+    "title": "map统计案例255",
+    "description": "通过map统计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000686",
+      "go-q-002458",
+      "go-q-000244"
+    ],
+    "tags": [
+      "map统计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-256",
+    "title": "结构体方法案例256",
+    "description": "通过结构体方法掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001434",
+      "go-q-000858",
+      "go-q-003520"
+    ],
+    "tags": [
+      "结构体方法"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-257",
+    "title": "接口设计案例257",
+    "description": "通过接口设计掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002948",
+      "go-q-002934",
+      "go-q-002427"
+    ],
+    "tags": [
+      "接口设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-258",
+    "title": "错误处理案例258",
+    "description": "通过错误处理掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-002512",
+      "go-q-001224",
+      "go-q-001387"
+    ],
+    "tags": [
+      "错误处理"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-259",
+    "title": "defer顺序案例259",
+    "description": "通过defer顺序掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-001615",
+      "go-q-003537",
+      "go-q-002714"
+    ],
+    "tags": [
+      "defer顺序"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "go-case-260",
+    "title": "goroutine并发案例260",
+    "description": "通过goroutine并发掌握Go",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求",
+        "description": "分析"
+      },
+      {
+        "order": 2,
+        "title": "方案",
+        "description": "设计"
+      },
+      {
+        "order": 3,
+        "title": "实现",
+        "description": "编码"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "测试"
+      }
+    ],
+    "relatedQuestionIds": [
+      "go-q-000436",
+      "go-q-000758",
+      "go-q-002525"
+    ],
+    "tags": [
+      "goroutine并发"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  }
+]

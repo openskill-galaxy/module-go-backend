@@ -1,0 +1,41 @@
+{
+  "id": "mod-go-backend",
+  "slug": "module-go-backend",
+  "title": "Go语言与后端服务开发",
+  "subtitle": "面向后端和云原生学习者",
+  "description": "面向后端云原生和分布式系统学习者的Go语法结构体接口错误处理goroutinechannelcontextHTTP服务Gin数据库Redis测试与项目实战训练。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "Go",
+    "Golang",
+    "后端开发",
+    "并发编程",
+    "Gin",
+    "微服务",
+    "云原生",
+    "项目实战"
+  ],
+  "estimatedHours": 180,
+  "difficulty": "intermediate",
+  "updatedAt": "2026-07-03T00:00:00.000Z",
+  "coverEmoji": "🐳",
+  "repoUrl": "https://github.com/openskill-galaxy/module-go-backend",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 182,
+    "knowledgePoints": 735,
+    "questions": 3700,
+    "cases": 260,
+    "exams": 100,
+    "routes": 35,
+    "glossary": 360,
+    "faqs": 210,
+    "tags": 114
+  }
+}

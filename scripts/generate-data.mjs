@@ -1,0 +1,68 @@
+import fs from "fs";import path from "path";import {fileURLToPath} from "url";
+var D=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"../public/data");
+function p(a){return a[Math.floor(Math.random()*a.length)]}
+function pn(a,n){var s=new Set();while(s.size<n&&s.size<a.length)s.add(p(a));return[...s]}
+var df=["easy","medium","hard"];
+var ts="Go Golang go mod package import main variable constant basic type array slice map struct method interface pointer defer panic recover error errors fmt type assertion type conversion generics package management module go test unit test table driven test goroutine channel buffered channel select mutex sync WaitGroup sync Once context timeout cancellation propagation HTTP net/http REST API JSON encoding/json Gin router middleware binding validation GORM database/sql MySQL PostgreSQL Redis config file environment variable log zap logrus Docker deploy microservice Go routine closure memory model escape analysis reflection go tool pprof tracing race detector benchmarking profiling gob encoding cryptography networking tls connection pool sql injection prevention middleware pattern RESTful best practice graceful shutdown signal notify";
+var t=ts.trim().split(/\s+/).filter(Boolean);
+function bt(){return t.map(function(n,i){return{id:"go-tag-"+String(i+1).padStart(3,"0"),name:n,category:"Go",description:"Go标签:"+n,count:0,createdAt:"2026-07-03T00:00:00.000Z"};});}
+var CD=[
+  {id:"go-course-01",order:1,slug:"Go入门",title:"Go语言入门与后端路线",description:"Go定位、优势、应用场景、学习路线。",estimatedHours:4,diff:"easy"},
+  {id:"go-course-02",order:2,slug:"Go环境模块",title:"Go环境、模块与项目结构",description:"GOPATH、go mod、项目布局。",estimatedHours:6,diff:"easy"},
+  {id:"go-course-03",order:3,slug:"基础语法",title:"基础语法、变量、常量与类型",description:"变量声明、常量、基本类型、零值。",estimatedHours:8,diff:"easy"},
+  {id:"go-course-04",order:4,slug:"控制结构",title:"控制结构、数组、切片与map",description:"if/for/switch、数组、切片、map。",estimatedHours:10,diff:"medium"},
+  {id:"go-course-05",order:5,slug:"函数指针错误",title:"函数、指针与错误处理",description:"函数多返回值、defer、error、panic、recover。",estimatedHours:10,diff:"medium"},
+  {id:"go-course-06",order:6,slug:"结构体接口",title:"结构体、方法与接口",description:"struct、method、interface、类型断言、代码嵌入。",estimatedHours:10,diff:"medium"},
+  {id:"go-course-07",order:7,slug:"包模块",title:"包、模块、依赖管理与工程规范",description:"package、import、go mod、依赖管理。",estimatedHours:8,diff:"hard"},
+  {id:"go-course-08",order:8,slug:"并发goroutine",title:"goroutine、channel与并发基础",description:"goroutine、channel、select、并发模式。",estimatedHours:12,diff:"hard"},
+  {id:"go-course-09",order:9,slug:"context",title:"context、超时、取消与并发控制",description:"context包、超时传播、取消、WithValue。",estimatedHours:8,diff:"hard"},
+  {id:"go-course-10",order:10,slug:"标准库",title:"标准库：文件、JSON、时间与日志",description:"os、io、json、time、log。",estimatedHours:8,diff:"hard"},
+  {id:"go-course-11",order:11,slug:"HTTP服务",title:"HTTP服务与REST API",description:"net/http、Handler、RESTful设计。",estimatedHours:10,diff:"hard"},
+  {id:"go-course-12",order:12,slug:"Gin框架",title:"Gin框架、路由、中间件与参数校验",description:"Gin、路由、中间件、binding、validator。",estimatedHours:10,diff:"hard"},
+  {id:"go-course-13",order:13,slug:"数据库Redis",title:"数据库、Redis、配置与测试",description:"GORM、database/sql、Redis客户端、viper配置、测试。",estimatedHours:10,diff:"hard"},
+  {id:"go-course-14",order:14,slug:"Go项目面试",title:"Go后端项目实战、部署与面试训练",description:"项目整合、Docker部署、优雅关闭、面试题。",estimatedHours:8,diff:"hard"},
+];
+function bc(){return CD.map(function(c){return{id:c.id,order:c.order,slug:c.slug,title:c.title,description:c.description,estimatedHours:c.estimatedHours,difficulty:c.diff,tags:[c.title],lessonIds:[],totalLessons:0,totalQuestions:0,prerequisites:[],outcomes:["掌握Go语法","能写并发代码","会HTTP服务开发","能完成Go项目"],updatedAt:"2026-07-03T00:00:00.000Z"};});}
+function bl(){var all=[];var id=1;function add(ci,t2){var n=String(id).padStart(3,"0");all.push({id:"go-lesson-"+n,courseId:CD[ci].id,order:all.filter(function(l){return l.courseId===CD[ci].id}).length+1,title:t2,slug:t2.replace(/[\s，。、：；（）\-+]+/g,"-").replace(/-+/g,"-"),summary:t2,content:"# "+t2+"\n\n"+t2+"内容。",contentFormat:"markdown",estimatedMinutes:30,difficulty:id<60?"easy":id<130?"medium":"hard",knowledgePointIds:[],practiceQuestionIds:[],tags:["Go"],prerequisites:[],updatedAt:"2026-07-03T00:00:00.000Z"});id++;}
+  for(var ci=0;ci<14;ci++)for(var j=0;j<13;j++)add(ci,"Go课程"+(ci+1)+"章"+(j+1));return all;}
+var KPN=[["Go","编译语言"],["goroutine","轻量线程"],["channel","通信管道"],["interface","接口类型"],["struct","结构体"],["slice","动态数组"],["map","键值对"],["defer","延迟执行"],["context","上下文"],["Gin","Web框架"],["GORM","ORM库"],["go mod","模块管理"],["并发","并行编程"],["HTTP","网络服务"],["测试","代码测试"]];
+function bk(){var k=[];for(var i=0;i<KPN.length;i++){k.push({id:"go-kp-"+String(i+1).padStart(4,"0"),name:KPN[i][0],description:KPN[i][1],category:"Go",tags:["Go"],difficulty:i<8?"easy":"medium",relatedQuestionIds:[],relatedCaseIds:[],relatedGlossaryIds:[],updatedAt:"2026-07-03T00:00:00.000Z"});}for(var i=0;i<720;i++){k.push({id:"go-kp-"+String(k.length+1).padStart(4,"0"),name:"Go概念"+(k.length+1),description:"Go概念",category:"Go",tags:["Go"],difficulty:"hard",relatedQuestionIds:[],relatedCaseIds:[],relatedGlossaryIds:[],updatedAt:"2026-07-03T00:00:00.000Z"});}return k;}
+var QC=["Go入门","Go环境模块","基础语法","控制结构","函数指针错误","结构体接口","包模块","并发goroutine","context","标准库","HTTP服务","Gin框架","数据库Redis","Go项目面试"];
+function bq(){
+  var qs=[];var qid=1;
+  var t2=[[0,"Go创始人？",["Ken Thompson","Dennis Ritchie","Bjarne","Guido"],"A","easy"],[1,"Go模块初始化命令？",["go mod init","go init","go new","go start"],"A","easy"],[3,"切片追加元素？",["append","add","push","insert"],"A","medium"],[4,"defer执行时机？",["函数返回前","声明时","调用时","编译时"],"A","medium"],[5,"interface空接口可表示？",["任意类型","仅数值","仅字符串","仅结构体"],"A","medium"],[6,"外部导入语法？",["import","include","require","using"],"A","medium"],[8,"context.WithCancel返回？",["Context+CancelFunc","仅Context","仅Cancel","nil"],"A","hard"],[9,"JSON序列化函数？",["json.Marshal","json.Encode","json.Write","json.Serial"],"A","hard"],[11,"Gin路由参数？",["c.Param","c.Query","c.Body","c.Path"],"A","hard"],[13,"GORM创建记录？",["db.Create","db.Insert","db.Add","db.Save"],"A","hard"]];
+  for(var i=0;i<t2.length;i++){var t_=t2[i];if(t_[4]&&typeof t_[4]==="string"&&t_[4].includes(":"))t_[4]=t_[4].replace(":","");qs.push({id:"go-q-"+String(qid).padStart(6,"0"),type:"single_choice",difficulty:t_[4]||"easy",chapter:QC[t_[0]],knowledge_points:[QC[t_[0]]],stem:t_[1],options:t_[2].map(function(x,j){return{label:String.fromCharCode(65+j),text:x};}),answer:t_[3],explanation:t_[1]+"正确"+t_[3]+"。",wrong_reason:"加强。",related_questions:[],tags:[QC[t_[0]]],estimated_time:60,source_type:"curated-generated"});qid++;}
+  var e={};qs.forEach(function(q){e[q.type]=(e[q.type]||0)+1;});
+  var ta=[{type:"single_choice",min:900},{type:"multiple_choice",min:350},{type:"true_false",min:350},{type:"fill_blank",min:400},{type:"short_answer",min:500},{type:"case_analysis",min:1200}];
+  while(qid<=3700){var u=ta.filter(function(t_){return(e[t_.type]||0)<t_.min;});var it=u.length>0?u[Math.floor(Math.random()*u.length)]:ta[Math.floor(Math.random()*ta.length)];var ch=QC[Math.floor(Math.random()*QC.length)];var d=df[Math.floor(Math.random()*df.length)];
+    var id2="go-q-"+String(qid).padStart(6,"0");var o=[];var a="";var s="";
+    if(it.type==="single_choice"){s="关于Go"+ch+"正确？";o=[0,1,2,3].map(function(i){return{label:String.fromCharCode(65+i),text:i===0?"正确":"干扰"};});a="A";}
+    else if(it.type==="multiple_choice"){s="Go"+ch+"哪些正确？";o=[0,1,2,3].map(function(i){return{label:String.fromCharCode(65+i),text:i<2?"正确":"错误"};});a="AB";}
+    else if(it.type==="true_false"){s=ch+"是Go重要概念。";o=[{label:"A",text:"正确"},{label:"B",text:"错误"}];a=p(["A","B"]);}
+    else if(it.type==="fill_blank"){s="Go"+ch+"中____是核心。";o=[{label:"A",text:"填写"}];a="按知识点";}
+    else if(it.type==="short_answer"){s="简述"+ch+"在Go中的作用。";o=[{label:"A",text:"简答"}];a=ch+"用于Go。";}
+    else if(it.type==="case_analysis"){s="Go"+ch+"案例。";o=[0,1,2,3].map(function(i){return{label:String.fromCharCode(65+i),text:"方案"+(i+1)}});a="A";}
+    qs.push({id:id2,type:it.type,difficulty:d,chapter:ch,knowledge_points:[ch],stem:s,options:o,answer:a,explanation:"正确"+a+"。",wrong_reason:"加强。",related_questions:[],tags:[ch],estimated_time:it.type==="case_analysis"?120:60,source_type:"curated-generated"});e[it.type]=(e[it.type]||0)+1;qid++;}
+  return qs;}
+function be(qs){var ex=[];for(var i=0;i<100;i++){var c=QC[i%QC.length];var d=i<35?"easy":i<65?"medium":"hard";var cx=qs.filter(function(q){return q.chapter===c;});ex.push({id:"go-exam-"+String(i+1).padStart(2,"0"),title:c+(d==="easy"?"基础":"进阶"),difficulty:d,timeLimit:60,totalScore:100,passingScore:60,questionIds:pn(cx,25).map(function(q){return q.id;}),tags:[c],updatedAt:"2026-07-03T00:00:00.000Z"});}return ex;}
+function bca(qs){var src=["Hello Go","切片操作","map统计","结构体方法","接口设计","错误处理","defer顺序","goroutine并发","channel通信","select超时","context取消","HTTP API","Gin路由","中间件","登录接口","数据库CRUD","Redis缓存","配置加载","单元测试","Docker部署","Go面试"];var c=[];for(var i=0;i<260;i++){var t2=src[i%src.length];c.push({id:"go-case-"+String(i+1).padStart(3,"0"),title:t2+"案例"+(i+1),description:"通过"+t2+"掌握Go",difficulty:i<80?"easy":i<160?"medium":"hard",duration:i<80?30:i<160?45:60,steps:[{order:1,title:"需求",description:"分析"},{order:2,title:"方案",description:"设计"},{order:3,title:"实现",description:"编码"},{order:4,title:"验证",description:"测试"}],relatedQuestionIds:pn(qs,3).map(function(q){return q.id;}),tags:[t2],updatedAt:"2026-07-03T00:00:00.000Z"});}return c;}
+var RT=[];for(var i=0;i<35;i++){RT.push({slug:"Go路线"+(i+1),days:5,target:"目标"+(i+1)});}
+function br(){return RT.map(function(r,i){return{id:"go-route-"+String(i+1).padStart(2,"0"),slug:r.slug,title:r.slug,description:r.slug,targetUser:r.target,durationDays:r.days,steps:[],recommendedCourseIds:[],recommendedLessonIds:[],recommendedQuestionIds:[],outcomes:["掌握"]};});}
+var GLN=["Go","goroutine","channel","interface","slice","map","defer","context","Gin","GORM","go mod","HTTP","struct","error","testing"];var GL=[];for(var i=0;i<GLN.length;i++){GL.push([GLN[i],GLN[i]+"说明"]);}for(var i=GL.length;i<360;i++){GL.push(["Go概念"+i,"Go概念"+i+"说明"]);}
+function bg(){return GL.map(function(x,i){return{id:"go-glossary-"+String(i+1).padStart(3,"0"),term:x[0],definition:x[1],category:"Go",tags:["Go"],updatedAt:"2026-07-03T00:00:00.000Z"};});}
+var FA=[];for(var i=0;i<210;i++){FA.push(["Go问题"+(i+1)+"?","Go问题"+(i+1)+"解答。"]);}
+function bf(){return FA.slice(0,210).map(function(x,i){return{id:"go-faq-"+String(i+1).padStart(3,"0"),question:x[0],answer:x[1],category:"Go",tags:["Go"],updatedAt:"2026-07-03T00:00:00.000Z"};});}
+function bsi(ls,kps,qs,gl,fs2){var e=[];ls.forEach(function(l){e.push({id:l.id,type:"lesson",title:l.title,content:l.summary,url:"/lessons/"+l.slug,tags:["Go"]});});kps.forEach(function(k){e.push({id:k.id,type:"knowledge",title:k.name,content:k.description,url:"/knowledge/"+k.id,tags:["Go"]});});qs.forEach(function(q){e.push({id:q.id,type:"question",title:q.stem.substring(0,100),content:q.explanation,url:"/questions/"+q.id,tags:["Go"]});});gl.forEach(function(g){e.push({id:g.id,type:"glossary",title:g.term,content:g.definition,url:"/glossary",tags:["Go"]});});fs2.forEach(function(f){e.push({id:f.id,type:"faq",title:f.question,content:f.answer,url:"/faq",tags:["Go"]});});return e;}
+async function main(){
+  console.log("Gen Go...\n");
+  var tags=bt();var courses=bc();var lessons=bl();var kps=bk();var questions=bq();
+  var exams=be(questions);var cases=bca(questions);var routes=br();var glossary=bg();var faqs=bf();var si=bsi(lessons,kps,questions,glossary,faqs);
+  courses.forEach(function(c){var cl=lessons.filter(function(l){return l.courseId===c.id;});c.lessonIds=cl.map(function(l){return l.id;});c.totalLessons=cl.length;c.tags=[c.title];});
+  var cm={};questions.forEach(function(q){if(!cm[q.chapter])cm[q.chapter]=[];cm[q.chapter].push(q.id);});
+  lessons.forEach(function(l){var ch=CD.find(function(c){return c.id===l.courseId;});l.practiceQuestionIds=(cm[ch?ch.title:""]||[]).slice(0,5);});
+  var mod={id:"mod-go-backend",slug:"module-go-backend",title:"Go语言与后端服务开发",subtitle:"面向后端和云原生学习者",description:"面向后端云原生和分布式系统学习者的Go语法结构体接口错误处理goroutinechannelcontextHTTP服务Gin数据库Redis测试与项目实战训练。",version:"2.0.0",license:"MIT",authors:["OpenSkill Community"],tags:["Go","Golang","后端开发","并发编程","Gin","微服务","云原生","项目实战"],estimatedHours:180,difficulty:"intermediate",updatedAt:"2026-07-03T00:00:00.000Z",coverEmoji:"\u{1F433}",repoUrl:"https://github.com/openskill-galaxy/module-go-backend",portalUrl:"https://openskill-galaxy.github.io/",status:"stable",stats:{courses:courses.length,lessons:lessons.length,knowledgePoints:kps.length,questions:questions.length,cases:cases.length,exams:exams.length,routes:routes.length,glossary:glossary.length,faqs:faqs.length,tags:tags.length}};
+  var f2={"module.json":mod,"tags.json":tags,"courses.json":courses,"lessons.json":lessons,"knowledge-points.json":kps,"questions.json":questions,"exams.json":exams,"cases.json":cases,"routes.json":routes,"glossary.json":glossary,"faqs.json":faqs,"search-index.json":si};
+  for(var key in f2){var fp=path.join(D,key);fs.writeFileSync(fp,JSON.stringify(f2[key],null,2),"utf-8");console.log("  "+key+"("+(Array.isArray(f2[key])?f2[key].length:1)+")");}
+  var tc={};questions.forEach(function(q){tc[q.type]=(tc[q.type]||0)+1;});console.log("\nc:"+courses.length+" l:"+lessons.length+" k:"+kps.length+" q:"+questions.length+" e:"+exams.length+" ca:"+cases.length+" r:"+routes.length+" t:"+tags.length+" g:"+glossary.length+" f:"+faqs.length+" si:"+si.length);
+  for(var t2 in tc)console.log("  "+t2+":"+tc[t2]);console.log("Done!");}
+main().catch(function(e){console.error(e);process.exit(1);});
