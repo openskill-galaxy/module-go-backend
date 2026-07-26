@@ -1,31 +1,63 @@
 [
   {
     "id": "mod-go-backend-exam-1",
-    "slug": "final-exam",
-    "title": "Go语言与后端服务开发 核心期末综合自测",
-    "summary": "全面检验您对 Go语言与后端服务开发 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "Go语言与后端服务开发 基础入门测验",
+    "summary": "覆盖 goroutine 入门、错误处理、interface、Go Modules 等基础考点。",
     "difficulty": "easy",
     "questionIds": [
       "mod-go-backend-q-1",
-      "mod-go-backend-q-2",
       "mod-go-backend-q-3",
-      "mod-go-backend-q-4",
-      "mod-go-backend-q-5",
-      "mod-go-backend-q-6"
+      "mod-go-backend-q-6",
+      "mod-go-backend-q-8",
+      "mod-go-backend-q-9",
+      "mod-go-backend-q-18",
+      "mod-go-backend-q-19",
+      "mod-go-backend-q-20",
+      "mod-go-backend-q-21"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-go-backend-exam-2",
-    "slug": "basic-exam",
-    "title": "Go语言与后端服务开发 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "Go语言与后端服务开发 进阶强化测验",
+    "summary": "聚焦 channel 语义、slice 底层、context 超时、nil map、Docker 镜像瘦身等进阶主题。",
+    "difficulty": "medium",
     "questionIds": [
-      "mod-go-backend-q-1",
       "mod-go-backend-q-2",
-      "mod-go-backend-q-3"
+      "mod-go-backend-q-4",
+      "mod-go-backend-q-5",
+      "mod-go-backend-q-10",
+      "mod-go-backend-q-11",
+      "mod-go-backend-q-12",
+      "mod-go-backend-q-13",
+      "mod-go-backend-q-14",
+      "mod-go-backend-q-15",
+      "mod-go-backend-q-22"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-go-backend-exam-3",
+    "slug": "final-exam",
+    "title": "Go语言与后端服务开发 综合模拟考试",
+    "summary": "综合 defer 与具名返回值、GC 调优、GMP 调度、生产级服务实践等高阶考点。",
+    "difficulty": "hard",
+    "questionIds": [
+      "mod-go-backend-q-4",
+      "mod-go-backend-q-5",
+      "mod-go-backend-q-7",
+      "mod-go-backend-q-10",
+      "mod-go-backend-q-13",
+      "mod-go-backend-q-15",
+      "mod-go-backend-q-16",
+      "mod-go-backend-q-17",
+      "mod-go-backend-q-22",
+      "mod-go-backend-q-23",
+      "mod-go-backend-q-24"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60
