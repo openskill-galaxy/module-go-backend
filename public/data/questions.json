@@ -5,17 +5,36 @@
     "type": "single",
     "stem": "在 Go 中启动一个并发执行的函数（goroutine），正确的语法是？",
     "options": [
-      { "key": "A", "text": "go doWork()" },
-      { "key": "B", "text": "thread doWork()" },
-      { "key": "C", "text": "async doWork()" },
-      { "key": "D", "text": "spawn(doWork)" }
+      {
+        "key": "A",
+        "text": "go doWork()"
+      },
+      {
+        "key": "B",
+        "text": "thread doWork()"
+      },
+      {
+        "key": "C",
+        "text": "async doWork()"
+      },
+      {
+        "key": "D",
+        "text": "spawn(doWork)"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "go 关键字后跟一个函数或方法调用即可启动 goroutine，由 Go 运行时调度到少量 OS 线程上（GMP 模型），初始栈仅约 2KB，可轻松开启成千上万个。B、C、D 都不是 Go 的语法（async/await 是其他语言的模型）。注意主 goroutine 退出时整个程序结束，不会等待其他 goroutine。",
-    "tags": ["并发编程", "goroutine"],
+    "tags": [
+      "并发编程",
+      "goroutine"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0002"
+    ],
     "estimated_time": 3
   },
   {
@@ -24,17 +43,36 @@
     "type": "single",
     "stem": "对于无缓冲 channel：ch := make(chan int)，下列说法正确的是？",
     "options": [
-      { "key": "A", "text": "发送操作 ch <- 1 立即返回，数据暂存在内部队列中" },
-      { "key": "B", "text": "发送与接收必须同时就绪才能完成通信（同步/会合语义），否则一方阻塞等待" },
-      { "key": "C", "text": "无缓冲 channel 只能发送一次，之后自动关闭" },
-      { "key": "D", "text": "从无缓冲 channel 接收永远不会阻塞" }
+      {
+        "key": "A",
+        "text": "发送操作 ch <- 1 立即返回，数据暂存在内部队列中"
+      },
+      {
+        "key": "B",
+        "text": "发送与接收必须同时就绪才能完成通信（同步/会合语义），否则一方阻塞等待"
+      },
+      {
+        "key": "C",
+        "text": "无缓冲 channel 只能发送一次，之后自动关闭"
+      },
+      {
+        "key": "D",
+        "text": "从无缓冲 channel 接收永远不会阻塞"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "无缓冲 channel 容量为 0，发送方阻塞直到有接收方就绪（反之亦然），双方“会合”后数据直接移交，因此也常用作同步原语。有内部队列的是带缓冲 channel（make(chan int, n)）。channel 可反复收发，需要显式 close 才关闭；若无发送方就绪，接收同样阻塞。",
-    "tags": ["channel", "并发编程"],
+    "tags": [
+      "channel",
+      "并发编程"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0003"
+    ],
     "estimated_time": 3
   },
   {
@@ -43,14 +81,31 @@
     "type": "single",
     "stem": "Go 的错误处理惯例中，函数通常如何报告可预期的错误？",
     "options": [
-      { "key": "A", "text": "抛出异常，由调用方 try/catch 捕获" },
-      { "key": "B", "text": "返回值最后一个位置返回 error 类型，调用方用 if err != nil 检查" },
-      { "key": "C", "text": "设置全局 errno 变量，调用方读取" },
-      { "key": "D", "text": "一律 panic，由 main 函数统一 recover" }
+      {
+        "key": "A",
+        "text": "抛出异常，由调用方 try/catch 捕获"
+      },
+      {
+        "key": "B",
+        "text": "返回值最后一个位置返回 error 类型，调用方用 if err != nil 检查"
+      },
+      {
+        "key": "C",
+        "text": "设置全局 errno 变量，调用方读取"
+      },
+      {
+        "key": "D",
+        "text": "一律 panic，由 main 函数统一 recover"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "Go 采用显式错误值：func Do() (Result, error)，调用方立即判断 if err != nil。可用 fmt.Errorf(\"...: %w\", err) 包装错误，errors.Is / errors.As 判断与提取。panic/recover 仅用于不可恢复的程序缺陷或包内部控制流，不作为常规错误通道；Go 没有 try/catch 异常机制。",
-    "tags": ["错误处理", "Go基础"],
+    "tags": [
+      "错误处理",
+      "Go基础"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-3",
     "knowledge_points": [],
@@ -62,14 +117,31 @@
     "type": "single",
     "stem": "以下代码存在什么问题？\nfunc main() {\n    var mu sync.Mutex\n    counter := 0\n    for i := 0; i < 1000; i++ {\n        go func() {\n            counter++\n        }()\n    }\n    _ = mu\n}",
     "options": [
-      { "key": "A", "text": "counter++ 无锁并发执行构成数据竞争，且 main 未等待 goroutine 结束" },
-      { "key": "B", "text": "goroutine 数量超过上限 100，运行时会拒绝创建" },
-      { "key": "C", "text": "闭包不能访问外层变量 counter，编译失败" },
-      { "key": "D", "text": "没有问题，counter 最终一定等于 1000" }
+      {
+        "key": "A",
+        "text": "counter++ 无锁并发执行构成数据竞争，且 main 未等待 goroutine 结束"
+      },
+      {
+        "key": "B",
+        "text": "goroutine 数量超过上限 100，运行时会拒绝创建"
+      },
+      {
+        "key": "C",
+        "text": "闭包不能访问外层变量 counter，编译失败"
+      },
+      {
+        "key": "D",
+        "text": "没有问题，counter 最终一定等于 1000"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "两个问题：1) 1000 个 goroutine 无同步地对 counter 做读改写，是数据竞争（go run -race 可检出），应在自增前后 mu.Lock()/mu.Unlock() 或使用 atomic.AddInt64；2) main 不等待即返回，goroutine 可能根本没执行，应使用 sync.WaitGroup。Go 对 goroutine 数量没有 100 的上限；闭包可以捕获外层变量。",
-    "tags": ["并发编程", "数据竞争"],
+    "tags": [
+      "并发编程",
+      "数据竞争"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-1",
     "knowledge_points": [],
@@ -81,17 +153,36 @@
     "type": "single",
     "stem": "Go 中 slice 作为参数传入函数，函数内执行 s[0] = 100 和 s = append(s, 1)，对调用方的 slice 有何影响？",
     "options": [
-      { "key": "A", "text": "两者都会影响调用方的 slice" },
-      { "key": "B", "text": "s[0] = 100 修改共享底层数组、调用方可见；append 若触发扩容则写入新数组，且调用方的长度不变" },
-      { "key": "C", "text": "两者都不影响调用方，slice 是完全值拷贝" },
-      { "key": "D", "text": "s[0] = 100 不可见，append 可见" }
+      {
+        "key": "A",
+        "text": "两者都会影响调用方的 slice"
+      },
+      {
+        "key": "B",
+        "text": "s[0] = 100 修改共享底层数组、调用方可见；append 若触发扩容则写入新数组，且调用方的长度不变"
+      },
+      {
+        "key": "C",
+        "text": "两者都不影响调用方，slice 是完全值拷贝"
+      },
+      {
+        "key": "D",
+        "text": "s[0] = 100 不可见，append 可见"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "slice 头（指针、长度、容量）按值传递，但指针指向同一底层数组：改元素调用方可见。append 修改的是函数内副本的长度字段，调用方的 len 不变；若容量不足还会分配新数组，新增元素调用方完全看不到。需要让 append 生效应返回新 slice 或传 *[]T。",
-    "tags": ["slice", "Go基础"],
+    "tags": [
+      "slice",
+      "Go基础"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0006"
+    ],
     "estimated_time": 4
   },
   {
@@ -100,17 +191,36 @@
     "type": "single",
     "stem": "使用 Gin 框架编写一个返回 JSON 的接口，常见写法是？",
     "options": [
-      { "key": "A", "text": "r.GET(\"/ping\", func(c *gin.Context) { c.JSON(200, gin.H{\"message\": \"pong\"}) })" },
-      { "key": "B", "text": "r.GET(\"/ping\", func(w http.ResponseWriter) { w.WriteJSON(\"pong\") })" },
-      { "key": "C", "text": "r.Route(\"/ping\").Return(json{\"message\": \"pong\"})" },
-      { "key": "D", "text": "gin.Handle(\"GET /ping\", \"pong\")" }
+      {
+        "key": "A",
+        "text": "r.GET(\"/ping\", func(c *gin.Context) { c.JSON(200, gin.H{\"message\": \"pong\"}) })"
+      },
+      {
+        "key": "B",
+        "text": "r.GET(\"/ping\", func(w http.ResponseWriter) { w.WriteJSON(\"pong\") })"
+      },
+      {
+        "key": "C",
+        "text": "r.Route(\"/ping\").Return(json{\"message\": \"pong\"})"
+      },
+      {
+        "key": "D",
+        "text": "gin.Handle(\"GET /ping\", \"pong\")"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "Gin 的处理函数签名是 func(*gin.Context)，通过 c.JSON(状态码, 数据) 序列化为 JSON 响应，gin.H 是 map[string]interface{} 的别名。B 是标准库 net/http 的签名风格（且没有 WriteJSON 方法），C、D 均为杜撰语法。",
-    "tags": ["Gin", "Web开发"],
+    "tags": [
+      "Gin",
+      "Web开发"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0010"
+    ],
     "estimated_time": 3
   },
   {
@@ -119,17 +229,36 @@
     "type": "single",
     "stem": "关于 defer 语句，以下函数返回什么？\nfunc f() (result int) {\n    defer func() { result++ }()\n    return 10\n}",
     "options": [
-      { "key": "A", "text": "10" },
-      { "key": "B", "text": "11" },
-      { "key": "C", "text": "0" },
-      { "key": "D", "text": "编译错误：defer 中不能修改返回值" }
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "编译错误：defer 中不能修改返回值"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "return 10 先把 10 赋给具名返回值 result，随后 defer 在函数真正返回前执行 result++，最终返回 11。这正是具名返回值与 defer 结合的经典考点：若返回值未命名（func f() int），defer 就无法影响已确定的返回值。defer 常用于释放资源、解锁与统一错误包装。",
-    "tags": ["defer", "Go基础"],
+    "tags": [
+      "defer",
+      "Go基础"
+    ],
     "difficulty": "hard",
     "chapter": "mod-go-backend-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0008"
+    ],
     "estimated_time": 4
   },
   {
@@ -138,14 +267,31 @@
     "type": "single",
     "stem": "Go Modules 项目中，记录直接与间接依赖模块及其版本号的文件是？",
     "options": [
-      { "key": "A", "text": "package.json" },
-      { "key": "B", "text": "go.mod" },
-      { "key": "C", "text": "Gopkg.toml" },
-      { "key": "D", "text": "vendor.conf" }
+      {
+        "key": "A",
+        "text": "package.json"
+      },
+      {
+        "key": "B",
+        "text": "go.mod"
+      },
+      {
+        "key": "C",
+        "text": "Gopkg.toml"
+      },
+      {
+        "key": "D",
+        "text": "vendor.conf"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "go.mod 声明模块路径、Go 版本及 require 的依赖与版本（indirect 标注间接依赖），go.sum 记录依赖内容的校验和以保证可重现构建。package.json 属于 Node.js；Gopkg.toml 是已废弃的 dep 工具配置；vendor.conf 属于更早的 vndr 等工具。",
-    "tags": ["Go Modules", "工程化"],
+    "tags": [
+      "Go Modules",
+      "工程化"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-2",
     "knowledge_points": [],
@@ -157,17 +303,36 @@
     "type": "single",
     "stem": "关于 Go 的 interface，下列说法正确的是？",
     "options": [
-      { "key": "A", "text": "类型必须用 implements 关键字显式声明实现了某接口" },
-      { "key": "B", "text": "只要类型拥有接口要求的全部方法，就自动满足该接口（隐式实现/结构化类型）" },
-      { "key": "C", "text": "接口只能由结构体实现，基础类型的别名不能实现接口" },
-      { "key": "D", "text": "空接口 interface{} 不能存放任何具体值" }
+      {
+        "key": "A",
+        "text": "类型必须用 implements 关键字显式声明实现了某接口"
+      },
+      {
+        "key": "B",
+        "text": "只要类型拥有接口要求的全部方法，就自动满足该接口（隐式实现/结构化类型）"
+      },
+      {
+        "key": "C",
+        "text": "接口只能由结构体实现，基础类型的别名不能实现接口"
+      },
+      {
+        "key": "D",
+        "text": "空接口 interface{} 不能存放任何具体值"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "Go 接口是隐式满足的：方法集包含接口全部方法即视为实现，无需任何声明，这带来极松的耦合（如 io.Reader/io.Writer 生态）。任何自定义类型（包括基于 int、string 的命名类型）都可定义方法并实现接口；空接口 interface{}（即 any）没有方法要求，任何值都满足它。",
-    "tags": ["interface", "Go基础"],
+    "tags": [
+      "interface",
+      "Go基础"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0004"
+    ],
     "estimated_time": 3
   },
   {
@@ -176,17 +341,36 @@
     "type": "single",
     "stem": "在 HTTP 服务中，为单个请求设置 2 秒超时并能级联取消下游调用，惯用做法是？",
     "options": [
-      { "key": "A", "text": "ctx, cancel := context.WithTimeout(r.Context(), 2*time.Second); defer cancel()，并把 ctx 传给下游" },
-      { "key": "B", "text": "time.Sleep(2 * time.Second) 后手动结束请求" },
-      { "key": "C", "text": "启动一个 goroutine 计时，到时后调用 os.Exit(1)" },
-      { "key": "D", "text": "Go 的 HTTP 请求默认 2 秒超时，无需处理" }
+      {
+        "key": "A",
+        "text": "ctx, cancel := context.WithTimeout(r.Context(), 2*time.Second); defer cancel()，并把 ctx 传给下游"
+      },
+      {
+        "key": "B",
+        "text": "time.Sleep(2 * time.Second) 后手动结束请求"
+      },
+      {
+        "key": "C",
+        "text": "启动一个 goroutine 计时，到时后调用 os.Exit(1)"
+      },
+      {
+        "key": "D",
+        "text": "Go 的 HTTP 请求默认 2 秒超时，无需处理"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "context 是 Go 传递取消信号与截止时间的标准机制：WithTimeout 派生的 ctx 到期后其 Done() 通道关闭，数据库驱动、http.Request.WithContext 等下游都会响应取消，实现级联释放资源；defer cancel() 防止 context 泄漏。B 恰好相反是白白阻塞；C 会杀死整个进程；D 不成立，默认没有这种超时。",
-    "tags": ["context", "Web开发"],
+    "tags": [
+      "context",
+      "Web开发"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0009"
+    ],
     "estimated_time": 3
   },
   {
@@ -195,17 +379,36 @@
     "type": "single",
     "stem": "对未初始化的 map 执行以下操作，哪一项会引发 panic？\nvar m map[string]int",
     "options": [
-      { "key": "A", "text": "v := m[\"key\"]（读取）" },
-      { "key": "B", "text": "len(m)" },
-      { "key": "C", "text": "m[\"key\"] = 1（写入）" },
-      { "key": "D", "text": "for k := range m {}（遍历）" }
+      {
+        "key": "A",
+        "text": "v := m[\"key\"]（读取）"
+      },
+      {
+        "key": "B",
+        "text": "len(m)"
+      },
+      {
+        "key": "C",
+        "text": "m[\"key\"] = 1（写入）"
+      },
+      {
+        "key": "D",
+        "text": "for k := range m {}（遍历）"
+      }
     ],
-    "answer": ["C"],
+    "answer": [
+      "C"
+    ],
     "explanation": "nil map 可以安全地读取（返回零值）、取长度（0）、遍历（零次循环），但写入会 panic: assignment to entry in nil map。使用前必须 make(map[string]int) 或用字面量初始化。这与 nil slice 可以直接 append 形成对比，是 Go 面试高频题。",
-    "tags": ["map", "Go基础"],
+    "tags": [
+      "map",
+      "Go基础"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0007"
+    ],
     "estimated_time": 3
   },
   {
@@ -214,14 +417,31 @@
     "type": "single",
     "stem": "微服务间同步调用常用 gRPC。关于 gRPC 的基本特征，下列说法正确的是？",
     "options": [
-      { "key": "A", "text": "基于 HTTP/1.1 文本协议，用 XML 描述接口" },
-      { "key": "B", "text": "基于 HTTP/2 传输，默认用 Protocol Buffers 定义接口与序列化消息，支持双向流" },
-      { "key": "C", "text": "只能用于浏览器与服务器之间的通信" },
-      { "key": "D", "text": "不支持流式传输，每次调用只能是一问一答" }
+      {
+        "key": "A",
+        "text": "基于 HTTP/1.1 文本协议，用 XML 描述接口"
+      },
+      {
+        "key": "B",
+        "text": "基于 HTTP/2 传输，默认用 Protocol Buffers 定义接口与序列化消息，支持双向流"
+      },
+      {
+        "key": "C",
+        "text": "只能用于浏览器与服务器之间的通信"
+      },
+      {
+        "key": "D",
+        "text": "不支持流式传输，每次调用只能是一问一答"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "gRPC 使用 HTTP/2（多路复用、头部压缩）作为传输层，接口在 .proto 文件中定义并由 protoc 生成强类型代码，Protobuf 二进制序列化比 JSON 更小更快；支持一元、服务端流、客户端流、双向流四种调用方式。浏览器直接使用受限（需 gRPC-Web 网关），主战场恰恰是服务间通信。",
-    "tags": ["微服务", "gRPC"],
+    "tags": [
+      "微服务",
+      "gRPC"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-3",
     "knowledge_points": [],
@@ -233,17 +453,36 @@
     "type": "single",
     "stem": "以下代码的输出是什么？\nfunc main() {\n    ch := make(chan int, 2)\n    ch <- 1\n    ch <- 2\n    close(ch)\n    for v := range ch {\n        fmt.Println(v)\n    }\n}",
     "options": [
-      { "key": "A", "text": "依次输出 1、2，然后循环正常结束" },
-      { "key": "B", "text": "死锁：向已关闭的 channel 无法遍历" },
-      { "key": "C", "text": "输出 1、2 后 panic" },
-      { "key": "D", "text": "什么也不输出，close 会清空缓冲区" }
+      {
+        "key": "A",
+        "text": "依次输出 1、2，然后循环正常结束"
+      },
+      {
+        "key": "B",
+        "text": "死锁：向已关闭的 channel 无法遍历"
+      },
+      {
+        "key": "C",
+        "text": "输出 1、2 后 panic"
+      },
+      {
+        "key": "D",
+        "text": "什么也不输出，close 会清空缓冲区"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "close 不丢弃缓冲数据：range 会把缓冲中的 1、2 依次取出，取完且 channel 已关闭时循环自动退出，程序正常结束。若不 close，range 取完后会永久阻塞导致死锁。注意：向已关闭 channel 发送才会 panic，从已关闭 channel 接收返回剩余数据及之后的零值。",
-    "tags": ["channel", "并发编程"],
+    "tags": [
+      "channel",
+      "并发编程"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0003"
+    ],
     "estimated_time": 4
   },
   {
@@ -252,14 +491,31 @@
     "type": "single",
     "stem": "把 Go 服务打包成尽量小的 Docker 镜像，推荐的做法是？",
     "options": [
-      { "key": "A", "text": "使用多阶段构建：builder 阶段用 golang 镜像编译出静态二进制，最终阶段基于 alpine/distroless 只拷贝二进制" },
-      { "key": "B", "text": "直接把整个 GOPATH 和源码 COPY 进 ubuntu 镜像并在容器里 go run" },
-      { "key": "C", "text": "镜像里必须安装完整 Go 工具链，否则二进制无法运行" },
-      { "key": "D", "text": "Go 程序无法容器化，只能部署在虚拟机" }
+      {
+        "key": "A",
+        "text": "使用多阶段构建：builder 阶段用 golang 镜像编译出静态二进制，最终阶段基于 alpine/distroless 只拷贝二进制"
+      },
+      {
+        "key": "B",
+        "text": "直接把整个 GOPATH 和源码 COPY 进 ubuntu 镜像并在容器里 go run"
+      },
+      {
+        "key": "C",
+        "text": "镜像里必须安装完整 Go 工具链，否则二进制无法运行"
+      },
+      {
+        "key": "D",
+        "text": "Go 程序无法容器化，只能部署在虚拟机"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "Go 可编译为（近乎）静态链接的单一二进制（CGO_ENABLED=0 GOOS=linux go build），多阶段构建让最终镜像只含这个二进制，常见体积从 1GB+ 降到 10~30MB，攻击面也更小。运行阶段不需要 Go 工具链；go run 源码进镜像既臃肿又慢，B、C、D 均错误。",
-    "tags": ["云原生", "Docker"],
+    "tags": [
+      "云原生",
+      "Docker"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-2",
     "knowledge_points": [],
@@ -271,17 +527,38 @@
     "type": "multiple",
     "stem": "下列关于 goroutine 与 channel 的说法，正确的有？（多选）",
     "options": [
-      { "key": "A", "text": "向已关闭的 channel 发送数据会 panic" },
-      { "key": "B", "text": "v, ok := <-ch 中 ok 为 false 表示 channel 已关闭且缓冲已取空" },
-      { "key": "C", "text": "select 可以同时等待多个 channel 操作，多个就绪时随机选择一个执行" },
-      { "key": "D", "text": "重复 close 同一个 channel 是安全的空操作" }
+      {
+        "key": "A",
+        "text": "向已关闭的 channel 发送数据会 panic"
+      },
+      {
+        "key": "B",
+        "text": "v, ok := <-ch 中 ok 为 false 表示 channel 已关闭且缓冲已取空"
+      },
+      {
+        "key": "C",
+        "text": "select 可以同时等待多个 channel 操作，多个就绪时随机选择一个执行"
+      },
+      {
+        "key": "D",
+        "text": "重复 close 同一个 channel 是安全的空操作"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "explanation": "A、B 是 channel 关闭语义的两个要点；C：select 在多个 case 就绪时伪随机选择，避免饥饿，配合 default 可实现非阻塞收发。D 错误：重复 close 会 panic: close of closed channel，惯例是由唯一的发送方负责关闭，或用 sync.Once 保护。",
-    "tags": ["channel", "并发编程"],
+    "tags": [
+      "channel",
+      "并发编程"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0003"
+    ],
     "estimated_time": 4
   },
   {
@@ -290,14 +567,33 @@
     "type": "multiple",
     "stem": "构建生产级 Go Web 服务时，下列哪些是合理的实践？（多选）",
     "options": [
-      { "key": "A", "text": "用中间件统一处理日志、恢复 panic（recovery）、鉴权等横切关注点" },
-      { "key": "B", "text": "监听 SIGTERM/SIGINT，调用 http.Server.Shutdown 实现优雅停机，处理完存量请求再退出" },
-      { "key": "C", "text": "数据库连接每个请求新建一个 *sql.DB，用完立即 Close" },
-      { "key": "D", "text": "用 go test -race 在 CI 中开启竞态检测" }
+      {
+        "key": "A",
+        "text": "用中间件统一处理日志、恢复 panic（recovery）、鉴权等横切关注点"
+      },
+      {
+        "key": "B",
+        "text": "监听 SIGTERM/SIGINT，调用 http.Server.Shutdown 实现优雅停机，处理完存量请求再退出"
+      },
+      {
+        "key": "C",
+        "text": "数据库连接每个请求新建一个 *sql.DB，用完立即 Close"
+      },
+      {
+        "key": "D",
+        "text": "用 go test -race 在 CI 中开启竞态检测"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "explanation": "A：Gin/net/http 的中间件链是处理横切逻辑的标准位置；B：优雅停机避免滚动发布时切断在途请求；D：race detector 能捕获真实并发缺陷，CI 常态化开启收益很高。C 错误：*sql.DB 本身就是并发安全的连接池，应全局创建一次复用，每请求新建会耗尽数据库连接。",
-    "tags": ["Web开发", "工程化"],
+    "tags": [
+      "Web开发",
+      "工程化"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-1",
     "knowledge_points": [],
@@ -309,14 +605,33 @@
     "type": "multiple",
     "stem": "关于 Go 的垃圾回收（GC）与性能调优，下列说法正确的有？（多选）",
     "options": [
-      { "key": "A", "text": "Go 使用并发三色标记-清除 GC，STW（stop-the-world）时间通常在亚毫秒级" },
-      { "key": "B", "text": "GOGC 环境变量控制触发 GC 的堆增长比例，调大可减少 GC 频率但占用更多内存" },
-      { "key": "C", "text": "逃逸分析决定变量分配在栈还是堆；减少逃逸到堆的对象可减轻 GC 压力" },
-      { "key": "D", "text": "Go 允许用 free() 手动释放某个对象以跳过 GC" }
+      {
+        "key": "A",
+        "text": "Go 使用并发三色标记-清除 GC，STW（stop-the-world）时间通常在亚毫秒级"
+      },
+      {
+        "key": "B",
+        "text": "GOGC 环境变量控制触发 GC 的堆增长比例，调大可减少 GC 频率但占用更多内存"
+      },
+      {
+        "key": "C",
+        "text": "逃逸分析决定变量分配在栈还是堆；减少逃逸到堆的对象可减轻 GC 压力"
+      },
+      {
+        "key": "D",
+        "text": "Go 允许用 free() 手动释放某个对象以跳过 GC"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "explanation": "A：现代 Go 的并发标记清除把 STW 压缩到极短的两个小停顿；B：GOGC 默认 100（堆翻倍触发），另有 GOMEMLIMIT 设置软内存上限；C：go build -gcflags='-m' 可查看逃逸分析结果，配合 sync.Pool 复用对象是常见优化。D 错误：Go 没有手动释放单个对象的 API，内存完全由 GC 管理。",
-    "tags": ["GC", "性能调优"],
+    "tags": [
+      "GC",
+      "性能调优"
+    ],
     "difficulty": "hard",
     "chapter": "mod-go-backend-c-2",
     "knowledge_points": [],
@@ -328,14 +643,33 @@
     "type": "multiple",
     "stem": "关于 Go 语言的基础特性，下列说法正确的有？（多选）",
     "options": [
-      { "key": "A", "text": ":= 短变量声明只能在函数内部使用" },
-      { "key": "B", "text": "标识符首字母大写表示导出（包外可见），小写表示仅包内可见" },
-      { "key": "C", "text": "Go 支持类的继承，用 extends 关键字派生子类" },
-      { "key": "D", "text": "结构体嵌入（embedding）可以复用字段和方法，实现组合式设计" }
+      {
+        "key": "A",
+        "text": ":= 短变量声明只能在函数内部使用"
+      },
+      {
+        "key": "B",
+        "text": "标识符首字母大写表示导出（包外可见），小写表示仅包内可见"
+      },
+      {
+        "key": "C",
+        "text": "Go 支持类的继承，用 extends 关键字派生子类"
+      },
+      {
+        "key": "D",
+        "text": "结构体嵌入（embedding）可以复用字段和方法，实现组合式设计"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "explanation": "A：包级变量必须用 var 声明；B：可见性完全由首字母大小写决定，没有 public/private 关键字；D：匿名嵌入使外层类型获得被嵌入类型的字段与方法（方法提升），这是 Go 推崇的组合。C 错误：Go 刻意不提供类继承与 extends，多态靠接口、复用靠组合。",
-    "tags": ["Go基础", "语言设计"],
+    "tags": [
+      "Go基础",
+      "语言设计"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-3",
     "knowledge_points": [],
@@ -347,9 +681,14 @@
     "type": "judge",
     "stem": "判断：Go 编译器强制要求：声明了却从未使用的局部变量会导致编译错误，而不仅仅是警告。",
     "options": [],
-    "answer": ["T"],
+    "answer": [
+      "T"
+    ],
     "explanation": "正确。未使用的局部变量和未使用的 import 都是编译错误，这是 Go 保持代码库整洁的设计选择。临时想忽略某个值可用空白标识符 _ 接收。注意：未使用的包级变量和函数参数不报错。",
-    "tags": ["Go基础", "编译"],
+    "tags": [
+      "Go基础",
+      "编译"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-1",
     "knowledge_points": [],
@@ -361,9 +700,14 @@
     "type": "judge",
     "stem": "判断：sync.WaitGroup 的正确用法是：启动 goroutine 前调用 Add(1)，goroutine 内部用 defer wg.Done()，主流程用 wg.Wait() 等待全部完成。",
     "options": [],
-    "answer": ["T"],
+    "answer": [
+      "T"
+    ],
     "explanation": "正确。Add 必须在 go 语句之前调用（若在 goroutine 内部 Add，可能 Wait 已先返回，构成竞态）；defer Done 保证即使 panic 也会计数减一；Wait 阻塞直到计数归零。WaitGroup 不可复制，作为参数传递时应传指针。",
-    "tags": ["并发编程", "WaitGroup"],
+    "tags": [
+      "并发编程",
+      "WaitGroup"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-2",
     "knowledge_points": [],
@@ -375,12 +719,19 @@
     "type": "judge",
     "stem": "判断：Go 的 map 是并发安全的，多个 goroutine 可以同时对同一个 map 读写而无需加锁。",
     "options": [],
-    "answer": ["F"],
+    "answer": [
+      "F"
+    ],
     "explanation": "错误。内建 map 不是并发安全的：并发读写会被运行时检测到并直接 fatal error: concurrent map read and map write（无法 recover）。需要并发访问时应使用 sync.RWMutex 保护，或使用适合读多写少场景的 sync.Map。只读并发访问是安全的。",
-    "tags": ["map", "并发编程"],
+    "tags": [
+      "map",
+      "并发编程"
+    ],
     "difficulty": "easy",
     "chapter": "mod-go-backend-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0007"
+    ],
     "estimated_time": 2
   },
   {
@@ -389,12 +740,19 @@
     "type": "judge",
     "stem": "判断：Gin 中间件里调用 c.Next() 之前的代码在请求处理前执行，之后的代码在后续处理器完成后执行，因此可以在 c.Next() 前后打点实现请求耗时统计。",
     "options": [],
-    "answer": ["T"],
+    "answer": [
+      "T"
+    ],
     "explanation": "正确。Gin 的中间件链类似洋葱模型：c.Next() 把控制权交给链上后续处理器，返回后继续执行本中间件剩余代码。典型日志中间件：start := time.Now()，c.Next()，然后 time.Since(start) 记录耗时与 c.Writer.Status() 状态码。c.Abort() 可中断链传播（如鉴权失败）。",
-    "tags": ["Gin", "中间件"],
+    "tags": [
+      "Gin",
+      "中间件"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "go-kp-0010"
+    ],
     "estimated_time": 2
   },
   {
@@ -403,9 +761,14 @@
     "type": "short",
     "stem": "Go 运行时的调度模型用三个字母缩写表示，其中 G 代表 goroutine，M 代表内核线程（machine），P 代表逻辑处理器（processor）。这个调度模型简称什么？",
     "options": [],
-    "answer": ["GMP|GMP模型|GMP 模型|G-M-P"],
+    "answer": [
+      "GMP|GMP模型|GMP 模型|G-M-P"
+    ],
     "explanation": "GMP 模型：P 的数量由 GOMAXPROCS 决定（默认为 CPU 核数），每个 P 维护本地可运行 G 队列，M 绑定 P 后执行 G；配合工作窃取（work stealing）和网络轮询器（netpoller），实现少量线程高效调度海量 goroutine。系统调用阻塞时 M 会与 P 解绑，避免拖累其他 G。",
-    "tags": ["并发编程", "调度器"],
+    "tags": [
+      "并发编程",
+      "调度器"
+    ],
     "difficulty": "hard",
     "chapter": "mod-go-backend-c-2",
     "knowledge_points": [],
@@ -417,12 +780,94 @@
     "type": "short",
     "stem": "在函数返回值列表中给返回值起了名字（如 func f() (n int, err error)）后，函数体内可直接使用这些变量并配合裸 return 返回。这种返回值称为什么？",
     "options": [],
-    "answer": ["具名返回值|命名返回值|named return values|named return"],
+    "answer": [
+      "具名返回值|命名返回值|named return values|named return"
+    ],
     "explanation": "具名返回值（named return values）在函数入口即被声明并零值初始化，return 可以不带表达式（裸 return）。它与 defer 配合能在返回前修改返回值（常用于统一包装 err），但长函数中滥用裸 return 会降低可读性，Go 社区建议仅在短函数或需要 defer 修改返回值时使用。",
-    "tags": ["Go基础", "函数"],
+    "tags": [
+      "Go基础",
+      "函数"
+    ],
     "difficulty": "medium",
     "chapter": "mod-go-backend-c-3",
     "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-go-backend-q-25",
+    "slug": "question-25",
+    "type": "single",
+    "stem": "两个 goroutine 并发更新同一个计数器。现有测试只串行调用更新函数，普通测试一直通过。哪种补充测试最能找出这条并发路径上可能遗漏的同步？",
+    "options": [
+      {
+        "key": "A",
+        "text": "保留串行用例，用 go test -count=100 重复验证最终计数"
+      },
+      {
+        "key": "B",
+        "text": "保留串行用例，用 go test -cover 检查更新函数的行覆盖率"
+      },
+      {
+        "key": "C",
+        "text": "用两个 goroutine 同时更新并等待完成，以 go test -race 运行"
+      },
+      {
+        "key": "D",
+        "text": "用两个 goroutine 依次更新并严格交接，只比较最终计数"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "竞态检测器需要在实际执行的路径上观察缺少同步的冲突访问。测试应让两个 goroutine 都操作共享计数器，等待它们结束，并开启 -race。仅重复串行用例或提高行覆盖率，无法覆盖这条并发路径。最终计数偶尔正确也不能排除竞态。",
+    "tags": [
+      "race",
+      "test",
+      "goroutine"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-go-backend-c-4",
+    "knowledge_points": [
+      "go-kp-0015"
+    ],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-go-backend-q-26",
+    "slug": "question-26",
+    "type": "single",
+    "stem": "接口压测时 GC 次数明显增加，但每轮 GC 后存活的堆大小基本持平。你要按这段时间累计分配的字节数找出热点。应比较压测前后两份 pprof 堆剖析的哪个指标？",
+    "options": [
+      {
+        "key": "A",
+        "text": "alloc_space，观察各路径累计分配字节数的增长"
+      },
+      {
+        "key": "B",
+        "text": "inuse_space，观察各路径当前存活字节数的增长"
+      },
+      {
+        "key": "C",
+        "text": "inuse_objects，观察各路径当前存活对象数的增长"
+      },
+      {
+        "key": "D",
+        "text": "alloc_objects，观察各路径累计分配对象数的增长"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "目标是找累计分配字节数最大的路径，前后两次 alloc_space 的差值反映采样期间各路径贡献的分配量。inuse 指标侧重采样时仍存活的对象。alloc_objects 统计对象个数，在对象大小不同时，按个数排序和按字节数排序可能不同。",
+    "tags": [
+      "pprof",
+      "profiling"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-go-backend-c-4",
+    "knowledge_points": [
+      "go-kp-0001"
+    ],
     "estimated_time": 3
   }
 ]

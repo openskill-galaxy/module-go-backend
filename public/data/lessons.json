@@ -3,66 +3,123 @@
     "id": "mod-go-backend-l-1",
     "courseId": "mod-go-backend-c-1",
     "order": 1,
-    "title": "Go语言与后端服务开发 环境依赖搭建与运行机制",
+    "title": "切片底层结构、接口设计与 Error 包装链",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# Go语言与后端服务开发 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `Go语言与后端服务开发` 的开发实践中，`Go语言与后端服务开发 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Go语言与后端服务开发 生产实践示例\nconsole.log(\"Initializing Go语言与后端服务开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "吃透 Slice 共享底层数组陷阱、小接口设计哲学以及 `fmt.Errorf(\"%w\")` 与 `errors.Is/As` 错误判定。",
+    "contentMarkdown": "# 切片底层结构、接口设计与 Error 包装链\n\n## 1. Slice 共享底层数组的隐蔽陷阱\nGo 的切片本质是一个 3 字段结构体：`{Data *T, Len int, Cap int}`。当两个切片共享同一底层数组时，`append` 若未触发扩容会直接覆写原切片未暴露区间的数据。需要独立副本时，应使用 `slices.Clone` 或三索引切片 `s[a:b:b]` 强制限制容量。\n\n## 2. 面向小接口编程与显式错误处理\nGo 推崇**在调用方定义最小接口**（如标准库 `io.Reader` 只有一个方法），并把错误当普通值显式向上传递。使用 `%w` 包装保留根因链：\n\n```go\npackage order\n\nimport (\n\t\"errors\"\n\t\"fmt\"\n)\n\nvar ErrOrderNotFound = errors.New(\"order not found\")\n\nfunc GetOrder(id string) error {\n\tif id == \"\" {\n\t\treturn fmt.Errorf(\"query order %q: %w\", id, ErrOrderNotFound)\n\t}\n\treturn nil\n}\n\n// 上层调用方用 errors.Is 判断哨兵错误，即使经过多层包装也能准确命中\n// if errors.Is(err, ErrOrderNotFound) { ... }\n```\n\n> [!WARNING]\n> 切勿用 `err.Error() == \"...\"` 做字符串比较来判断错误类型，也不要在库代码里随意 `panic` 替代返回 `error`。",
+    "knowledgePoints": [
+      "go-kp-0006",
+      "go-kp-0004",
+      "go-kp-0001"
+    ],
+    "estimatedMinutes": 35
   },
   {
     "id": "mod-go-backend-l-2",
     "courseId": "mod-go-backend-c-1",
     "order": 2,
-    "title": "Go语言与后端服务开发 配置文件覆盖与属性解析",
+    "title": "Goroutine 生命周期、Channel 与 Context 超时控制",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# Go语言与后端服务开发 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `Go语言与后端服务开发` 的开发实践中，`Go语言与后端服务开发 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Go语言与后端服务开发 生产实践示例\nconsole.log(\"Initializing Go语言与后端服务开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "理解 GMP 调度模型核心思路，用 `context.WithTimeout` 与 `select` 杜绝 Goroutine 泄漏。",
+    "contentMarkdown": "# Goroutine 生命周期、Channel 与 Context 超时控制\n\n## 1. 任何 Goroutine 都必须有明确的退出条件\nGoroutine 初始栈仅约 2KB，创建成本极低，但如果一个协程阻塞在无人读取的无缓冲 Channel 上，它永远不会被 GC 回收，最终拖垮内存。**规则：启动 Goroutine 的地方，必须清楚它何时会结束。**\n\n| 通信/同步原语 | 适用场景 | 避坑要点 |\n| :--- | :--- | :--- |\n| `channel` | 任务分发、数据流水线、取消信号 | 始终由**发送方**关闭 Channel，切忌重复 `close` |\n| `sync.Mutex` | 保护结构体内共享状态（缓存、计数器） | 临界区保持极短，绝不在持锁时做网络 IO |\n| `context.Context` | 跨协程传递超时、取消信号与 TraceID | 始终作为函数第一个参数 `ctx`，不塞进结构体字段 |\n\n## 2. 带超时的安全并发等待\n\n```go\npackage main\n\nimport (\n\t\"context\"\n\t\"fmt\"\n\t\"time\"\n)\n\nfunc fetchWithTimeout(parent context.Context) (string, error) {\n\tctx, cancel := context.WithTimeout(parent, 300*time.Millisecond)\n\tdefer cancel()\n\n\t// 缓冲区大小为 1，防止超时返回后子协程发送结果时永久阻塞泄漏\n\tch := make(chan string, 1)\n\tgo func() {\n\t\ttime.Sleep(120 * time.Millisecond)\n\t\tch <- \"ok\"\n\t}()\n\n\tselect {\n\tcase res := <-ch:\n\t\treturn res, nil\n\tcase <-ctx.Done():\n\t\treturn \"\", fmt.Errorf(\"fetch aborted: %w\", ctx.Err())\n\t}\n}\n```",
+    "knowledgePoints": [
+      "go-kp-0002",
+      "go-kp-0003",
+      "go-kp-0009"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-go-backend-l-3",
     "courseId": "mod-go-backend-c-2",
     "order": 1,
-    "title": "Go语言与后端服务开发 API 接口规范与数据通信",
+    "title": "Go 1.22+ 标准库路由、中间件链与 slog 日志",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# Go语言与后端服务开发 API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `Go语言与后端服务开发` 的开发实践中，`Go语言与后端服务开发 API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Go语言与后端服务开发 生产实践示例\nconsole.log(\"Initializing Go语言与后端服务开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "利用 Go 1.22 `http.ServeMux` 方法与路径参数匹配，搭配 `log/slog` 构建零第三方框架依赖的清晰后端。",
+    "contentMarkdown": "# Go 1.22+ 标准库路由、中间件链与 slog 日志\n\n## 1. Go 1.22+ 标准库路由已足够强大\nGo 1.22 起，`http.ServeMux` 原生支持 HTTP Method（如 `GET /api/orders/{id}`）与 `r.PathValue(\"id\")` 路径参数提取，中小规模服务无需急于引入重型框架。\n\n## 2. 洋葱模型中间件 + 结构化 `slog` 日志\n标准库 `log/slog` 支持 JSON 结构化输出，便于直接接入 Loki / Elasticsearch：\n\n```go\npackage main\n\nimport (\n\t\"log/slog\"\n\t\"net/http\"\n\t\"os\"\n\t\"time\"\n)\n\nfunc loggingMiddleware(logger *slog.Logger, next http.Handler) http.Handler {\n\treturn http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {\n\t\tstart := time.Now()\n\t\tnext.ServeHTTP(w, r)\n\t\tlogger.Info(\"http_request\",\n\t\t\t\"method\", r.Method,\n\t\t\t\"path\", r.URL.Path,\n\t\t\t\"latency_ms\", time.Since(start).Milliseconds(),\n\t\t)\n\t})\n}\n\nfunc buildMux(logger *slog.Logger) http.Handler {\n\tmux := http.NewServeMux()\n\tmux.HandleFunc(\"GET /api/users/{id}\", func(w http.ResponseWriter, r *http.Request) {\n\t\tid := r.PathValue(\"id\")\n\t\tw.Header().Set(\"Content-Type\", \"application/json\")\n\t\tw.Write([]byte(`{\"id\":\"` + id + `\"}`))\n\t})\n\treturn loggingMiddleware(logger, mux)\n}\n\nfunc newLogger() *slog.Logger {\n\treturn slog.New(slog.NewJSONHandler(os.Stdout, nil))\n}\n```",
+    "knowledgePoints": [
+      "go-kp-0014",
+      "go-kp-0010",
+      "go-kp-0001"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-go-backend-l-4",
     "courseId": "mod-go-backend-c-2",
     "order": 2,
-    "title": "Go语言与后端服务开发 核心控制器与数据校验机制",
+    "title": "HTTP 超时防御与生产级优雅停机（Graceful Shutdown）",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# Go语言与后端服务开发 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `Go语言与后端服务开发` 的开发实践中，`Go语言与后端服务开发 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Go语言与后端服务开发 生产实践示例\nconsole.log(\"Initializing Go语言与后端服务开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "配置 `ReadHeaderTimeout` 防御慢连接攻击，监听终止信号在 K8s 滚动发布时做到零请求中断。",
+    "contentMarkdown": "# HTTP 超时防御与生产级优雅停机（Graceful Shutdown）\n\n## 1. 千万不要在生产环境直接用 `http.ListenAndServe`\n默认的 `http.ListenAndServe` 不设置任何读写超时，一旦遭遇慢速客户端或异常断连，文件描述符与内存会被迅速耗尽。生产必须显式构造 `http.Server` 并配置四项超时：\n\n| 字段 | 推荐值 | 作用 |\n| :--- | :--- | :--- |\n| `ReadHeaderTimeout` | `5s` | 防止 Slowloris 慢请求头攻击 |\n| `ReadTimeout` | `15s` | 限制完整请求体读取耗时 |\n| `WriteTimeout` | `30s` | 限制响应写出耗时（流式 SSE 接口需单独放宽） |\n| `IdleTimeout` | `60s` | 及时回收空闲 Keep-Alive 连接 |\n\n## 2. 优雅停机核心流程\n使用 `signal.NotifyContext` 监听进程退出信号，收到信号后调用 `srv.Shutdown(ctx)` 拒绝新连接并等待存量请求在宽限期内完成：\n\n```go\nctx, stop := signal.NotifyContext(context.Background(), os.Interrupt)\ndefer stop()\n\n<-ctx.Done()\nshutdownCtx, cancel := context.WithTimeout(context.Background(), 15*time.Second)\ndefer cancel()\n_ = srv.Shutdown(shutdownCtx)\n```\n\n> [!TIP]\n> 在 Kubernetes 滚动发布时，确保应用的 `Shutdown` 超时略小于 Pod 的 `terminationGracePeriodSeconds`（默认 30s），即可做到发布过程 0 报错。",
+    "knowledgePoints": [
+      "go-kp-0014",
+      "go-kp-0009"
+    ],
+    "estimatedMinutes": 35
   },
   {
     "id": "mod-go-backend-l-5",
     "courseId": "mod-go-backend-c-3",
     "order": 1,
-    "title": "Go语言与后端服务开发 缓存优化与垃圾回收调优",
+    "title": "database/sql 连接池调优与事务安全封装",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# Go语言与后端服务开发 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `Go语言与后端服务开发` 的开发实践中，`Go语言与后端服务开发 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Go语言与后端服务开发 生产实践示例\nconsole.log(\"Initializing Go语言与后端服务开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "理解 `sql.DB` 本质是并发安全的连接池，合理配置四大池参数并写出自动回滚的事务模板。",
+    "contentMarkdown": "# database/sql 连接池调优与事务安全封装\n\n## 1. 连接池四大核心参数\n\n| 参数 | 作用 | 推荐实践 |\n| :--- | :--- | :--- |\n| `SetMaxOpenConns` | 最大并发打开连接数 | 结合数据库总上限与实例副本数设定（如单实例 25–50） |\n| `SetMaxIdleConns` | 最大空闲连接数 | 通常与 `MaxOpenConns` 接近，减少频繁建连握手 |\n| `SetConnMaxLifetime` | 连接最长存活时间 | 必须**小于**数据库 `wait_timeout`（如设为 5 分钟） |\n| `SetConnMaxIdleTime` | 空闲连接回收时间 | 如 2 分钟，高峰过后平滑释放数据库资源 |\n\n## 2. 防遗漏回滚的事务辅助函数\n在每个业务函数里手写 `tx.Rollback()` 极易在异常分支漏掉。推荐统一封装 `WithTx`：\n\n```go\nfunc WithTx(ctx context.Context, db *sql.DB, fn func(*sql.Tx) error) (err error) {\n\ttx, err := db.BeginTx(ctx, nil)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer func() {\n\t\tif p := recover(); p != nil {\n\t\t\t_ = tx.Rollback()\n\t\t\tpanic(p)\n\t\t} else if err != nil {\n\t\t\t_ = tx.Rollback()\n\t\t}\n\t}()\n\tif err = fn(tx); err != nil {\n\t\treturn err\n\t}\n\treturn tx.Commit()\n}\n```\n\n> [!IMPORTANT]\n> 执行任何 `db.QueryContext` 返回 `*sql.Rows` 后，必须第一时间 `defer rows.Close()` 并在循环结束后检查 `rows.Err()`，否则连接永远不会归还连接池！",
+    "knowledgePoints": [
+      "go-kp-0011",
+      "go-kp-0008"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-go-backend-l-6",
     "courseId": "mod-go-backend-c-3",
     "order": 2,
-    "title": "Go语言与后端服务开发 可观测性日志与分布式链路监控",
+    "title": "errgroup 并发编排与 Worker Pool 限流模式",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# Go语言与后端服务开发 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `Go语言与后端服务开发` 的开发实践中，`Go语言与后端服务开发 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// Go语言与后端服务开发 生产实践示例\nconsole.log(\"Initializing Go语言与后端服务开发 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "用 `golang.org/x/sync/errgroup` 实现聚合接口并发调用、错误快速取消以及最大并发度背压控制。",
+    "contentMarkdown": "# errgroup 并发编排与 Worker Pool 限流模式\n\n## 1. 为什么优先用 `errgroup` 替代裸 `WaitGroup`？\n在 BFF 聚合接口中，需要并发拉取用户信息、订单列表和优惠券。用 `errgroup.WithContext` 不仅能自动收集第一个非空错误，还会立即取消共享 `ctx`，让其余仍在跑的下游请求及时止损；配合 `g.SetLimit(n)` 还能一行代码限制并发上限：\n\n```go\npackage service\n\nimport (\n\t\"context\"\n\t\"golang.org/x/sync/errgroup\"\n)\n\nfunc BatchProcess(ctx context.Context, ids []string, worker func(context.Context, string) error) error {\n\tg, ctx := errgroup.WithContext(ctx)\n\tg.SetLimit(8) // 最多同时 8 个并发任务，防止打爆下游\n\n\tfor _, id := range ids {\n\t\tid := id\n\t\tg.Go(func() error {\n\t\t\treturn worker(ctx, id)\n\t\t})\n\t}\n\treturn g.Wait()\n}\n```\n\n> [!NOTE]\n> Go 1.22 起已修复经典 `for` 循环变量复用陷阱（每次迭代都会创建独立变量），但在需要兼容旧版本工具链的项目中，显式传参或局部绑定依然清晰安全。",
+    "knowledgePoints": [
+      "go-kp-0013",
+      "go-kp-0002",
+      "go-kp-0003"
+    ],
+    "estimatedMinutes": 35
+  },
+  {
+    "id": "mod-go-backend-l-7",
+    "courseId": "mod-go-backend-c-4",
+    "order": 1,
+    "title": "表驱动测试、httptest 与竞态检测（-race）",
+    "slug": "lesson-4-1",
+    "summary": "用 Go 原生表驱动测试覆盖边界用例，配合 `httptest` 无端口启动测试接口，并在 CI 强制开启 `-race`。",
+    "contentMarkdown": "# 表驱动测试、httptest 与竞态检测（-race）\n\n## 1. Go 地道表驱动测试（Table-Driven Tests）\n将输入与期望打包进切片，配合 `t.Run(tc.name, ...)` 可以精准定位失败子用例并支持 `t.Parallel()` 并发加速：\n\n```go\nfunc TestParsePort(t *testing.T) {\n\tcases := []struct {\n\t\tname    string\n\t\tinput   string\n\t\twant    int\n\t\twantErr bool\n\t}{\n\t\t{\"normal\", \"8080\", 8080, false},\n\t\t{\"zero\", \"0\", 0, true},\n\t\t{\"overflow\", \"70000\", 0, true},\n\t}\n\tfor _, tc := range cases {\n\t\tt.Run(tc.name, func(t *testing.T) {\n\t\t\tgot, err := ParsePort(tc.input)\n\t\t\tif (err != nil) != tc.wantErr {\n\t\t\t\tt.Fatalf(\"err = %v, wantErr = %v\", err, tc.wantErr)\n\t\t\t}\n\t\t\tif got != tc.want {\n\t\t\t\tt.Errorf(\"got %d, want %d\", got, tc.want)\n\t\t\t}\n\t\t})\n\t}\n}\n```\n\n## 2. 在 CI 中强制开启竞态检测\n```bash\ngo test -race -count=1 ./...\n```\n> [!TIP]\n> `-race` 能在运行期直接捕获并发读写 `map` 或无锁修改共享变量的数据竞争，比线上偶发 crash 后再去捞日志省力十倍。",
+    "knowledgePoints": [
+      "go-kp-0015",
+      "go-kp-0014"
+    ],
+    "estimatedMinutes": 35,
+    "practiceQuestionIds": [
+      "mod-go-backend-q-25"
+    ]
+  },
+  {
+    "id": "mod-go-backend-l-8",
+    "courseId": "mod-go-backend-c-4",
+    "order": 2,
+    "title": "pprof 性能剖析与多阶段极小镜像构建",
+    "slug": "lesson-4-2",
+    "summary": "通过 `net/http/pprof` 定位线上 CPU 热点、堆内存分配与 Goroutine 泄漏，并用多阶段 Docker 构建 15MB 生产镜像。",
+    "contentMarkdown": "# pprof 性能剖析与多阶段极小镜像构建\n\n## 1. 用 `pprof` 排查线上性能问题\n把 `pprof` 仅绑定在内网管理端口（绝不暴露到公网），即可在服务运行中零侵入采集四类核心剖析样本：\n- **CPU 火焰图（`profile`）**：30 秒采样定位最耗 CPU 的热点函数与序列化瓶颈。\n- **堆内存（`heap`）**：对比 `inuse_space`（常驻内存）与 `alloc_space`（高频临时分配导致 GC 压力）。\n- **协程快照（`goroutine`）**：查看当前阻塞在哪些锁或 Channel 上的协程数量是否持续上涨。\n\n## 2. 多阶段静态编译 Dockerfile\n关闭 CGO 编译出纯静态二进制，配合 `distroless/static` 运行镜像体积仅约 15MB 且攻击面极小：\n\n```dockerfile\nFROM golang:1.22-alpine AS builder\nWORKDIR /src\nCOPY go.mod go.sum ./\nRUN go mod download\nCOPY . .\nRUN CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags=\"-s -w\" -o /app ./cmd/server\n\nFROM gcr.io/distroless/static-debian12:nonroot\nCOPY --from=builder /app /app\nEXPOSE 8080\nENTRYPOINT [\"/app\"]\n```",
+    "knowledgePoints": [
+      "go-kp-0001",
+      "go-kp-0002",
+      "go-kp-0012"
+    ],
+    "estimatedMinutes": 40,
+    "practiceQuestionIds": [
+      "mod-go-backend-q-26"
+    ]
   }
 ]

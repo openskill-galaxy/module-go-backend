@@ -29,13 +29,17 @@
       "Go"
     ],
     "difficulty": "easy",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-1"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "goroutine",
     "summary": "轻量线程",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-1"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# goroutine\n\n轻量线程",
@@ -50,13 +54,21 @@
       "Go"
     ],
     "difficulty": "easy",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-2",
+      "mod-go-backend-q-13",
+      "mod-go-backend-q-15"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "channel",
     "summary": "通信管道",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-2",
+      "mod-go-backend-q-13",
+      "mod-go-backend-q-15"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# channel\n\n通信管道",
@@ -71,13 +83,17 @@
       "Go"
     ],
     "difficulty": "easy",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-9"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "interface",
     "summary": "接口类型",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-9"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# interface\n\n接口类型",
@@ -113,13 +129,17 @@
       "Go"
     ],
     "difficulty": "easy",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-5"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "slice",
     "summary": "动态数组",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-5"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# slice\n\n动态数组",
@@ -134,13 +154,19 @@
       "Go"
     ],
     "difficulty": "easy",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-11",
+      "mod-go-backend-q-21"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "map",
     "summary": "键值对",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-11",
+      "mod-go-backend-q-21"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# map\n\n键值对",
@@ -155,13 +181,17 @@
       "Go"
     ],
     "difficulty": "easy",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-7"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "defer",
     "summary": "延迟执行",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-7"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# defer\n\n延迟执行",
@@ -176,13 +206,17 @@
       "Go"
     ],
     "difficulty": "medium",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-10"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "context",
     "summary": "上下文",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-10"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# context\n\n上下文",
@@ -197,13 +231,19 @@
       "Go"
     ],
     "difficulty": "medium",
-    "relatedQuestionIds": [],
+    "relatedQuestionIds": [
+      "mod-go-backend-q-6",
+      "mod-go-backend-q-22"
+    ],
     "relatedCaseIds": [],
     "relatedGlossaryIds": [],
     "updatedAt": "2026-07-03T00:00:00.000Z",
     "title": "Gin",
     "summary": "Web框架",
-    "relatedQuestions": [],
+    "relatedQuestions": [
+      "mod-go-backend-q-6",
+      "mod-go-backend-q-22"
+    ],
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Gin\n\nWeb框架",
@@ -333,7 +373,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念16\n\nGo概念",
-    "slug": "go概念16"
+    "slug": "go概念16",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0017",
@@ -354,7 +395,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念17\n\nGo概念",
-    "slug": "go概念17"
+    "slug": "go概念17",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0018",
@@ -375,7 +417,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念18\n\nGo概念",
-    "slug": "go概念18"
+    "slug": "go概念18",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0019",
@@ -396,7 +439,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念19\n\nGo概念",
-    "slug": "go概念19"
+    "slug": "go概念19",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0020",
@@ -417,7 +461,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念20\n\nGo概念",
-    "slug": "go概念20"
+    "slug": "go概念20",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0021",
@@ -438,7 +483,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念21\n\nGo概念",
-    "slug": "go概念21"
+    "slug": "go概念21",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0022",
@@ -459,7 +505,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念22\n\nGo概念",
-    "slug": "go概念22"
+    "slug": "go概念22",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0023",
@@ -480,7 +527,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念23\n\nGo概念",
-    "slug": "go概念23"
+    "slug": "go概念23",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0024",
@@ -501,7 +549,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念24\n\nGo概念",
-    "slug": "go概念24"
+    "slug": "go概念24",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0025",
@@ -522,7 +571,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念25\n\nGo概念",
-    "slug": "go概念25"
+    "slug": "go概念25",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0026",
@@ -543,7 +593,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念26\n\nGo概念",
-    "slug": "go概念26"
+    "slug": "go概念26",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0027",
@@ -564,7 +615,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念27\n\nGo概念",
-    "slug": "go概念27"
+    "slug": "go概念27",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0028",
@@ -585,7 +637,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念28\n\nGo概念",
-    "slug": "go概念28"
+    "slug": "go概念28",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0029",
@@ -606,7 +659,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念29\n\nGo概念",
-    "slug": "go概念29"
+    "slug": "go概念29",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0030",
@@ -627,7 +681,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念30\n\nGo概念",
-    "slug": "go概念30"
+    "slug": "go概念30",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0031",
@@ -648,7 +703,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念31\n\nGo概念",
-    "slug": "go概念31"
+    "slug": "go概念31",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0032",
@@ -669,7 +725,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念32\n\nGo概念",
-    "slug": "go概念32"
+    "slug": "go概念32",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0033",
@@ -690,7 +747,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念33\n\nGo概念",
-    "slug": "go概念33"
+    "slug": "go概念33",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0034",
@@ -711,7 +769,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念34\n\nGo概念",
-    "slug": "go概念34"
+    "slug": "go概念34",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0035",
@@ -732,7 +791,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念35\n\nGo概念",
-    "slug": "go概念35"
+    "slug": "go概念35",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0036",
@@ -753,7 +813,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念36\n\nGo概念",
-    "slug": "go概念36"
+    "slug": "go概念36",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0037",
@@ -774,7 +835,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念37\n\nGo概念",
-    "slug": "go概念37"
+    "slug": "go概念37",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0038",
@@ -795,7 +857,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念38\n\nGo概念",
-    "slug": "go概念38"
+    "slug": "go概念38",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0039",
@@ -816,7 +879,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念39\n\nGo概念",
-    "slug": "go概念39"
+    "slug": "go概念39",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0040",
@@ -837,7 +901,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念40\n\nGo概念",
-    "slug": "go概念40"
+    "slug": "go概念40",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0041",
@@ -858,7 +923,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念41\n\nGo概念",
-    "slug": "go概念41"
+    "slug": "go概念41",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0042",
@@ -879,7 +945,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念42\n\nGo概念",
-    "slug": "go概念42"
+    "slug": "go概念42",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0043",
@@ -900,7 +967,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念43\n\nGo概念",
-    "slug": "go概念43"
+    "slug": "go概念43",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0044",
@@ -921,7 +989,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念44\n\nGo概念",
-    "slug": "go概念44"
+    "slug": "go概念44",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0045",
@@ -942,7 +1011,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念45\n\nGo概念",
-    "slug": "go概念45"
+    "slug": "go概念45",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0046",
@@ -963,7 +1033,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念46\n\nGo概念",
-    "slug": "go概念46"
+    "slug": "go概念46",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0047",
@@ -984,7 +1055,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念47\n\nGo概念",
-    "slug": "go概念47"
+    "slug": "go概念47",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0048",
@@ -1005,7 +1077,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念48\n\nGo概念",
-    "slug": "go概念48"
+    "slug": "go概念48",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0049",
@@ -1026,7 +1099,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念49\n\nGo概念",
-    "slug": "go概念49"
+    "slug": "go概念49",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0050",
@@ -1047,7 +1121,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念50\n\nGo概念",
-    "slug": "go概念50"
+    "slug": "go概念50",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0051",
@@ -1068,7 +1143,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念51\n\nGo概念",
-    "slug": "go概念51"
+    "slug": "go概念51",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0052",
@@ -1089,7 +1165,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念52\n\nGo概念",
-    "slug": "go概念52"
+    "slug": "go概念52",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0053",
@@ -1110,7 +1187,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念53\n\nGo概念",
-    "slug": "go概念53"
+    "slug": "go概念53",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0054",
@@ -1131,7 +1209,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念54\n\nGo概念",
-    "slug": "go概念54"
+    "slug": "go概念54",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0055",
@@ -1152,7 +1231,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念55\n\nGo概念",
-    "slug": "go概念55"
+    "slug": "go概念55",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0056",
@@ -1173,7 +1253,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念56\n\nGo概念",
-    "slug": "go概念56"
+    "slug": "go概念56",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0057",
@@ -1194,7 +1275,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念57\n\nGo概念",
-    "slug": "go概念57"
+    "slug": "go概念57",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0058",
@@ -1215,7 +1297,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念58\n\nGo概念",
-    "slug": "go概念58"
+    "slug": "go概念58",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0059",
@@ -1236,7 +1319,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念59\n\nGo概念",
-    "slug": "go概念59"
+    "slug": "go概念59",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0060",
@@ -1257,7 +1341,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念60\n\nGo概念",
-    "slug": "go概念60"
+    "slug": "go概念60",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0061",
@@ -1278,7 +1363,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念61\n\nGo概念",
-    "slug": "go概念61"
+    "slug": "go概念61",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0062",
@@ -1299,7 +1385,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念62\n\nGo概念",
-    "slug": "go概念62"
+    "slug": "go概念62",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0063",
@@ -1320,7 +1407,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念63\n\nGo概念",
-    "slug": "go概念63"
+    "slug": "go概念63",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0064",
@@ -1341,7 +1429,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念64\n\nGo概念",
-    "slug": "go概念64"
+    "slug": "go概念64",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0065",
@@ -1362,7 +1451,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念65\n\nGo概念",
-    "slug": "go概念65"
+    "slug": "go概念65",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0066",
@@ -1383,7 +1473,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念66\n\nGo概念",
-    "slug": "go概念66"
+    "slug": "go概念66",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0067",
@@ -1404,7 +1495,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念67\n\nGo概念",
-    "slug": "go概念67"
+    "slug": "go概念67",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0068",
@@ -1425,7 +1517,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念68\n\nGo概念",
-    "slug": "go概念68"
+    "slug": "go概念68",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0069",
@@ -1446,7 +1539,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念69\n\nGo概念",
-    "slug": "go概念69"
+    "slug": "go概念69",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0070",
@@ -1467,7 +1561,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念70\n\nGo概念",
-    "slug": "go概念70"
+    "slug": "go概念70",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0071",
@@ -1488,7 +1583,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念71\n\nGo概念",
-    "slug": "go概念71"
+    "slug": "go概念71",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0072",
@@ -1509,7 +1605,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念72\n\nGo概念",
-    "slug": "go概念72"
+    "slug": "go概念72",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0073",
@@ -1530,7 +1627,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念73\n\nGo概念",
-    "slug": "go概念73"
+    "slug": "go概念73",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0074",
@@ -1551,7 +1649,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念74\n\nGo概念",
-    "slug": "go概念74"
+    "slug": "go概念74",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0075",
@@ -1572,7 +1671,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念75\n\nGo概念",
-    "slug": "go概念75"
+    "slug": "go概念75",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0076",
@@ -1593,7 +1693,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念76\n\nGo概念",
-    "slug": "go概念76"
+    "slug": "go概念76",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0077",
@@ -1614,7 +1715,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念77\n\nGo概念",
-    "slug": "go概念77"
+    "slug": "go概念77",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0078",
@@ -1635,7 +1737,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念78\n\nGo概念",
-    "slug": "go概念78"
+    "slug": "go概念78",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0079",
@@ -1656,7 +1759,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念79\n\nGo概念",
-    "slug": "go概念79"
+    "slug": "go概念79",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0080",
@@ -1677,7 +1781,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念80\n\nGo概念",
-    "slug": "go概念80"
+    "slug": "go概念80",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0081",
@@ -1698,7 +1803,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念81\n\nGo概念",
-    "slug": "go概念81"
+    "slug": "go概念81",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0082",
@@ -1719,7 +1825,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念82\n\nGo概念",
-    "slug": "go概念82"
+    "slug": "go概念82",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0083",
@@ -1740,7 +1847,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念83\n\nGo概念",
-    "slug": "go概念83"
+    "slug": "go概念83",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0084",
@@ -1761,7 +1869,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念84\n\nGo概念",
-    "slug": "go概念84"
+    "slug": "go概念84",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0085",
@@ -1782,7 +1891,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念85\n\nGo概念",
-    "slug": "go概念85"
+    "slug": "go概念85",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0086",
@@ -1803,7 +1913,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念86\n\nGo概念",
-    "slug": "go概念86"
+    "slug": "go概念86",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0087",
@@ -1824,7 +1935,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念87\n\nGo概念",
-    "slug": "go概念87"
+    "slug": "go概念87",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0088",
@@ -1845,7 +1957,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念88\n\nGo概念",
-    "slug": "go概念88"
+    "slug": "go概念88",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0089",
@@ -1866,7 +1979,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念89\n\nGo概念",
-    "slug": "go概念89"
+    "slug": "go概念89",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0090",
@@ -1887,7 +2001,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念90\n\nGo概念",
-    "slug": "go概念90"
+    "slug": "go概念90",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0091",
@@ -1908,7 +2023,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念91\n\nGo概念",
-    "slug": "go概念91"
+    "slug": "go概念91",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0092",
@@ -1929,7 +2045,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念92\n\nGo概念",
-    "slug": "go概念92"
+    "slug": "go概念92",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0093",
@@ -1950,7 +2067,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念93\n\nGo概念",
-    "slug": "go概念93"
+    "slug": "go概念93",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0094",
@@ -1971,7 +2089,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念94\n\nGo概念",
-    "slug": "go概念94"
+    "slug": "go概念94",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0095",
@@ -1992,7 +2111,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念95\n\nGo概念",
-    "slug": "go概念95"
+    "slug": "go概念95",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0096",
@@ -2013,7 +2133,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念96\n\nGo概念",
-    "slug": "go概念96"
+    "slug": "go概念96",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0097",
@@ -2034,7 +2155,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念97\n\nGo概念",
-    "slug": "go概念97"
+    "slug": "go概念97",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0098",
@@ -2055,7 +2177,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念98\n\nGo概念",
-    "slug": "go概念98"
+    "slug": "go概念98",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0099",
@@ -2076,7 +2199,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念99\n\nGo概念",
-    "slug": "go概念99"
+    "slug": "go概念99",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0100",
@@ -2097,7 +2221,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念100\n\nGo概念",
-    "slug": "go概念100"
+    "slug": "go概念100",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0101",
@@ -2118,7 +2243,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念101\n\nGo概念",
-    "slug": "go概念101"
+    "slug": "go概念101",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0102",
@@ -2139,7 +2265,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念102\n\nGo概念",
-    "slug": "go概念102"
+    "slug": "go概念102",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0103",
@@ -2160,7 +2287,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念103\n\nGo概念",
-    "slug": "go概念103"
+    "slug": "go概念103",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0104",
@@ -2181,7 +2309,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念104\n\nGo概念",
-    "slug": "go概念104"
+    "slug": "go概念104",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0105",
@@ -2202,7 +2331,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念105\n\nGo概念",
-    "slug": "go概念105"
+    "slug": "go概念105",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0106",
@@ -2223,7 +2353,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念106\n\nGo概念",
-    "slug": "go概念106"
+    "slug": "go概念106",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0107",
@@ -2244,7 +2375,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念107\n\nGo概念",
-    "slug": "go概念107"
+    "slug": "go概念107",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0108",
@@ -2265,7 +2397,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念108\n\nGo概念",
-    "slug": "go概念108"
+    "slug": "go概念108",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0109",
@@ -2286,7 +2419,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念109\n\nGo概念",
-    "slug": "go概念109"
+    "slug": "go概念109",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0110",
@@ -2307,7 +2441,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念110\n\nGo概念",
-    "slug": "go概念110"
+    "slug": "go概念110",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0111",
@@ -2328,7 +2463,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念111\n\nGo概念",
-    "slug": "go概念111"
+    "slug": "go概念111",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0112",
@@ -2349,7 +2485,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念112\n\nGo概念",
-    "slug": "go概念112"
+    "slug": "go概念112",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0113",
@@ -2370,7 +2507,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念113\n\nGo概念",
-    "slug": "go概念113"
+    "slug": "go概念113",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0114",
@@ -2391,7 +2529,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念114\n\nGo概念",
-    "slug": "go概念114"
+    "slug": "go概念114",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0115",
@@ -2412,7 +2551,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念115\n\nGo概念",
-    "slug": "go概念115"
+    "slug": "go概念115",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0116",
@@ -2433,7 +2573,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念116\n\nGo概念",
-    "slug": "go概念116"
+    "slug": "go概念116",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0117",
@@ -2454,7 +2595,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念117\n\nGo概念",
-    "slug": "go概念117"
+    "slug": "go概念117",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0118",
@@ -2475,7 +2617,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念118\n\nGo概念",
-    "slug": "go概念118"
+    "slug": "go概念118",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0119",
@@ -2496,7 +2639,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念119\n\nGo概念",
-    "slug": "go概念119"
+    "slug": "go概念119",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0120",
@@ -2517,7 +2661,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念120\n\nGo概念",
-    "slug": "go概念120"
+    "slug": "go概念120",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0121",
@@ -2538,7 +2683,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念121\n\nGo概念",
-    "slug": "go概念121"
+    "slug": "go概念121",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0122",
@@ -2559,7 +2705,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念122\n\nGo概念",
-    "slug": "go概念122"
+    "slug": "go概念122",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0123",
@@ -2580,7 +2727,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念123\n\nGo概念",
-    "slug": "go概念123"
+    "slug": "go概念123",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0124",
@@ -2601,7 +2749,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念124\n\nGo概念",
-    "slug": "go概念124"
+    "slug": "go概念124",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0125",
@@ -2622,7 +2771,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念125\n\nGo概念",
-    "slug": "go概念125"
+    "slug": "go概念125",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0126",
@@ -2643,7 +2793,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念126\n\nGo概念",
-    "slug": "go概念126"
+    "slug": "go概念126",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0127",
@@ -2664,7 +2815,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念127\n\nGo概念",
-    "slug": "go概念127"
+    "slug": "go概念127",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0128",
@@ -2685,7 +2837,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念128\n\nGo概念",
-    "slug": "go概念128"
+    "slug": "go概念128",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0129",
@@ -2706,7 +2859,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念129\n\nGo概念",
-    "slug": "go概念129"
+    "slug": "go概念129",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0130",
@@ -2727,7 +2881,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念130\n\nGo概念",
-    "slug": "go概念130"
+    "slug": "go概念130",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0131",
@@ -2748,7 +2903,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念131\n\nGo概念",
-    "slug": "go概念131"
+    "slug": "go概念131",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0132",
@@ -2769,7 +2925,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念132\n\nGo概念",
-    "slug": "go概念132"
+    "slug": "go概念132",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0133",
@@ -2790,7 +2947,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念133\n\nGo概念",
-    "slug": "go概念133"
+    "slug": "go概念133",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0134",
@@ -2811,7 +2969,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念134\n\nGo概念",
-    "slug": "go概念134"
+    "slug": "go概念134",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0135",
@@ -2832,7 +2991,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念135\n\nGo概念",
-    "slug": "go概念135"
+    "slug": "go概念135",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0136",
@@ -2853,7 +3013,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念136\n\nGo概念",
-    "slug": "go概念136"
+    "slug": "go概念136",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0137",
@@ -2874,7 +3035,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念137\n\nGo概念",
-    "slug": "go概念137"
+    "slug": "go概念137",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0138",
@@ -2895,7 +3057,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念138\n\nGo概念",
-    "slug": "go概念138"
+    "slug": "go概念138",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0139",
@@ -2916,7 +3079,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念139\n\nGo概念",
-    "slug": "go概念139"
+    "slug": "go概念139",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0140",
@@ -2937,7 +3101,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念140\n\nGo概念",
-    "slug": "go概念140"
+    "slug": "go概念140",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0141",
@@ -2958,7 +3123,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念141\n\nGo概念",
-    "slug": "go概念141"
+    "slug": "go概念141",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0142",
@@ -2979,7 +3145,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念142\n\nGo概念",
-    "slug": "go概念142"
+    "slug": "go概念142",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0143",
@@ -3000,7 +3167,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念143\n\nGo概念",
-    "slug": "go概念143"
+    "slug": "go概念143",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0144",
@@ -3021,7 +3189,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念144\n\nGo概念",
-    "slug": "go概念144"
+    "slug": "go概念144",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0145",
@@ -3042,7 +3211,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念145\n\nGo概念",
-    "slug": "go概念145"
+    "slug": "go概念145",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0146",
@@ -3063,7 +3233,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念146\n\nGo概念",
-    "slug": "go概念146"
+    "slug": "go概念146",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0147",
@@ -3084,7 +3255,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念147\n\nGo概念",
-    "slug": "go概念147"
+    "slug": "go概念147",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0148",
@@ -3105,7 +3277,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念148\n\nGo概念",
-    "slug": "go概念148"
+    "slug": "go概念148",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0149",
@@ -3126,7 +3299,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念149\n\nGo概念",
-    "slug": "go概念149"
+    "slug": "go概念149",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0150",
@@ -3147,7 +3321,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念150\n\nGo概念",
-    "slug": "go概念150"
+    "slug": "go概念150",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0151",
@@ -3168,7 +3343,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念151\n\nGo概念",
-    "slug": "go概念151"
+    "slug": "go概念151",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0152",
@@ -3189,7 +3365,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念152\n\nGo概念",
-    "slug": "go概念152"
+    "slug": "go概念152",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0153",
@@ -3210,7 +3387,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念153\n\nGo概念",
-    "slug": "go概念153"
+    "slug": "go概念153",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0154",
@@ -3231,7 +3409,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念154\n\nGo概念",
-    "slug": "go概念154"
+    "slug": "go概念154",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0155",
@@ -3252,7 +3431,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念155\n\nGo概念",
-    "slug": "go概念155"
+    "slug": "go概念155",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0156",
@@ -3273,7 +3453,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念156\n\nGo概念",
-    "slug": "go概念156"
+    "slug": "go概念156",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0157",
@@ -3294,7 +3475,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念157\n\nGo概念",
-    "slug": "go概念157"
+    "slug": "go概念157",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0158",
@@ -3315,7 +3497,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念158\n\nGo概念",
-    "slug": "go概念158"
+    "slug": "go概念158",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0159",
@@ -3336,7 +3519,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念159\n\nGo概念",
-    "slug": "go概念159"
+    "slug": "go概念159",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0160",
@@ -3357,7 +3541,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念160\n\nGo概念",
-    "slug": "go概念160"
+    "slug": "go概念160",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0161",
@@ -3378,7 +3563,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念161\n\nGo概念",
-    "slug": "go概念161"
+    "slug": "go概念161",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0162",
@@ -3399,7 +3585,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念162\n\nGo概念",
-    "slug": "go概念162"
+    "slug": "go概念162",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0163",
@@ -3420,7 +3607,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念163\n\nGo概念",
-    "slug": "go概念163"
+    "slug": "go概念163",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0164",
@@ -3441,7 +3629,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念164\n\nGo概念",
-    "slug": "go概念164"
+    "slug": "go概念164",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0165",
@@ -3462,7 +3651,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念165\n\nGo概念",
-    "slug": "go概念165"
+    "slug": "go概念165",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0166",
@@ -3483,7 +3673,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念166\n\nGo概念",
-    "slug": "go概念166"
+    "slug": "go概念166",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0167",
@@ -3504,7 +3695,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念167\n\nGo概念",
-    "slug": "go概念167"
+    "slug": "go概念167",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0168",
@@ -3525,7 +3717,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念168\n\nGo概念",
-    "slug": "go概念168"
+    "slug": "go概念168",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0169",
@@ -3546,7 +3739,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念169\n\nGo概念",
-    "slug": "go概念169"
+    "slug": "go概念169",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0170",
@@ -3567,7 +3761,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念170\n\nGo概念",
-    "slug": "go概念170"
+    "slug": "go概念170",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0171",
@@ -3588,7 +3783,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念171\n\nGo概念",
-    "slug": "go概念171"
+    "slug": "go概念171",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0172",
@@ -3609,7 +3805,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念172\n\nGo概念",
-    "slug": "go概念172"
+    "slug": "go概念172",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0173",
@@ -3630,7 +3827,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念173\n\nGo概念",
-    "slug": "go概念173"
+    "slug": "go概念173",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0174",
@@ -3651,7 +3849,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念174\n\nGo概念",
-    "slug": "go概念174"
+    "slug": "go概念174",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0175",
@@ -3672,7 +3871,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念175\n\nGo概念",
-    "slug": "go概念175"
+    "slug": "go概念175",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0176",
@@ -3693,7 +3893,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念176\n\nGo概念",
-    "slug": "go概念176"
+    "slug": "go概念176",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0177",
@@ -3714,7 +3915,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念177\n\nGo概念",
-    "slug": "go概念177"
+    "slug": "go概念177",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0178",
@@ -3735,7 +3937,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念178\n\nGo概念",
-    "slug": "go概念178"
+    "slug": "go概念178",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0179",
@@ -3756,7 +3959,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念179\n\nGo概念",
-    "slug": "go概念179"
+    "slug": "go概念179",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0180",
@@ -3777,7 +3981,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念180\n\nGo概念",
-    "slug": "go概念180"
+    "slug": "go概念180",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0181",
@@ -3798,7 +4003,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念181\n\nGo概念",
-    "slug": "go概念181"
+    "slug": "go概念181",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0182",
@@ -3819,7 +4025,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念182\n\nGo概念",
-    "slug": "go概念182"
+    "slug": "go概念182",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0183",
@@ -3840,7 +4047,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念183\n\nGo概念",
-    "slug": "go概念183"
+    "slug": "go概念183",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0184",
@@ -3861,7 +4069,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念184\n\nGo概念",
-    "slug": "go概念184"
+    "slug": "go概念184",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0185",
@@ -3882,7 +4091,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念185\n\nGo概念",
-    "slug": "go概念185"
+    "slug": "go概念185",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0186",
@@ -3903,7 +4113,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念186\n\nGo概念",
-    "slug": "go概念186"
+    "slug": "go概念186",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0187",
@@ -3924,7 +4135,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念187\n\nGo概念",
-    "slug": "go概念187"
+    "slug": "go概念187",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0188",
@@ -3945,7 +4157,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念188\n\nGo概念",
-    "slug": "go概念188"
+    "slug": "go概念188",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0189",
@@ -3966,7 +4179,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念189\n\nGo概念",
-    "slug": "go概念189"
+    "slug": "go概念189",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0190",
@@ -3987,7 +4201,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念190\n\nGo概念",
-    "slug": "go概念190"
+    "slug": "go概念190",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0191",
@@ -4008,7 +4223,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念191\n\nGo概念",
-    "slug": "go概念191"
+    "slug": "go概念191",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0192",
@@ -4029,7 +4245,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念192\n\nGo概念",
-    "slug": "go概念192"
+    "slug": "go概念192",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0193",
@@ -4050,7 +4267,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念193\n\nGo概念",
-    "slug": "go概念193"
+    "slug": "go概念193",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0194",
@@ -4071,7 +4289,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念194\n\nGo概念",
-    "slug": "go概念194"
+    "slug": "go概念194",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0195",
@@ -4092,7 +4311,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念195\n\nGo概念",
-    "slug": "go概念195"
+    "slug": "go概念195",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0196",
@@ -4113,7 +4333,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念196\n\nGo概念",
-    "slug": "go概念196"
+    "slug": "go概念196",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0197",
@@ -4134,7 +4355,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念197\n\nGo概念",
-    "slug": "go概念197"
+    "slug": "go概念197",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0198",
@@ -4155,7 +4377,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念198\n\nGo概念",
-    "slug": "go概念198"
+    "slug": "go概念198",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0199",
@@ -4176,7 +4399,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念199\n\nGo概念",
-    "slug": "go概念199"
+    "slug": "go概念199",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0200",
@@ -4197,7 +4421,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念200\n\nGo概念",
-    "slug": "go概念200"
+    "slug": "go概念200",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0201",
@@ -4218,7 +4443,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念201\n\nGo概念",
-    "slug": "go概念201"
+    "slug": "go概念201",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0202",
@@ -4239,7 +4465,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念202\n\nGo概念",
-    "slug": "go概念202"
+    "slug": "go概念202",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0203",
@@ -4260,7 +4487,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念203\n\nGo概念",
-    "slug": "go概念203"
+    "slug": "go概念203",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0204",
@@ -4281,7 +4509,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念204\n\nGo概念",
-    "slug": "go概念204"
+    "slug": "go概念204",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0205",
@@ -4302,7 +4531,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念205\n\nGo概念",
-    "slug": "go概念205"
+    "slug": "go概念205",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0206",
@@ -4323,7 +4553,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念206\n\nGo概念",
-    "slug": "go概念206"
+    "slug": "go概念206",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0207",
@@ -4344,7 +4575,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念207\n\nGo概念",
-    "slug": "go概念207"
+    "slug": "go概念207",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0208",
@@ -4365,7 +4597,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念208\n\nGo概念",
-    "slug": "go概念208"
+    "slug": "go概念208",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0209",
@@ -4386,7 +4619,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念209\n\nGo概念",
-    "slug": "go概念209"
+    "slug": "go概念209",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0210",
@@ -4407,7 +4641,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念210\n\nGo概念",
-    "slug": "go概念210"
+    "slug": "go概念210",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0211",
@@ -4428,7 +4663,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念211\n\nGo概念",
-    "slug": "go概念211"
+    "slug": "go概念211",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0212",
@@ -4449,7 +4685,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念212\n\nGo概念",
-    "slug": "go概念212"
+    "slug": "go概念212",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0213",
@@ -4470,7 +4707,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念213\n\nGo概念",
-    "slug": "go概念213"
+    "slug": "go概念213",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0214",
@@ -4491,7 +4729,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念214\n\nGo概念",
-    "slug": "go概念214"
+    "slug": "go概念214",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0215",
@@ -4512,7 +4751,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念215\n\nGo概念",
-    "slug": "go概念215"
+    "slug": "go概念215",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0216",
@@ -4533,7 +4773,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念216\n\nGo概念",
-    "slug": "go概念216"
+    "slug": "go概念216",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0217",
@@ -4554,7 +4795,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念217\n\nGo概念",
-    "slug": "go概念217"
+    "slug": "go概念217",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0218",
@@ -4575,7 +4817,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念218\n\nGo概念",
-    "slug": "go概念218"
+    "slug": "go概念218",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0219",
@@ -4596,7 +4839,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念219\n\nGo概念",
-    "slug": "go概念219"
+    "slug": "go概念219",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0220",
@@ -4617,7 +4861,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念220\n\nGo概念",
-    "slug": "go概念220"
+    "slug": "go概念220",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0221",
@@ -4638,7 +4883,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念221\n\nGo概念",
-    "slug": "go概念221"
+    "slug": "go概念221",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0222",
@@ -4659,7 +4905,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念222\n\nGo概念",
-    "slug": "go概念222"
+    "slug": "go概念222",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0223",
@@ -4680,7 +4927,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念223\n\nGo概念",
-    "slug": "go概念223"
+    "slug": "go概念223",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0224",
@@ -4701,7 +4949,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念224\n\nGo概念",
-    "slug": "go概念224"
+    "slug": "go概念224",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0225",
@@ -4722,7 +4971,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念225\n\nGo概念",
-    "slug": "go概念225"
+    "slug": "go概念225",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0226",
@@ -4743,7 +4993,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念226\n\nGo概念",
-    "slug": "go概念226"
+    "slug": "go概念226",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0227",
@@ -4764,7 +5015,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念227\n\nGo概念",
-    "slug": "go概念227"
+    "slug": "go概念227",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0228",
@@ -4785,7 +5037,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念228\n\nGo概念",
-    "slug": "go概念228"
+    "slug": "go概念228",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0229",
@@ -4806,7 +5059,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念229\n\nGo概念",
-    "slug": "go概念229"
+    "slug": "go概念229",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0230",
@@ -4827,7 +5081,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念230\n\nGo概念",
-    "slug": "go概念230"
+    "slug": "go概念230",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0231",
@@ -4848,7 +5103,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念231\n\nGo概念",
-    "slug": "go概念231"
+    "slug": "go概念231",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0232",
@@ -4869,7 +5125,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念232\n\nGo概念",
-    "slug": "go概念232"
+    "slug": "go概念232",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0233",
@@ -4890,7 +5147,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念233\n\nGo概念",
-    "slug": "go概念233"
+    "slug": "go概念233",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0234",
@@ -4911,7 +5169,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念234\n\nGo概念",
-    "slug": "go概念234"
+    "slug": "go概念234",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0235",
@@ -4932,7 +5191,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念235\n\nGo概念",
-    "slug": "go概念235"
+    "slug": "go概念235",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0236",
@@ -4953,7 +5213,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念236\n\nGo概念",
-    "slug": "go概念236"
+    "slug": "go概念236",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0237",
@@ -4974,7 +5235,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念237\n\nGo概念",
-    "slug": "go概念237"
+    "slug": "go概念237",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0238",
@@ -4995,7 +5257,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念238\n\nGo概念",
-    "slug": "go概念238"
+    "slug": "go概念238",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0239",
@@ -5016,7 +5279,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念239\n\nGo概念",
-    "slug": "go概念239"
+    "slug": "go概念239",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0240",
@@ -5037,7 +5301,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念240\n\nGo概念",
-    "slug": "go概念240"
+    "slug": "go概念240",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0241",
@@ -5058,7 +5323,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念241\n\nGo概念",
-    "slug": "go概念241"
+    "slug": "go概念241",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0242",
@@ -5079,7 +5345,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念242\n\nGo概念",
-    "slug": "go概念242"
+    "slug": "go概念242",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0243",
@@ -5100,7 +5367,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念243\n\nGo概念",
-    "slug": "go概念243"
+    "slug": "go概念243",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0244",
@@ -5121,7 +5389,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念244\n\nGo概念",
-    "slug": "go概念244"
+    "slug": "go概念244",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0245",
@@ -5142,7 +5411,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念245\n\nGo概念",
-    "slug": "go概念245"
+    "slug": "go概念245",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0246",
@@ -5163,7 +5433,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念246\n\nGo概念",
-    "slug": "go概念246"
+    "slug": "go概念246",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0247",
@@ -5184,7 +5455,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念247\n\nGo概念",
-    "slug": "go概念247"
+    "slug": "go概念247",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0248",
@@ -5205,7 +5477,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念248\n\nGo概念",
-    "slug": "go概念248"
+    "slug": "go概念248",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0249",
@@ -5226,7 +5499,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念249\n\nGo概念",
-    "slug": "go概念249"
+    "slug": "go概念249",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0250",
@@ -5247,7 +5521,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念250\n\nGo概念",
-    "slug": "go概念250"
+    "slug": "go概念250",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0251",
@@ -5268,7 +5543,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念251\n\nGo概念",
-    "slug": "go概念251"
+    "slug": "go概念251",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0252",
@@ -5289,7 +5565,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念252\n\nGo概念",
-    "slug": "go概念252"
+    "slug": "go概念252",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0253",
@@ -5310,7 +5587,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念253\n\nGo概念",
-    "slug": "go概念253"
+    "slug": "go概念253",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0254",
@@ -5331,7 +5609,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念254\n\nGo概念",
-    "slug": "go概念254"
+    "slug": "go概念254",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0255",
@@ -5352,7 +5631,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念255\n\nGo概念",
-    "slug": "go概念255"
+    "slug": "go概念255",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0256",
@@ -5373,7 +5653,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念256\n\nGo概念",
-    "slug": "go概念256"
+    "slug": "go概念256",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0257",
@@ -5394,7 +5675,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念257\n\nGo概念",
-    "slug": "go概念257"
+    "slug": "go概念257",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0258",
@@ -5415,7 +5697,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念258\n\nGo概念",
-    "slug": "go概念258"
+    "slug": "go概念258",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0259",
@@ -5436,7 +5719,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念259\n\nGo概念",
-    "slug": "go概念259"
+    "slug": "go概念259",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0260",
@@ -5457,7 +5741,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念260\n\nGo概念",
-    "slug": "go概念260"
+    "slug": "go概念260",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0261",
@@ -5478,7 +5763,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念261\n\nGo概念",
-    "slug": "go概念261"
+    "slug": "go概念261",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0262",
@@ -5499,7 +5785,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念262\n\nGo概念",
-    "slug": "go概念262"
+    "slug": "go概念262",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0263",
@@ -5520,7 +5807,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念263\n\nGo概念",
-    "slug": "go概念263"
+    "slug": "go概念263",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0264",
@@ -5541,7 +5829,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念264\n\nGo概念",
-    "slug": "go概念264"
+    "slug": "go概念264",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0265",
@@ -5562,7 +5851,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念265\n\nGo概念",
-    "slug": "go概念265"
+    "slug": "go概念265",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0266",
@@ -5583,7 +5873,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念266\n\nGo概念",
-    "slug": "go概念266"
+    "slug": "go概念266",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0267",
@@ -5604,7 +5895,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念267\n\nGo概念",
-    "slug": "go概念267"
+    "slug": "go概念267",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0268",
@@ -5625,7 +5917,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念268\n\nGo概念",
-    "slug": "go概念268"
+    "slug": "go概念268",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0269",
@@ -5646,7 +5939,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念269\n\nGo概念",
-    "slug": "go概念269"
+    "slug": "go概念269",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0270",
@@ -5667,7 +5961,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念270\n\nGo概念",
-    "slug": "go概念270"
+    "slug": "go概念270",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0271",
@@ -5688,7 +5983,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念271\n\nGo概念",
-    "slug": "go概念271"
+    "slug": "go概念271",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0272",
@@ -5709,7 +6005,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念272\n\nGo概念",
-    "slug": "go概念272"
+    "slug": "go概念272",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0273",
@@ -5730,7 +6027,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念273\n\nGo概念",
-    "slug": "go概念273"
+    "slug": "go概念273",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0274",
@@ -5751,7 +6049,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念274\n\nGo概念",
-    "slug": "go概念274"
+    "slug": "go概念274",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0275",
@@ -5772,7 +6071,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念275\n\nGo概念",
-    "slug": "go概念275"
+    "slug": "go概念275",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0276",
@@ -5793,7 +6093,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念276\n\nGo概念",
-    "slug": "go概念276"
+    "slug": "go概念276",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0277",
@@ -5814,7 +6115,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念277\n\nGo概念",
-    "slug": "go概念277"
+    "slug": "go概念277",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0278",
@@ -5835,7 +6137,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念278\n\nGo概念",
-    "slug": "go概念278"
+    "slug": "go概念278",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0279",
@@ -5856,7 +6159,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念279\n\nGo概念",
-    "slug": "go概念279"
+    "slug": "go概念279",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0280",
@@ -5877,7 +6181,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念280\n\nGo概念",
-    "slug": "go概念280"
+    "slug": "go概念280",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0281",
@@ -5898,7 +6203,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念281\n\nGo概念",
-    "slug": "go概念281"
+    "slug": "go概念281",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0282",
@@ -5919,7 +6225,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念282\n\nGo概念",
-    "slug": "go概念282"
+    "slug": "go概念282",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0283",
@@ -5940,7 +6247,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念283\n\nGo概念",
-    "slug": "go概念283"
+    "slug": "go概念283",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0284",
@@ -5961,7 +6269,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念284\n\nGo概念",
-    "slug": "go概念284"
+    "slug": "go概念284",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0285",
@@ -5982,7 +6291,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念285\n\nGo概念",
-    "slug": "go概念285"
+    "slug": "go概念285",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0286",
@@ -6003,7 +6313,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念286\n\nGo概念",
-    "slug": "go概念286"
+    "slug": "go概念286",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0287",
@@ -6024,7 +6335,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念287\n\nGo概念",
-    "slug": "go概念287"
+    "slug": "go概念287",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0288",
@@ -6045,7 +6357,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念288\n\nGo概念",
-    "slug": "go概念288"
+    "slug": "go概念288",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0289",
@@ -6066,7 +6379,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念289\n\nGo概念",
-    "slug": "go概念289"
+    "slug": "go概念289",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0290",
@@ -6087,7 +6401,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念290\n\nGo概念",
-    "slug": "go概念290"
+    "slug": "go概念290",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0291",
@@ -6108,7 +6423,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念291\n\nGo概念",
-    "slug": "go概念291"
+    "slug": "go概念291",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0292",
@@ -6129,7 +6445,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念292\n\nGo概念",
-    "slug": "go概念292"
+    "slug": "go概念292",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0293",
@@ -6150,7 +6467,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念293\n\nGo概念",
-    "slug": "go概念293"
+    "slug": "go概念293",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0294",
@@ -6171,7 +6489,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念294\n\nGo概念",
-    "slug": "go概念294"
+    "slug": "go概念294",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0295",
@@ -6192,7 +6511,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念295\n\nGo概念",
-    "slug": "go概念295"
+    "slug": "go概念295",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0296",
@@ -6213,7 +6533,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念296\n\nGo概念",
-    "slug": "go概念296"
+    "slug": "go概念296",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0297",
@@ -6234,7 +6555,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念297\n\nGo概念",
-    "slug": "go概念297"
+    "slug": "go概念297",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0298",
@@ -6255,7 +6577,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念298\n\nGo概念",
-    "slug": "go概念298"
+    "slug": "go概念298",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0299",
@@ -6276,7 +6599,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念299\n\nGo概念",
-    "slug": "go概念299"
+    "slug": "go概念299",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0300",
@@ -6297,7 +6621,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念300\n\nGo概念",
-    "slug": "go概念300"
+    "slug": "go概念300",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0301",
@@ -6318,7 +6643,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念301\n\nGo概念",
-    "slug": "go概念301"
+    "slug": "go概念301",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0302",
@@ -6339,7 +6665,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念302\n\nGo概念",
-    "slug": "go概念302"
+    "slug": "go概念302",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0303",
@@ -6360,7 +6687,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念303\n\nGo概念",
-    "slug": "go概念303"
+    "slug": "go概念303",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0304",
@@ -6381,7 +6709,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念304\n\nGo概念",
-    "slug": "go概念304"
+    "slug": "go概念304",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0305",
@@ -6402,7 +6731,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念305\n\nGo概念",
-    "slug": "go概念305"
+    "slug": "go概念305",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0306",
@@ -6423,7 +6753,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念306\n\nGo概念",
-    "slug": "go概念306"
+    "slug": "go概念306",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0307",
@@ -6444,7 +6775,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念307\n\nGo概念",
-    "slug": "go概念307"
+    "slug": "go概念307",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0308",
@@ -6465,7 +6797,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念308\n\nGo概念",
-    "slug": "go概念308"
+    "slug": "go概念308",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0309",
@@ -6486,7 +6819,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念309\n\nGo概念",
-    "slug": "go概念309"
+    "slug": "go概念309",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0310",
@@ -6507,7 +6841,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念310\n\nGo概念",
-    "slug": "go概念310"
+    "slug": "go概念310",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0311",
@@ -6528,7 +6863,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念311\n\nGo概念",
-    "slug": "go概念311"
+    "slug": "go概念311",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0312",
@@ -6549,7 +6885,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念312\n\nGo概念",
-    "slug": "go概念312"
+    "slug": "go概念312",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0313",
@@ -6570,7 +6907,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念313\n\nGo概念",
-    "slug": "go概念313"
+    "slug": "go概念313",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0314",
@@ -6591,7 +6929,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念314\n\nGo概念",
-    "slug": "go概念314"
+    "slug": "go概念314",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0315",
@@ -6612,7 +6951,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念315\n\nGo概念",
-    "slug": "go概念315"
+    "slug": "go概念315",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0316",
@@ -6633,7 +6973,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念316\n\nGo概念",
-    "slug": "go概念316"
+    "slug": "go概念316",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0317",
@@ -6654,7 +6995,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念317\n\nGo概念",
-    "slug": "go概念317"
+    "slug": "go概念317",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0318",
@@ -6675,7 +7017,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念318\n\nGo概念",
-    "slug": "go概念318"
+    "slug": "go概念318",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0319",
@@ -6696,7 +7039,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念319\n\nGo概念",
-    "slug": "go概念319"
+    "slug": "go概念319",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0320",
@@ -6717,7 +7061,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念320\n\nGo概念",
-    "slug": "go概念320"
+    "slug": "go概念320",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0321",
@@ -6738,7 +7083,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念321\n\nGo概念",
-    "slug": "go概念321"
+    "slug": "go概念321",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0322",
@@ -6759,7 +7105,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念322\n\nGo概念",
-    "slug": "go概念322"
+    "slug": "go概念322",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0323",
@@ -6780,7 +7127,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念323\n\nGo概念",
-    "slug": "go概念323"
+    "slug": "go概念323",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0324",
@@ -6801,7 +7149,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念324\n\nGo概念",
-    "slug": "go概念324"
+    "slug": "go概念324",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0325",
@@ -6822,7 +7171,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念325\n\nGo概念",
-    "slug": "go概念325"
+    "slug": "go概念325",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0326",
@@ -6843,7 +7193,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念326\n\nGo概念",
-    "slug": "go概念326"
+    "slug": "go概念326",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0327",
@@ -6864,7 +7215,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念327\n\nGo概念",
-    "slug": "go概念327"
+    "slug": "go概念327",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0328",
@@ -6885,7 +7237,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念328\n\nGo概念",
-    "slug": "go概念328"
+    "slug": "go概念328",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0329",
@@ -6906,7 +7259,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念329\n\nGo概念",
-    "slug": "go概念329"
+    "slug": "go概念329",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0330",
@@ -6927,7 +7281,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念330\n\nGo概念",
-    "slug": "go概念330"
+    "slug": "go概念330",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0331",
@@ -6948,7 +7303,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念331\n\nGo概念",
-    "slug": "go概念331"
+    "slug": "go概念331",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0332",
@@ -6969,7 +7325,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念332\n\nGo概念",
-    "slug": "go概念332"
+    "slug": "go概念332",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0333",
@@ -6990,7 +7347,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念333\n\nGo概念",
-    "slug": "go概念333"
+    "slug": "go概念333",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0334",
@@ -7011,7 +7369,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念334\n\nGo概念",
-    "slug": "go概念334"
+    "slug": "go概念334",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0335",
@@ -7032,7 +7391,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念335\n\nGo概念",
-    "slug": "go概念335"
+    "slug": "go概念335",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0336",
@@ -7053,7 +7413,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念336\n\nGo概念",
-    "slug": "go概念336"
+    "slug": "go概念336",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0337",
@@ -7074,7 +7435,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念337\n\nGo概念",
-    "slug": "go概念337"
+    "slug": "go概念337",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0338",
@@ -7095,7 +7457,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念338\n\nGo概念",
-    "slug": "go概念338"
+    "slug": "go概念338",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0339",
@@ -7116,7 +7479,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念339\n\nGo概念",
-    "slug": "go概念339"
+    "slug": "go概念339",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0340",
@@ -7137,7 +7501,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念340\n\nGo概念",
-    "slug": "go概念340"
+    "slug": "go概念340",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0341",
@@ -7158,7 +7523,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念341\n\nGo概念",
-    "slug": "go概念341"
+    "slug": "go概念341",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0342",
@@ -7179,7 +7545,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念342\n\nGo概念",
-    "slug": "go概念342"
+    "slug": "go概念342",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0343",
@@ -7200,7 +7567,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念343\n\nGo概念",
-    "slug": "go概念343"
+    "slug": "go概念343",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0344",
@@ -7221,7 +7589,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念344\n\nGo概念",
-    "slug": "go概念344"
+    "slug": "go概念344",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0345",
@@ -7242,7 +7611,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念345\n\nGo概念",
-    "slug": "go概念345"
+    "slug": "go概念345",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0346",
@@ -7263,7 +7633,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念346\n\nGo概念",
-    "slug": "go概念346"
+    "slug": "go概念346",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0347",
@@ -7284,7 +7655,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念347\n\nGo概念",
-    "slug": "go概念347"
+    "slug": "go概念347",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0348",
@@ -7305,7 +7677,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念348\n\nGo概念",
-    "slug": "go概念348"
+    "slug": "go概念348",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0349",
@@ -7326,7 +7699,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念349\n\nGo概念",
-    "slug": "go概念349"
+    "slug": "go概念349",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0350",
@@ -7347,7 +7721,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念350\n\nGo概念",
-    "slug": "go概念350"
+    "slug": "go概念350",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0351",
@@ -7368,7 +7743,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念351\n\nGo概念",
-    "slug": "go概念351"
+    "slug": "go概念351",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0352",
@@ -7389,7 +7765,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念352\n\nGo概念",
-    "slug": "go概念352"
+    "slug": "go概念352",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0353",
@@ -7410,7 +7787,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念353\n\nGo概念",
-    "slug": "go概念353"
+    "slug": "go概念353",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0354",
@@ -7431,7 +7809,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念354\n\nGo概念",
-    "slug": "go概念354"
+    "slug": "go概念354",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0355",
@@ -7452,7 +7831,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念355\n\nGo概念",
-    "slug": "go概念355"
+    "slug": "go概念355",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0356",
@@ -7473,7 +7853,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念356\n\nGo概念",
-    "slug": "go概念356"
+    "slug": "go概念356",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0357",
@@ -7494,7 +7875,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念357\n\nGo概念",
-    "slug": "go概念357"
+    "slug": "go概念357",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0358",
@@ -7515,7 +7897,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念358\n\nGo概念",
-    "slug": "go概念358"
+    "slug": "go概念358",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0359",
@@ -7536,7 +7919,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念359\n\nGo概念",
-    "slug": "go概念359"
+    "slug": "go概念359",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0360",
@@ -7557,7 +7941,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念360\n\nGo概念",
-    "slug": "go概念360"
+    "slug": "go概念360",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0361",
@@ -7578,7 +7963,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念361\n\nGo概念",
-    "slug": "go概念361"
+    "slug": "go概念361",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0362",
@@ -7599,7 +7985,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念362\n\nGo概念",
-    "slug": "go概念362"
+    "slug": "go概念362",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0363",
@@ -7620,7 +8007,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念363\n\nGo概念",
-    "slug": "go概念363"
+    "slug": "go概念363",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0364",
@@ -7641,7 +8029,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念364\n\nGo概念",
-    "slug": "go概念364"
+    "slug": "go概念364",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0365",
@@ -7662,7 +8051,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念365\n\nGo概念",
-    "slug": "go概念365"
+    "slug": "go概念365",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0366",
@@ -7683,7 +8073,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念366\n\nGo概念",
-    "slug": "go概念366"
+    "slug": "go概念366",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0367",
@@ -7704,7 +8095,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念367\n\nGo概念",
-    "slug": "go概念367"
+    "slug": "go概念367",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0368",
@@ -7725,7 +8117,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念368\n\nGo概念",
-    "slug": "go概念368"
+    "slug": "go概念368",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0369",
@@ -7746,7 +8139,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念369\n\nGo概念",
-    "slug": "go概念369"
+    "slug": "go概念369",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0370",
@@ -7767,7 +8161,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念370\n\nGo概念",
-    "slug": "go概念370"
+    "slug": "go概念370",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0371",
@@ -7788,7 +8183,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念371\n\nGo概念",
-    "slug": "go概念371"
+    "slug": "go概念371",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0372",
@@ -7809,7 +8205,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念372\n\nGo概念",
-    "slug": "go概念372"
+    "slug": "go概念372",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0373",
@@ -7830,7 +8227,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念373\n\nGo概念",
-    "slug": "go概念373"
+    "slug": "go概念373",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0374",
@@ -7851,7 +8249,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念374\n\nGo概念",
-    "slug": "go概念374"
+    "slug": "go概念374",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0375",
@@ -7872,7 +8271,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念375\n\nGo概念",
-    "slug": "go概念375"
+    "slug": "go概念375",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0376",
@@ -7893,7 +8293,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念376\n\nGo概念",
-    "slug": "go概念376"
+    "slug": "go概念376",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0377",
@@ -7914,7 +8315,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念377\n\nGo概念",
-    "slug": "go概念377"
+    "slug": "go概念377",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0378",
@@ -7935,7 +8337,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念378\n\nGo概念",
-    "slug": "go概念378"
+    "slug": "go概念378",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0379",
@@ -7956,7 +8359,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念379\n\nGo概念",
-    "slug": "go概念379"
+    "slug": "go概念379",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0380",
@@ -7977,7 +8381,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念380\n\nGo概念",
-    "slug": "go概念380"
+    "slug": "go概念380",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0381",
@@ -7998,7 +8403,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念381\n\nGo概念",
-    "slug": "go概念381"
+    "slug": "go概念381",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0382",
@@ -8019,7 +8425,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念382\n\nGo概念",
-    "slug": "go概念382"
+    "slug": "go概念382",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0383",
@@ -8040,7 +8447,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念383\n\nGo概念",
-    "slug": "go概念383"
+    "slug": "go概念383",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0384",
@@ -8061,7 +8469,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念384\n\nGo概念",
-    "slug": "go概念384"
+    "slug": "go概念384",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0385",
@@ -8082,7 +8491,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念385\n\nGo概念",
-    "slug": "go概念385"
+    "slug": "go概念385",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0386",
@@ -8103,7 +8513,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念386\n\nGo概念",
-    "slug": "go概念386"
+    "slug": "go概念386",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0387",
@@ -8124,7 +8535,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念387\n\nGo概念",
-    "slug": "go概念387"
+    "slug": "go概念387",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0388",
@@ -8145,7 +8557,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念388\n\nGo概念",
-    "slug": "go概念388"
+    "slug": "go概念388",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0389",
@@ -8166,7 +8579,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念389\n\nGo概念",
-    "slug": "go概念389"
+    "slug": "go概念389",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0390",
@@ -8187,7 +8601,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念390\n\nGo概念",
-    "slug": "go概念390"
+    "slug": "go概念390",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0391",
@@ -8208,7 +8623,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念391\n\nGo概念",
-    "slug": "go概念391"
+    "slug": "go概念391",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0392",
@@ -8229,7 +8645,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念392\n\nGo概念",
-    "slug": "go概念392"
+    "slug": "go概念392",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0393",
@@ -8250,7 +8667,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念393\n\nGo概念",
-    "slug": "go概念393"
+    "slug": "go概念393",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0394",
@@ -8271,7 +8689,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念394\n\nGo概念",
-    "slug": "go概念394"
+    "slug": "go概念394",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0395",
@@ -8292,7 +8711,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念395\n\nGo概念",
-    "slug": "go概念395"
+    "slug": "go概念395",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0396",
@@ -8313,7 +8733,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念396\n\nGo概念",
-    "slug": "go概念396"
+    "slug": "go概念396",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0397",
@@ -8334,7 +8755,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念397\n\nGo概念",
-    "slug": "go概念397"
+    "slug": "go概念397",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0398",
@@ -8355,7 +8777,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念398\n\nGo概念",
-    "slug": "go概念398"
+    "slug": "go概念398",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0399",
@@ -8376,7 +8799,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念399\n\nGo概念",
-    "slug": "go概念399"
+    "slug": "go概念399",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0400",
@@ -8397,7 +8821,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念400\n\nGo概念",
-    "slug": "go概念400"
+    "slug": "go概念400",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0401",
@@ -8418,7 +8843,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念401\n\nGo概念",
-    "slug": "go概念401"
+    "slug": "go概念401",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0402",
@@ -8439,7 +8865,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念402\n\nGo概念",
-    "slug": "go概念402"
+    "slug": "go概念402",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0403",
@@ -8460,7 +8887,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念403\n\nGo概念",
-    "slug": "go概念403"
+    "slug": "go概念403",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0404",
@@ -8481,7 +8909,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念404\n\nGo概念",
-    "slug": "go概念404"
+    "slug": "go概念404",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0405",
@@ -8502,7 +8931,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念405\n\nGo概念",
-    "slug": "go概念405"
+    "slug": "go概念405",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0406",
@@ -8523,7 +8953,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念406\n\nGo概念",
-    "slug": "go概念406"
+    "slug": "go概念406",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0407",
@@ -8544,7 +8975,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念407\n\nGo概念",
-    "slug": "go概念407"
+    "slug": "go概念407",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0408",
@@ -8565,7 +8997,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念408\n\nGo概念",
-    "slug": "go概念408"
+    "slug": "go概念408",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0409",
@@ -8586,7 +9019,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念409\n\nGo概念",
-    "slug": "go概念409"
+    "slug": "go概念409",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0410",
@@ -8607,7 +9041,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念410\n\nGo概念",
-    "slug": "go概念410"
+    "slug": "go概念410",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0411",
@@ -8628,7 +9063,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念411\n\nGo概念",
-    "slug": "go概念411"
+    "slug": "go概念411",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0412",
@@ -8649,7 +9085,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念412\n\nGo概念",
-    "slug": "go概念412"
+    "slug": "go概念412",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0413",
@@ -8670,7 +9107,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念413\n\nGo概念",
-    "slug": "go概念413"
+    "slug": "go概念413",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0414",
@@ -8691,7 +9129,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念414\n\nGo概念",
-    "slug": "go概念414"
+    "slug": "go概念414",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0415",
@@ -8712,7 +9151,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念415\n\nGo概念",
-    "slug": "go概念415"
+    "slug": "go概念415",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0416",
@@ -8733,7 +9173,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念416\n\nGo概念",
-    "slug": "go概念416"
+    "slug": "go概念416",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0417",
@@ -8754,7 +9195,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念417\n\nGo概念",
-    "slug": "go概念417"
+    "slug": "go概念417",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0418",
@@ -8775,7 +9217,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念418\n\nGo概念",
-    "slug": "go概念418"
+    "slug": "go概念418",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0419",
@@ -8796,7 +9239,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念419\n\nGo概念",
-    "slug": "go概念419"
+    "slug": "go概念419",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0420",
@@ -8817,7 +9261,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念420\n\nGo概念",
-    "slug": "go概念420"
+    "slug": "go概念420",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0421",
@@ -8838,7 +9283,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念421\n\nGo概念",
-    "slug": "go概念421"
+    "slug": "go概念421",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0422",
@@ -8859,7 +9305,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念422\n\nGo概念",
-    "slug": "go概念422"
+    "slug": "go概念422",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0423",
@@ -8880,7 +9327,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念423\n\nGo概念",
-    "slug": "go概念423"
+    "slug": "go概念423",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0424",
@@ -8901,7 +9349,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念424\n\nGo概念",
-    "slug": "go概念424"
+    "slug": "go概念424",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0425",
@@ -8922,7 +9371,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念425\n\nGo概念",
-    "slug": "go概念425"
+    "slug": "go概念425",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0426",
@@ -8943,7 +9393,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念426\n\nGo概念",
-    "slug": "go概念426"
+    "slug": "go概念426",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0427",
@@ -8964,7 +9415,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念427\n\nGo概念",
-    "slug": "go概念427"
+    "slug": "go概念427",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0428",
@@ -8985,7 +9437,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念428\n\nGo概念",
-    "slug": "go概念428"
+    "slug": "go概念428",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0429",
@@ -9006,7 +9459,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念429\n\nGo概念",
-    "slug": "go概念429"
+    "slug": "go概念429",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0430",
@@ -9027,7 +9481,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念430\n\nGo概念",
-    "slug": "go概念430"
+    "slug": "go概念430",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0431",
@@ -9048,7 +9503,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念431\n\nGo概念",
-    "slug": "go概念431"
+    "slug": "go概念431",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0432",
@@ -9069,7 +9525,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念432\n\nGo概念",
-    "slug": "go概念432"
+    "slug": "go概念432",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0433",
@@ -9090,7 +9547,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念433\n\nGo概念",
-    "slug": "go概念433"
+    "slug": "go概念433",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0434",
@@ -9111,7 +9569,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念434\n\nGo概念",
-    "slug": "go概念434"
+    "slug": "go概念434",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0435",
@@ -9132,7 +9591,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念435\n\nGo概念",
-    "slug": "go概念435"
+    "slug": "go概念435",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0436",
@@ -9153,7 +9613,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念436\n\nGo概念",
-    "slug": "go概念436"
+    "slug": "go概念436",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0437",
@@ -9174,7 +9635,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念437\n\nGo概念",
-    "slug": "go概念437"
+    "slug": "go概念437",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0438",
@@ -9195,7 +9657,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念438\n\nGo概念",
-    "slug": "go概念438"
+    "slug": "go概念438",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0439",
@@ -9216,7 +9679,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念439\n\nGo概念",
-    "slug": "go概念439"
+    "slug": "go概念439",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0440",
@@ -9237,7 +9701,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念440\n\nGo概念",
-    "slug": "go概念440"
+    "slug": "go概念440",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0441",
@@ -9258,7 +9723,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念441\n\nGo概念",
-    "slug": "go概念441"
+    "slug": "go概念441",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0442",
@@ -9279,7 +9745,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念442\n\nGo概念",
-    "slug": "go概念442"
+    "slug": "go概念442",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0443",
@@ -9300,7 +9767,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念443\n\nGo概念",
-    "slug": "go概念443"
+    "slug": "go概念443",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0444",
@@ -9321,7 +9789,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念444\n\nGo概念",
-    "slug": "go概念444"
+    "slug": "go概念444",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0445",
@@ -9342,7 +9811,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念445\n\nGo概念",
-    "slug": "go概念445"
+    "slug": "go概念445",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0446",
@@ -9363,7 +9833,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念446\n\nGo概念",
-    "slug": "go概念446"
+    "slug": "go概念446",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0447",
@@ -9384,7 +9855,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念447\n\nGo概念",
-    "slug": "go概念447"
+    "slug": "go概念447",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0448",
@@ -9405,7 +9877,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念448\n\nGo概念",
-    "slug": "go概念448"
+    "slug": "go概念448",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0449",
@@ -9426,7 +9899,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念449\n\nGo概念",
-    "slug": "go概念449"
+    "slug": "go概念449",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0450",
@@ -9447,7 +9921,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念450\n\nGo概念",
-    "slug": "go概念450"
+    "slug": "go概念450",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0451",
@@ -9468,7 +9943,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念451\n\nGo概念",
-    "slug": "go概念451"
+    "slug": "go概念451",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0452",
@@ -9489,7 +9965,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念452\n\nGo概念",
-    "slug": "go概念452"
+    "slug": "go概念452",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0453",
@@ -9510,7 +9987,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念453\n\nGo概念",
-    "slug": "go概念453"
+    "slug": "go概念453",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0454",
@@ -9531,7 +10009,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念454\n\nGo概念",
-    "slug": "go概念454"
+    "slug": "go概念454",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0455",
@@ -9552,7 +10031,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念455\n\nGo概念",
-    "slug": "go概念455"
+    "slug": "go概念455",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0456",
@@ -9573,7 +10053,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念456\n\nGo概念",
-    "slug": "go概念456"
+    "slug": "go概念456",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0457",
@@ -9594,7 +10075,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念457\n\nGo概念",
-    "slug": "go概念457"
+    "slug": "go概念457",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0458",
@@ -9615,7 +10097,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念458\n\nGo概念",
-    "slug": "go概念458"
+    "slug": "go概念458",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0459",
@@ -9636,7 +10119,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念459\n\nGo概念",
-    "slug": "go概念459"
+    "slug": "go概念459",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0460",
@@ -9657,7 +10141,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念460\n\nGo概念",
-    "slug": "go概念460"
+    "slug": "go概念460",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0461",
@@ -9678,7 +10163,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念461\n\nGo概念",
-    "slug": "go概念461"
+    "slug": "go概念461",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0462",
@@ -9699,7 +10185,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念462\n\nGo概念",
-    "slug": "go概念462"
+    "slug": "go概念462",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0463",
@@ -9720,7 +10207,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念463\n\nGo概念",
-    "slug": "go概念463"
+    "slug": "go概念463",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0464",
@@ -9741,7 +10229,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念464\n\nGo概念",
-    "slug": "go概念464"
+    "slug": "go概念464",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0465",
@@ -9762,7 +10251,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念465\n\nGo概念",
-    "slug": "go概念465"
+    "slug": "go概念465",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0466",
@@ -9783,7 +10273,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念466\n\nGo概念",
-    "slug": "go概念466"
+    "slug": "go概念466",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0467",
@@ -9804,7 +10295,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念467\n\nGo概念",
-    "slug": "go概念467"
+    "slug": "go概念467",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0468",
@@ -9825,7 +10317,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念468\n\nGo概念",
-    "slug": "go概念468"
+    "slug": "go概念468",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0469",
@@ -9846,7 +10339,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念469\n\nGo概念",
-    "slug": "go概念469"
+    "slug": "go概念469",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0470",
@@ -9867,7 +10361,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念470\n\nGo概念",
-    "slug": "go概念470"
+    "slug": "go概念470",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0471",
@@ -9888,7 +10383,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念471\n\nGo概念",
-    "slug": "go概念471"
+    "slug": "go概念471",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0472",
@@ -9909,7 +10405,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念472\n\nGo概念",
-    "slug": "go概念472"
+    "slug": "go概念472",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0473",
@@ -9930,7 +10427,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念473\n\nGo概念",
-    "slug": "go概念473"
+    "slug": "go概念473",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0474",
@@ -9951,7 +10449,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念474\n\nGo概念",
-    "slug": "go概念474"
+    "slug": "go概念474",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0475",
@@ -9972,7 +10471,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念475\n\nGo概念",
-    "slug": "go概念475"
+    "slug": "go概念475",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0476",
@@ -9993,7 +10493,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念476\n\nGo概念",
-    "slug": "go概念476"
+    "slug": "go概念476",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0477",
@@ -10014,7 +10515,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念477\n\nGo概念",
-    "slug": "go概念477"
+    "slug": "go概念477",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0478",
@@ -10035,7 +10537,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念478\n\nGo概念",
-    "slug": "go概念478"
+    "slug": "go概念478",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0479",
@@ -10056,7 +10559,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念479\n\nGo概念",
-    "slug": "go概念479"
+    "slug": "go概念479",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0480",
@@ -10077,7 +10581,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念480\n\nGo概念",
-    "slug": "go概念480"
+    "slug": "go概念480",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0481",
@@ -10098,7 +10603,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念481\n\nGo概念",
-    "slug": "go概念481"
+    "slug": "go概念481",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0482",
@@ -10119,7 +10625,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念482\n\nGo概念",
-    "slug": "go概念482"
+    "slug": "go概念482",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0483",
@@ -10140,7 +10647,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念483\n\nGo概念",
-    "slug": "go概念483"
+    "slug": "go概念483",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0484",
@@ -10161,7 +10669,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念484\n\nGo概念",
-    "slug": "go概念484"
+    "slug": "go概念484",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0485",
@@ -10182,7 +10691,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念485\n\nGo概念",
-    "slug": "go概念485"
+    "slug": "go概念485",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0486",
@@ -10203,7 +10713,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念486\n\nGo概念",
-    "slug": "go概念486"
+    "slug": "go概念486",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0487",
@@ -10224,7 +10735,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念487\n\nGo概念",
-    "slug": "go概念487"
+    "slug": "go概念487",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0488",
@@ -10245,7 +10757,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念488\n\nGo概念",
-    "slug": "go概念488"
+    "slug": "go概念488",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0489",
@@ -10266,7 +10779,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念489\n\nGo概念",
-    "slug": "go概念489"
+    "slug": "go概念489",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0490",
@@ -10287,7 +10801,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念490\n\nGo概念",
-    "slug": "go概念490"
+    "slug": "go概念490",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0491",
@@ -10308,7 +10823,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念491\n\nGo概念",
-    "slug": "go概念491"
+    "slug": "go概念491",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0492",
@@ -10329,7 +10845,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念492\n\nGo概念",
-    "slug": "go概念492"
+    "slug": "go概念492",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0493",
@@ -10350,7 +10867,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念493\n\nGo概念",
-    "slug": "go概念493"
+    "slug": "go概念493",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0494",
@@ -10371,7 +10889,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念494\n\nGo概念",
-    "slug": "go概念494"
+    "slug": "go概念494",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0495",
@@ -10392,7 +10911,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念495\n\nGo概念",
-    "slug": "go概念495"
+    "slug": "go概念495",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0496",
@@ -10413,7 +10933,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念496\n\nGo概念",
-    "slug": "go概念496"
+    "slug": "go概念496",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0497",
@@ -10434,7 +10955,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念497\n\nGo概念",
-    "slug": "go概念497"
+    "slug": "go概念497",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0498",
@@ -10455,7 +10977,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念498\n\nGo概念",
-    "slug": "go概念498"
+    "slug": "go概念498",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0499",
@@ -10476,7 +10999,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念499\n\nGo概念",
-    "slug": "go概念499"
+    "slug": "go概念499",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0500",
@@ -10497,7 +11021,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念500\n\nGo概念",
-    "slug": "go概念500"
+    "slug": "go概念500",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0501",
@@ -10518,7 +11043,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念501\n\nGo概念",
-    "slug": "go概念501"
+    "slug": "go概念501",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0502",
@@ -10539,7 +11065,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念502\n\nGo概念",
-    "slug": "go概念502"
+    "slug": "go概念502",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0503",
@@ -10560,7 +11087,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念503\n\nGo概念",
-    "slug": "go概念503"
+    "slug": "go概念503",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0504",
@@ -10581,7 +11109,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念504\n\nGo概念",
-    "slug": "go概念504"
+    "slug": "go概念504",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0505",
@@ -10602,7 +11131,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念505\n\nGo概念",
-    "slug": "go概念505"
+    "slug": "go概念505",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0506",
@@ -10623,7 +11153,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念506\n\nGo概念",
-    "slug": "go概念506"
+    "slug": "go概念506",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0507",
@@ -10644,7 +11175,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念507\n\nGo概念",
-    "slug": "go概念507"
+    "slug": "go概念507",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0508",
@@ -10665,7 +11197,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念508\n\nGo概念",
-    "slug": "go概念508"
+    "slug": "go概念508",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0509",
@@ -10686,7 +11219,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念509\n\nGo概念",
-    "slug": "go概念509"
+    "slug": "go概念509",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0510",
@@ -10707,7 +11241,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念510\n\nGo概念",
-    "slug": "go概念510"
+    "slug": "go概念510",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0511",
@@ -10728,7 +11263,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念511\n\nGo概念",
-    "slug": "go概念511"
+    "slug": "go概念511",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0512",
@@ -10749,7 +11285,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念512\n\nGo概念",
-    "slug": "go概念512"
+    "slug": "go概念512",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0513",
@@ -10770,7 +11307,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念513\n\nGo概念",
-    "slug": "go概念513"
+    "slug": "go概念513",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0514",
@@ -10791,7 +11329,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念514\n\nGo概念",
-    "slug": "go概念514"
+    "slug": "go概念514",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0515",
@@ -10812,7 +11351,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念515\n\nGo概念",
-    "slug": "go概念515"
+    "slug": "go概念515",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0516",
@@ -10833,7 +11373,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念516\n\nGo概念",
-    "slug": "go概念516"
+    "slug": "go概念516",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0517",
@@ -10854,7 +11395,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念517\n\nGo概念",
-    "slug": "go概念517"
+    "slug": "go概念517",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0518",
@@ -10875,7 +11417,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念518\n\nGo概念",
-    "slug": "go概念518"
+    "slug": "go概念518",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0519",
@@ -10896,7 +11439,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念519\n\nGo概念",
-    "slug": "go概念519"
+    "slug": "go概念519",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0520",
@@ -10917,7 +11461,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念520\n\nGo概念",
-    "slug": "go概念520"
+    "slug": "go概念520",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0521",
@@ -10938,7 +11483,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念521\n\nGo概念",
-    "slug": "go概念521"
+    "slug": "go概念521",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0522",
@@ -10959,7 +11505,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念522\n\nGo概念",
-    "slug": "go概念522"
+    "slug": "go概念522",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0523",
@@ -10980,7 +11527,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念523\n\nGo概念",
-    "slug": "go概念523"
+    "slug": "go概念523",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0524",
@@ -11001,7 +11549,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念524\n\nGo概念",
-    "slug": "go概念524"
+    "slug": "go概念524",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0525",
@@ -11022,7 +11571,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念525\n\nGo概念",
-    "slug": "go概念525"
+    "slug": "go概念525",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0526",
@@ -11043,7 +11593,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念526\n\nGo概念",
-    "slug": "go概念526"
+    "slug": "go概念526",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0527",
@@ -11064,7 +11615,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念527\n\nGo概念",
-    "slug": "go概念527"
+    "slug": "go概念527",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0528",
@@ -11085,7 +11637,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念528\n\nGo概念",
-    "slug": "go概念528"
+    "slug": "go概念528",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0529",
@@ -11106,7 +11659,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念529\n\nGo概念",
-    "slug": "go概念529"
+    "slug": "go概念529",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0530",
@@ -11127,7 +11681,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念530\n\nGo概念",
-    "slug": "go概念530"
+    "slug": "go概念530",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0531",
@@ -11148,7 +11703,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念531\n\nGo概念",
-    "slug": "go概念531"
+    "slug": "go概念531",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0532",
@@ -11169,7 +11725,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念532\n\nGo概念",
-    "slug": "go概念532"
+    "slug": "go概念532",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0533",
@@ -11190,7 +11747,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念533\n\nGo概念",
-    "slug": "go概念533"
+    "slug": "go概念533",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0534",
@@ -11211,7 +11769,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念534\n\nGo概念",
-    "slug": "go概念534"
+    "slug": "go概念534",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0535",
@@ -11232,7 +11791,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念535\n\nGo概念",
-    "slug": "go概念535"
+    "slug": "go概念535",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0536",
@@ -11253,7 +11813,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念536\n\nGo概念",
-    "slug": "go概念536"
+    "slug": "go概念536",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0537",
@@ -11274,7 +11835,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念537\n\nGo概念",
-    "slug": "go概念537"
+    "slug": "go概念537",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0538",
@@ -11295,7 +11857,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念538\n\nGo概念",
-    "slug": "go概念538"
+    "slug": "go概念538",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0539",
@@ -11316,7 +11879,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念539\n\nGo概念",
-    "slug": "go概念539"
+    "slug": "go概念539",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0540",
@@ -11337,7 +11901,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念540\n\nGo概念",
-    "slug": "go概念540"
+    "slug": "go概念540",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0541",
@@ -11358,7 +11923,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念541\n\nGo概念",
-    "slug": "go概念541"
+    "slug": "go概念541",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0542",
@@ -11379,7 +11945,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念542\n\nGo概念",
-    "slug": "go概念542"
+    "slug": "go概念542",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0543",
@@ -11400,7 +11967,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念543\n\nGo概念",
-    "slug": "go概念543"
+    "slug": "go概念543",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0544",
@@ -11421,7 +11989,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念544\n\nGo概念",
-    "slug": "go概念544"
+    "slug": "go概念544",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0545",
@@ -11442,7 +12011,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念545\n\nGo概念",
-    "slug": "go概念545"
+    "slug": "go概念545",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0546",
@@ -11463,7 +12033,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念546\n\nGo概念",
-    "slug": "go概念546"
+    "slug": "go概念546",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0547",
@@ -11484,7 +12055,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念547\n\nGo概念",
-    "slug": "go概念547"
+    "slug": "go概念547",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0548",
@@ -11505,7 +12077,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念548\n\nGo概念",
-    "slug": "go概念548"
+    "slug": "go概念548",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0549",
@@ -11526,7 +12099,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念549\n\nGo概念",
-    "slug": "go概念549"
+    "slug": "go概念549",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0550",
@@ -11547,7 +12121,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念550\n\nGo概念",
-    "slug": "go概念550"
+    "slug": "go概念550",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0551",
@@ -11568,7 +12143,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念551\n\nGo概念",
-    "slug": "go概念551"
+    "slug": "go概念551",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0552",
@@ -11589,7 +12165,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念552\n\nGo概念",
-    "slug": "go概念552"
+    "slug": "go概念552",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0553",
@@ -11610,7 +12187,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念553\n\nGo概念",
-    "slug": "go概念553"
+    "slug": "go概念553",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0554",
@@ -11631,7 +12209,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念554\n\nGo概念",
-    "slug": "go概念554"
+    "slug": "go概念554",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0555",
@@ -11652,7 +12231,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念555\n\nGo概念",
-    "slug": "go概念555"
+    "slug": "go概念555",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0556",
@@ -11673,7 +12253,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念556\n\nGo概念",
-    "slug": "go概念556"
+    "slug": "go概念556",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0557",
@@ -11694,7 +12275,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念557\n\nGo概念",
-    "slug": "go概念557"
+    "slug": "go概念557",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0558",
@@ -11715,7 +12297,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念558\n\nGo概念",
-    "slug": "go概念558"
+    "slug": "go概念558",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0559",
@@ -11736,7 +12319,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念559\n\nGo概念",
-    "slug": "go概念559"
+    "slug": "go概念559",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0560",
@@ -11757,7 +12341,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念560\n\nGo概念",
-    "slug": "go概念560"
+    "slug": "go概念560",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0561",
@@ -11778,7 +12363,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念561\n\nGo概念",
-    "slug": "go概念561"
+    "slug": "go概念561",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0562",
@@ -11799,7 +12385,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念562\n\nGo概念",
-    "slug": "go概念562"
+    "slug": "go概念562",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0563",
@@ -11820,7 +12407,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念563\n\nGo概念",
-    "slug": "go概念563"
+    "slug": "go概念563",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0564",
@@ -11841,7 +12429,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念564\n\nGo概念",
-    "slug": "go概念564"
+    "slug": "go概念564",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0565",
@@ -11862,7 +12451,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念565\n\nGo概念",
-    "slug": "go概念565"
+    "slug": "go概念565",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0566",
@@ -11883,7 +12473,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念566\n\nGo概念",
-    "slug": "go概念566"
+    "slug": "go概念566",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0567",
@@ -11904,7 +12495,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念567\n\nGo概念",
-    "slug": "go概念567"
+    "slug": "go概念567",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0568",
@@ -11925,7 +12517,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念568\n\nGo概念",
-    "slug": "go概念568"
+    "slug": "go概念568",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0569",
@@ -11946,7 +12539,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念569\n\nGo概念",
-    "slug": "go概念569"
+    "slug": "go概念569",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0570",
@@ -11967,7 +12561,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念570\n\nGo概念",
-    "slug": "go概念570"
+    "slug": "go概念570",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0571",
@@ -11988,7 +12583,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念571\n\nGo概念",
-    "slug": "go概念571"
+    "slug": "go概念571",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0572",
@@ -12009,7 +12605,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念572\n\nGo概念",
-    "slug": "go概念572"
+    "slug": "go概念572",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0573",
@@ -12030,7 +12627,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念573\n\nGo概念",
-    "slug": "go概念573"
+    "slug": "go概念573",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0574",
@@ -12051,7 +12649,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念574\n\nGo概念",
-    "slug": "go概念574"
+    "slug": "go概念574",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0575",
@@ -12072,7 +12671,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念575\n\nGo概念",
-    "slug": "go概念575"
+    "slug": "go概念575",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0576",
@@ -12093,7 +12693,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念576\n\nGo概念",
-    "slug": "go概念576"
+    "slug": "go概念576",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0577",
@@ -12114,7 +12715,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念577\n\nGo概念",
-    "slug": "go概念577"
+    "slug": "go概念577",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0578",
@@ -12135,7 +12737,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念578\n\nGo概念",
-    "slug": "go概念578"
+    "slug": "go概念578",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0579",
@@ -12156,7 +12759,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念579\n\nGo概念",
-    "slug": "go概念579"
+    "slug": "go概念579",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0580",
@@ -12177,7 +12781,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念580\n\nGo概念",
-    "slug": "go概念580"
+    "slug": "go概念580",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0581",
@@ -12198,7 +12803,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念581\n\nGo概念",
-    "slug": "go概念581"
+    "slug": "go概念581",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0582",
@@ -12219,7 +12825,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念582\n\nGo概念",
-    "slug": "go概念582"
+    "slug": "go概念582",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0583",
@@ -12240,7 +12847,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念583\n\nGo概念",
-    "slug": "go概念583"
+    "slug": "go概念583",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0584",
@@ -12261,7 +12869,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念584\n\nGo概念",
-    "slug": "go概念584"
+    "slug": "go概念584",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0585",
@@ -12282,7 +12891,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念585\n\nGo概念",
-    "slug": "go概念585"
+    "slug": "go概念585",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0586",
@@ -12303,7 +12913,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念586\n\nGo概念",
-    "slug": "go概念586"
+    "slug": "go概念586",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0587",
@@ -12324,7 +12935,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念587\n\nGo概念",
-    "slug": "go概念587"
+    "slug": "go概念587",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0588",
@@ -12345,7 +12957,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念588\n\nGo概念",
-    "slug": "go概念588"
+    "slug": "go概念588",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0589",
@@ -12366,7 +12979,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念589\n\nGo概念",
-    "slug": "go概念589"
+    "slug": "go概念589",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0590",
@@ -12387,7 +13001,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念590\n\nGo概念",
-    "slug": "go概念590"
+    "slug": "go概念590",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0591",
@@ -12408,7 +13023,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念591\n\nGo概念",
-    "slug": "go概念591"
+    "slug": "go概念591",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0592",
@@ -12429,7 +13045,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念592\n\nGo概念",
-    "slug": "go概念592"
+    "slug": "go概念592",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0593",
@@ -12450,7 +13067,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念593\n\nGo概念",
-    "slug": "go概念593"
+    "slug": "go概念593",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0594",
@@ -12471,7 +13089,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念594\n\nGo概念",
-    "slug": "go概念594"
+    "slug": "go概念594",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0595",
@@ -12492,7 +13111,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念595\n\nGo概念",
-    "slug": "go概念595"
+    "slug": "go概念595",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0596",
@@ -12513,7 +13133,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念596\n\nGo概念",
-    "slug": "go概念596"
+    "slug": "go概念596",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0597",
@@ -12534,7 +13155,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念597\n\nGo概念",
-    "slug": "go概念597"
+    "slug": "go概念597",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0598",
@@ -12555,7 +13177,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念598\n\nGo概念",
-    "slug": "go概念598"
+    "slug": "go概念598",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0599",
@@ -12576,7 +13199,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念599\n\nGo概念",
-    "slug": "go概念599"
+    "slug": "go概念599",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0600",
@@ -12597,7 +13221,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念600\n\nGo概念",
-    "slug": "go概念600"
+    "slug": "go概念600",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0601",
@@ -12618,7 +13243,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念601\n\nGo概念",
-    "slug": "go概念601"
+    "slug": "go概念601",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0602",
@@ -12639,7 +13265,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念602\n\nGo概念",
-    "slug": "go概念602"
+    "slug": "go概念602",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0603",
@@ -12660,7 +13287,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念603\n\nGo概念",
-    "slug": "go概念603"
+    "slug": "go概念603",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0604",
@@ -12681,7 +13309,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念604\n\nGo概念",
-    "slug": "go概念604"
+    "slug": "go概念604",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0605",
@@ -12702,7 +13331,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念605\n\nGo概念",
-    "slug": "go概念605"
+    "slug": "go概念605",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0606",
@@ -12723,7 +13353,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念606\n\nGo概念",
-    "slug": "go概念606"
+    "slug": "go概念606",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0607",
@@ -12744,7 +13375,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念607\n\nGo概念",
-    "slug": "go概念607"
+    "slug": "go概念607",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0608",
@@ -12765,7 +13397,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念608\n\nGo概念",
-    "slug": "go概念608"
+    "slug": "go概念608",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0609",
@@ -12786,7 +13419,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念609\n\nGo概念",
-    "slug": "go概念609"
+    "slug": "go概念609",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0610",
@@ -12807,7 +13441,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念610\n\nGo概念",
-    "slug": "go概念610"
+    "slug": "go概念610",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0611",
@@ -12828,7 +13463,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念611\n\nGo概念",
-    "slug": "go概念611"
+    "slug": "go概念611",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0612",
@@ -12849,7 +13485,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念612\n\nGo概念",
-    "slug": "go概念612"
+    "slug": "go概念612",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0613",
@@ -12870,7 +13507,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念613\n\nGo概念",
-    "slug": "go概念613"
+    "slug": "go概念613",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0614",
@@ -12891,7 +13529,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念614\n\nGo概念",
-    "slug": "go概念614"
+    "slug": "go概念614",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0615",
@@ -12912,7 +13551,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念615\n\nGo概念",
-    "slug": "go概念615"
+    "slug": "go概念615",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0616",
@@ -12933,7 +13573,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念616\n\nGo概念",
-    "slug": "go概念616"
+    "slug": "go概念616",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0617",
@@ -12954,7 +13595,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念617\n\nGo概念",
-    "slug": "go概念617"
+    "slug": "go概念617",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0618",
@@ -12975,7 +13617,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念618\n\nGo概念",
-    "slug": "go概念618"
+    "slug": "go概念618",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0619",
@@ -12996,7 +13639,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念619\n\nGo概念",
-    "slug": "go概念619"
+    "slug": "go概念619",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0620",
@@ -13017,7 +13661,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念620\n\nGo概念",
-    "slug": "go概念620"
+    "slug": "go概念620",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0621",
@@ -13038,7 +13683,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念621\n\nGo概念",
-    "slug": "go概念621"
+    "slug": "go概念621",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0622",
@@ -13059,7 +13705,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念622\n\nGo概念",
-    "slug": "go概念622"
+    "slug": "go概念622",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0623",
@@ -13080,7 +13727,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念623\n\nGo概念",
-    "slug": "go概念623"
+    "slug": "go概念623",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0624",
@@ -13101,7 +13749,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念624\n\nGo概念",
-    "slug": "go概念624"
+    "slug": "go概念624",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0625",
@@ -13122,7 +13771,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念625\n\nGo概念",
-    "slug": "go概念625"
+    "slug": "go概念625",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0626",
@@ -13143,7 +13793,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念626\n\nGo概念",
-    "slug": "go概念626"
+    "slug": "go概念626",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0627",
@@ -13164,7 +13815,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念627\n\nGo概念",
-    "slug": "go概念627"
+    "slug": "go概念627",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0628",
@@ -13185,7 +13837,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念628\n\nGo概念",
-    "slug": "go概念628"
+    "slug": "go概念628",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0629",
@@ -13206,7 +13859,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念629\n\nGo概念",
-    "slug": "go概念629"
+    "slug": "go概念629",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0630",
@@ -13227,7 +13881,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念630\n\nGo概念",
-    "slug": "go概念630"
+    "slug": "go概念630",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0631",
@@ -13248,7 +13903,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念631\n\nGo概念",
-    "slug": "go概念631"
+    "slug": "go概念631",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0632",
@@ -13269,7 +13925,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念632\n\nGo概念",
-    "slug": "go概念632"
+    "slug": "go概念632",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0633",
@@ -13290,7 +13947,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念633\n\nGo概念",
-    "slug": "go概念633"
+    "slug": "go概念633",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0634",
@@ -13311,7 +13969,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念634\n\nGo概念",
-    "slug": "go概念634"
+    "slug": "go概念634",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0635",
@@ -13332,7 +13991,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念635\n\nGo概念",
-    "slug": "go概念635"
+    "slug": "go概念635",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0636",
@@ -13353,7 +14013,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念636\n\nGo概念",
-    "slug": "go概念636"
+    "slug": "go概念636",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0637",
@@ -13374,7 +14035,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念637\n\nGo概念",
-    "slug": "go概念637"
+    "slug": "go概念637",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0638",
@@ -13395,7 +14057,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念638\n\nGo概念",
-    "slug": "go概念638"
+    "slug": "go概念638",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0639",
@@ -13416,7 +14079,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念639\n\nGo概念",
-    "slug": "go概念639"
+    "slug": "go概念639",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0640",
@@ -13437,7 +14101,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念640\n\nGo概念",
-    "slug": "go概念640"
+    "slug": "go概念640",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0641",
@@ -13458,7 +14123,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念641\n\nGo概念",
-    "slug": "go概念641"
+    "slug": "go概念641",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0642",
@@ -13479,7 +14145,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念642\n\nGo概念",
-    "slug": "go概念642"
+    "slug": "go概念642",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0643",
@@ -13500,7 +14167,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念643\n\nGo概念",
-    "slug": "go概念643"
+    "slug": "go概念643",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0644",
@@ -13521,7 +14189,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念644\n\nGo概念",
-    "slug": "go概念644"
+    "slug": "go概念644",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0645",
@@ -13542,7 +14211,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念645\n\nGo概念",
-    "slug": "go概念645"
+    "slug": "go概念645",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0646",
@@ -13563,7 +14233,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念646\n\nGo概念",
-    "slug": "go概念646"
+    "slug": "go概念646",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0647",
@@ -13584,7 +14255,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念647\n\nGo概念",
-    "slug": "go概念647"
+    "slug": "go概念647",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0648",
@@ -13605,7 +14277,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念648\n\nGo概念",
-    "slug": "go概念648"
+    "slug": "go概念648",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0649",
@@ -13626,7 +14299,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念649\n\nGo概念",
-    "slug": "go概念649"
+    "slug": "go概念649",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0650",
@@ -13647,7 +14321,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念650\n\nGo概念",
-    "slug": "go概念650"
+    "slug": "go概念650",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0651",
@@ -13668,7 +14343,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念651\n\nGo概念",
-    "slug": "go概念651"
+    "slug": "go概念651",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0652",
@@ -13689,7 +14365,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念652\n\nGo概念",
-    "slug": "go概念652"
+    "slug": "go概念652",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0653",
@@ -13710,7 +14387,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念653\n\nGo概念",
-    "slug": "go概念653"
+    "slug": "go概念653",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0654",
@@ -13731,7 +14409,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念654\n\nGo概念",
-    "slug": "go概念654"
+    "slug": "go概念654",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0655",
@@ -13752,7 +14431,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念655\n\nGo概念",
-    "slug": "go概念655"
+    "slug": "go概念655",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0656",
@@ -13773,7 +14453,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念656\n\nGo概念",
-    "slug": "go概念656"
+    "slug": "go概念656",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0657",
@@ -13794,7 +14475,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念657\n\nGo概念",
-    "slug": "go概念657"
+    "slug": "go概念657",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0658",
@@ -13815,7 +14497,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念658\n\nGo概念",
-    "slug": "go概念658"
+    "slug": "go概念658",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0659",
@@ -13836,7 +14519,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念659\n\nGo概念",
-    "slug": "go概念659"
+    "slug": "go概念659",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0660",
@@ -13857,7 +14541,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念660\n\nGo概念",
-    "slug": "go概念660"
+    "slug": "go概念660",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0661",
@@ -13878,7 +14563,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念661\n\nGo概念",
-    "slug": "go概念661"
+    "slug": "go概念661",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0662",
@@ -13899,7 +14585,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念662\n\nGo概念",
-    "slug": "go概念662"
+    "slug": "go概念662",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0663",
@@ -13920,7 +14607,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念663\n\nGo概念",
-    "slug": "go概念663"
+    "slug": "go概念663",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0664",
@@ -13941,7 +14629,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念664\n\nGo概念",
-    "slug": "go概念664"
+    "slug": "go概念664",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0665",
@@ -13962,7 +14651,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念665\n\nGo概念",
-    "slug": "go概念665"
+    "slug": "go概念665",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0666",
@@ -13983,7 +14673,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念666\n\nGo概念",
-    "slug": "go概念666"
+    "slug": "go概念666",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0667",
@@ -14004,7 +14695,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念667\n\nGo概念",
-    "slug": "go概念667"
+    "slug": "go概念667",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0668",
@@ -14025,7 +14717,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念668\n\nGo概念",
-    "slug": "go概念668"
+    "slug": "go概念668",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0669",
@@ -14046,7 +14739,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念669\n\nGo概念",
-    "slug": "go概念669"
+    "slug": "go概念669",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0670",
@@ -14067,7 +14761,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念670\n\nGo概念",
-    "slug": "go概念670"
+    "slug": "go概念670",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0671",
@@ -14088,7 +14783,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念671\n\nGo概念",
-    "slug": "go概念671"
+    "slug": "go概念671",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0672",
@@ -14109,7 +14805,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念672\n\nGo概念",
-    "slug": "go概念672"
+    "slug": "go概念672",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0673",
@@ -14130,7 +14827,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念673\n\nGo概念",
-    "slug": "go概念673"
+    "slug": "go概念673",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0674",
@@ -14151,7 +14849,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念674\n\nGo概念",
-    "slug": "go概念674"
+    "slug": "go概念674",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0675",
@@ -14172,7 +14871,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念675\n\nGo概念",
-    "slug": "go概念675"
+    "slug": "go概念675",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0676",
@@ -14193,7 +14893,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念676\n\nGo概念",
-    "slug": "go概念676"
+    "slug": "go概念676",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0677",
@@ -14214,7 +14915,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念677\n\nGo概念",
-    "slug": "go概念677"
+    "slug": "go概念677",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0678",
@@ -14235,7 +14937,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念678\n\nGo概念",
-    "slug": "go概念678"
+    "slug": "go概念678",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0679",
@@ -14256,7 +14959,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念679\n\nGo概念",
-    "slug": "go概念679"
+    "slug": "go概念679",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0680",
@@ -14277,7 +14981,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念680\n\nGo概念",
-    "slug": "go概念680"
+    "slug": "go概念680",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0681",
@@ -14298,7 +15003,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念681\n\nGo概念",
-    "slug": "go概念681"
+    "slug": "go概念681",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0682",
@@ -14319,7 +15025,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念682\n\nGo概念",
-    "slug": "go概念682"
+    "slug": "go概念682",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0683",
@@ -14340,7 +15047,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念683\n\nGo概念",
-    "slug": "go概念683"
+    "slug": "go概念683",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0684",
@@ -14361,7 +15069,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念684\n\nGo概念",
-    "slug": "go概念684"
+    "slug": "go概念684",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0685",
@@ -14382,7 +15091,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念685\n\nGo概念",
-    "slug": "go概念685"
+    "slug": "go概念685",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0686",
@@ -14403,7 +15113,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念686\n\nGo概念",
-    "slug": "go概念686"
+    "slug": "go概念686",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0687",
@@ -14424,7 +15135,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念687\n\nGo概念",
-    "slug": "go概念687"
+    "slug": "go概念687",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0688",
@@ -14445,7 +15157,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念688\n\nGo概念",
-    "slug": "go概念688"
+    "slug": "go概念688",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0689",
@@ -14466,7 +15179,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念689\n\nGo概念",
-    "slug": "go概念689"
+    "slug": "go概念689",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0690",
@@ -14487,7 +15201,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念690\n\nGo概念",
-    "slug": "go概念690"
+    "slug": "go概念690",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0691",
@@ -14508,7 +15223,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念691\n\nGo概念",
-    "slug": "go概念691"
+    "slug": "go概念691",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0692",
@@ -14529,7 +15245,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念692\n\nGo概念",
-    "slug": "go概念692"
+    "slug": "go概念692",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0693",
@@ -14550,7 +15267,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念693\n\nGo概念",
-    "slug": "go概念693"
+    "slug": "go概念693",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0694",
@@ -14571,7 +15289,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念694\n\nGo概念",
-    "slug": "go概念694"
+    "slug": "go概念694",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0695",
@@ -14592,7 +15311,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念695\n\nGo概念",
-    "slug": "go概念695"
+    "slug": "go概念695",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0696",
@@ -14613,7 +15333,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念696\n\nGo概念",
-    "slug": "go概念696"
+    "slug": "go概念696",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0697",
@@ -14634,7 +15355,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念697\n\nGo概念",
-    "slug": "go概念697"
+    "slug": "go概念697",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0698",
@@ -14655,7 +15377,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念698\n\nGo概念",
-    "slug": "go概念698"
+    "slug": "go概念698",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0699",
@@ -14676,7 +15399,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念699\n\nGo概念",
-    "slug": "go概念699"
+    "slug": "go概念699",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0700",
@@ -14697,7 +15421,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念700\n\nGo概念",
-    "slug": "go概念700"
+    "slug": "go概念700",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0701",
@@ -14718,7 +15443,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念701\n\nGo概念",
-    "slug": "go概念701"
+    "slug": "go概念701",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0702",
@@ -14739,7 +15465,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念702\n\nGo概念",
-    "slug": "go概念702"
+    "slug": "go概念702",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0703",
@@ -14760,7 +15487,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念703\n\nGo概念",
-    "slug": "go概念703"
+    "slug": "go概念703",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0704",
@@ -14781,7 +15509,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念704\n\nGo概念",
-    "slug": "go概念704"
+    "slug": "go概念704",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0705",
@@ -14802,7 +15531,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念705\n\nGo概念",
-    "slug": "go概念705"
+    "slug": "go概念705",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0706",
@@ -14823,7 +15553,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念706\n\nGo概念",
-    "slug": "go概念706"
+    "slug": "go概念706",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0707",
@@ -14844,7 +15575,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念707\n\nGo概念",
-    "slug": "go概念707"
+    "slug": "go概念707",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0708",
@@ -14865,7 +15597,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念708\n\nGo概念",
-    "slug": "go概念708"
+    "slug": "go概念708",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0709",
@@ -14886,7 +15619,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念709\n\nGo概念",
-    "slug": "go概念709"
+    "slug": "go概念709",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0710",
@@ -14907,7 +15641,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念710\n\nGo概念",
-    "slug": "go概念710"
+    "slug": "go概念710",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0711",
@@ -14928,7 +15663,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念711\n\nGo概念",
-    "slug": "go概念711"
+    "slug": "go概念711",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0712",
@@ -14949,7 +15685,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念712\n\nGo概念",
-    "slug": "go概念712"
+    "slug": "go概念712",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0713",
@@ -14970,7 +15707,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念713\n\nGo概念",
-    "slug": "go概念713"
+    "slug": "go概念713",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0714",
@@ -14991,7 +15729,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念714\n\nGo概念",
-    "slug": "go概念714"
+    "slug": "go概念714",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0715",
@@ -15012,7 +15751,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念715\n\nGo概念",
-    "slug": "go概念715"
+    "slug": "go概念715",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0716",
@@ -15033,7 +15773,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念716\n\nGo概念",
-    "slug": "go概念716"
+    "slug": "go概念716",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0717",
@@ -15054,7 +15795,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念717\n\nGo概念",
-    "slug": "go概念717"
+    "slug": "go概念717",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0718",
@@ -15075,7 +15817,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念718\n\nGo概念",
-    "slug": "go概念718"
+    "slug": "go概念718",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0719",
@@ -15096,7 +15839,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念719\n\nGo概念",
-    "slug": "go概念719"
+    "slug": "go概念719",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0720",
@@ -15117,7 +15861,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念720\n\nGo概念",
-    "slug": "go概念720"
+    "slug": "go概念720",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0721",
@@ -15138,7 +15883,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念721\n\nGo概念",
-    "slug": "go概念721"
+    "slug": "go概念721",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0722",
@@ -15159,7 +15905,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念722\n\nGo概念",
-    "slug": "go概念722"
+    "slug": "go概念722",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0723",
@@ -15180,7 +15927,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念723\n\nGo概念",
-    "slug": "go概念723"
+    "slug": "go概念723",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0724",
@@ -15201,7 +15949,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念724\n\nGo概念",
-    "slug": "go概念724"
+    "slug": "go概念724",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0725",
@@ -15222,7 +15971,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念725\n\nGo概念",
-    "slug": "go概念725"
+    "slug": "go概念725",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0726",
@@ -15243,7 +15993,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念726\n\nGo概念",
-    "slug": "go概念726"
+    "slug": "go概念726",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0727",
@@ -15264,7 +16015,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念727\n\nGo概念",
-    "slug": "go概念727"
+    "slug": "go概念727",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0728",
@@ -15285,7 +16037,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念728\n\nGo概念",
-    "slug": "go概念728"
+    "slug": "go概念728",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0729",
@@ -15306,7 +16059,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念729\n\nGo概念",
-    "slug": "go概念729"
+    "slug": "go概念729",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0730",
@@ -15327,7 +16081,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念730\n\nGo概念",
-    "slug": "go概念730"
+    "slug": "go概念730",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0731",
@@ -15348,7 +16103,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念731\n\nGo概念",
-    "slug": "go概念731"
+    "slug": "go概念731",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0732",
@@ -15369,7 +16125,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念732\n\nGo概念",
-    "slug": "go概念732"
+    "slug": "go概念732",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0733",
@@ -15390,7 +16147,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念733\n\nGo概念",
-    "slug": "go概念733"
+    "slug": "go概念733",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0734",
@@ -15411,7 +16169,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念734\n\nGo概念",
-    "slug": "go概念734"
+    "slug": "go概念734",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0735",
@@ -15432,7 +16191,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# Go概念735\n\nGo概念",
-    "slug": "go概念735"
+    "slug": "go概念735",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0736",
@@ -15453,7 +16213,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念736\n\n概念",
-    "slug": "概念736"
+    "slug": "概念736",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0737",
@@ -15474,7 +16235,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念737\n\n概念",
-    "slug": "概念737"
+    "slug": "概念737",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0738",
@@ -15495,7 +16257,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念738\n\n概念",
-    "slug": "概念738"
+    "slug": "概念738",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0739",
@@ -15516,7 +16279,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念739\n\n概念",
-    "slug": "概念739"
+    "slug": "概念739",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0740",
@@ -15537,7 +16301,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念740\n\n概念",
-    "slug": "概念740"
+    "slug": "概念740",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0741",
@@ -15558,7 +16323,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念741\n\n概念",
-    "slug": "概念741"
+    "slug": "概念741",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0742",
@@ -15579,7 +16345,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念742\n\n概念",
-    "slug": "概念742"
+    "slug": "概念742",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0743",
@@ -15600,7 +16367,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念743\n\n概念",
-    "slug": "概念743"
+    "slug": "概念743",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0744",
@@ -15621,7 +16389,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念744\n\n概念",
-    "slug": "概念744"
+    "slug": "概念744",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0745",
@@ -15642,7 +16411,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念745\n\n概念",
-    "slug": "概念745"
+    "slug": "概念745",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0746",
@@ -15663,7 +16433,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念746\n\n概念",
-    "slug": "概念746"
+    "slug": "概念746",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0747",
@@ -15684,7 +16455,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念747\n\n概念",
-    "slug": "概念747"
+    "slug": "概念747",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0748",
@@ -15705,7 +16477,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念748\n\n概念",
-    "slug": "概念748"
+    "slug": "概念748",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0749",
@@ -15726,7 +16499,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念749\n\n概念",
-    "slug": "概念749"
+    "slug": "概念749",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0750",
@@ -15747,7 +16521,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念750\n\n概念",
-    "slug": "概念750"
+    "slug": "概念750",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0751",
@@ -15768,7 +16543,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念751\n\n概念",
-    "slug": "概念751"
+    "slug": "概念751",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0752",
@@ -15789,7 +16565,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念752\n\n概念",
-    "slug": "概念752"
+    "slug": "概念752",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0753",
@@ -15810,7 +16587,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念753\n\n概念",
-    "slug": "概念753"
+    "slug": "概念753",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0754",
@@ -15831,7 +16609,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念754\n\n概念",
-    "slug": "概念754"
+    "slug": "概念754",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0755",
@@ -15852,7 +16631,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念755\n\n概念",
-    "slug": "概念755"
+    "slug": "概念755",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0756",
@@ -15873,7 +16653,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念756\n\n概念",
-    "slug": "概念756"
+    "slug": "概念756",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0757",
@@ -15894,7 +16675,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念757\n\n概念",
-    "slug": "概念757"
+    "slug": "概念757",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0758",
@@ -15915,7 +16697,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念758\n\n概念",
-    "slug": "概念758"
+    "slug": "概念758",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0759",
@@ -15936,7 +16719,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念759\n\n概念",
-    "slug": "概念759"
+    "slug": "概念759",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0760",
@@ -15957,7 +16741,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念760\n\n概念",
-    "slug": "概念760"
+    "slug": "概念760",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0761",
@@ -15978,7 +16763,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念761\n\n概念",
-    "slug": "概念761"
+    "slug": "概念761",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0762",
@@ -15999,7 +16785,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念762\n\n概念",
-    "slug": "概念762"
+    "slug": "概念762",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0763",
@@ -16020,7 +16807,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念763\n\n概念",
-    "slug": "概念763"
+    "slug": "概念763",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0764",
@@ -16041,7 +16829,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念764\n\n概念",
-    "slug": "概念764"
+    "slug": "概念764",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0765",
@@ -16062,7 +16851,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念765\n\n概念",
-    "slug": "概念765"
+    "slug": "概念765",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0766",
@@ -16083,7 +16873,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念766\n\n概念",
-    "slug": "概念766"
+    "slug": "概念766",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0767",
@@ -16104,7 +16895,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念767\n\n概念",
-    "slug": "概念767"
+    "slug": "概念767",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0768",
@@ -16125,7 +16917,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念768\n\n概念",
-    "slug": "概念768"
+    "slug": "概念768",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0769",
@@ -16146,7 +16939,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念769\n\n概念",
-    "slug": "概念769"
+    "slug": "概念769",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0770",
@@ -16167,7 +16961,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念770\n\n概念",
-    "slug": "概念770"
+    "slug": "概念770",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0771",
@@ -16188,7 +16983,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念771\n\n概念",
-    "slug": "概念771"
+    "slug": "概念771",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0772",
@@ -16209,7 +17005,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念772\n\n概念",
-    "slug": "概念772"
+    "slug": "概念772",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0773",
@@ -16230,7 +17027,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念773\n\n概念",
-    "slug": "概念773"
+    "slug": "概念773",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0774",
@@ -16251,7 +17049,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念774\n\n概念",
-    "slug": "概念774"
+    "slug": "概念774",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0775",
@@ -16272,7 +17071,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念775\n\n概念",
-    "slug": "概念775"
+    "slug": "概念775",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0776",
@@ -16293,7 +17093,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念776\n\n概念",
-    "slug": "概念776"
+    "slug": "概念776",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0777",
@@ -16314,7 +17115,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念777\n\n概念",
-    "slug": "概念777"
+    "slug": "概念777",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0778",
@@ -16335,7 +17137,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念778\n\n概念",
-    "slug": "概念778"
+    "slug": "概念778",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0779",
@@ -16356,7 +17159,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念779\n\n概念",
-    "slug": "概念779"
+    "slug": "概念779",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0780",
@@ -16377,7 +17181,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念780\n\n概念",
-    "slug": "概念780"
+    "slug": "概念780",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0781",
@@ -16398,7 +17203,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念781\n\n概念",
-    "slug": "概念781"
+    "slug": "概念781",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0782",
@@ -16419,7 +17225,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念782\n\n概念",
-    "slug": "概念782"
+    "slug": "概念782",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0783",
@@ -16440,7 +17247,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念783\n\n概念",
-    "slug": "概念783"
+    "slug": "概念783",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0784",
@@ -16461,7 +17269,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念784\n\n概念",
-    "slug": "概念784"
+    "slug": "概念784",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0785",
@@ -16482,7 +17291,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念785\n\n概念",
-    "slug": "概念785"
+    "slug": "概念785",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0786",
@@ -16503,7 +17313,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念786\n\n概念",
-    "slug": "概念786"
+    "slug": "概念786",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0787",
@@ -16524,7 +17335,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念787\n\n概念",
-    "slug": "概念787"
+    "slug": "概念787",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0788",
@@ -16545,7 +17357,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念788\n\n概念",
-    "slug": "概念788"
+    "slug": "概念788",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0789",
@@ -16566,7 +17379,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念789\n\n概念",
-    "slug": "概念789"
+    "slug": "概念789",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0790",
@@ -16587,7 +17401,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念790\n\n概念",
-    "slug": "概念790"
+    "slug": "概念790",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0791",
@@ -16608,7 +17423,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念791\n\n概念",
-    "slug": "概念791"
+    "slug": "概念791",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0792",
@@ -16629,7 +17445,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念792\n\n概念",
-    "slug": "概念792"
+    "slug": "概念792",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0793",
@@ -16650,7 +17467,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念793\n\n概念",
-    "slug": "概念793"
+    "slug": "概念793",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0794",
@@ -16671,7 +17489,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念794\n\n概念",
-    "slug": "概念794"
+    "slug": "概念794",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0795",
@@ -16692,7 +17511,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念795\n\n概念",
-    "slug": "概念795"
+    "slug": "概念795",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0796",
@@ -16713,7 +17533,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念796\n\n概念",
-    "slug": "概念796"
+    "slug": "概念796",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0797",
@@ -16734,7 +17555,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念797\n\n概念",
-    "slug": "概念797"
+    "slug": "概念797",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0798",
@@ -16755,7 +17577,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念798\n\n概念",
-    "slug": "概念798"
+    "slug": "概念798",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0799",
@@ -16776,7 +17599,8 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念799\n\n概念",
-    "slug": "概念799"
+    "slug": "概念799",
+    "editorialStatus": "draft"
   },
   {
     "id": "go-kp-0800",
@@ -16797,6 +17621,7 @@
     "relatedCases": [],
     "glossary": [],
     "contentMarkdown": "# 概念800\n\n概念",
-    "slug": "概念800"
+    "slug": "概念800",
+    "editorialStatus": "draft"
   }
 ]

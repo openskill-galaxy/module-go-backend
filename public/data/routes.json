@@ -2,79 +2,100 @@
   {
     "id": "mod-go-backend-route-1",
     "slug": "professional-path",
-    "title": "Go语言与后端服务开发 专业级成长路线",
-    "summary": "带您由浅入深、由原理到实战系统通关 Go语言与后端服务开发 核心要点。",
+    "title": "Go 后端工程师生产级完整路线",
+    "summary": "从切片/接口与并发原语、标准库 HTTP 与优雅停机，到数据库事务、errgroup 编排、pprof 调优与容器交付的全链路路线。",
     "steps": [
       {
         "order": 1,
-        "title": "Go语言与后端服务开发 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "切片底层结构、接口设计与 Error 包装链",
+        "description": "打牢 Go 核心数据结构、小接口与 errors.Is/As 规范。",
         "courseId": "mod-go-backend-c-1",
         "lessonId": "mod-go-backend-l-1"
       },
       {
         "order": 2,
-        "title": "Go语言与后端服务开发 配置文件覆盖与属性解析",
-        "description": "学习课时: 学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
+        "title": "Goroutine 生命周期、Channel 与 Context 超时控制",
+        "description": "建立防泄漏并发思维与超时取消传播机制。",
         "courseId": "mod-go-backend-c-1",
         "lessonId": "mod-go-backend-l-2"
       },
       {
         "order": 3,
-        "title": "Go语言与后端服务开发 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "Go 1.22+ 标准库路由、中间件链与 slog 日志",
+        "description": "使用原生 ServeMux 与结构化日志构建清晰服务。",
         "courseId": "mod-go-backend-c-2",
         "lessonId": "mod-go-backend-l-3"
       },
       {
         "order": 4,
-        "title": "Go语言与后端服务开发 核心控制器与数据校验机制",
-        "description": "学习课时: 掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
+        "title": "HTTP 超时防御与生产级优雅停机（Graceful Shutdown）",
+        "description": "配置慢连接超时防御并在 K8s 发布时零中断退出。",
         "courseId": "mod-go-backend-c-2",
         "lessonId": "mod-go-backend-l-4"
       },
       {
         "order": 5,
-        "title": "Go语言与后端服务开发 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "database/sql 连接池调优与事务安全封装",
+        "description": "掌握四大连接池参数与自动回滚事务模板。",
         "courseId": "mod-go-backend-c-3",
         "lessonId": "mod-go-backend-l-5"
       },
       {
         "order": 6,
-        "title": "Go语言与后端服务开发 可观测性日志与分布式链路监控",
-        "description": "学习课时: 配置全局日志收集管道，分析高负载服务下的运行指标波动。",
+        "title": "errgroup 并发编排与 Worker Pool 限流模式",
+        "description": "用 SetLimit 实现带背压与错误熔断的并发任务。",
         "courseId": "mod-go-backend-c-3",
         "lessonId": "mod-go-backend-l-6"
+      },
+      {
+        "order": 7,
+        "title": "表驱动测试、httptest 与竞态检测（-race）",
+        "description": "用原生测试体系与竞态检测守住代码质量。",
+        "courseId": "mod-go-backend-c-4",
+        "lessonId": "mod-go-backend-l-7"
+      },
+      {
+        "order": 8,
+        "title": "pprof 性能剖析与多阶段极小镜像构建",
+        "description": "掌握火焰图排障与 15MB 静态容器镜像交付。",
+        "courseId": "mod-go-backend-c-4",
+        "lessonId": "mod-go-backend-l-8"
       }
     ]
   },
   {
     "id": "mod-go-backend-route-2",
     "slug": "quick-start-path",
-    "title": "Go语言与后端服务开发 快速通关极速路线",
-    "summary": "专为快速开发或面试突击设计的速成学习路径。",
+    "title": "Go 后端高频面试与上线速成路线",
+    "summary": "精选并发防泄漏、优雅停机、连接池事务与 pprof 排障 4 节核心课，快速应对项目上线与技术面试。",
     "steps": [
       {
         "order": 1,
-        "title": "Go语言与后端服务开发 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "Goroutine 生命周期、Channel 与 Context 超时控制",
+        "description": "面试必考的 Channel 与协程泄漏治理。",
         "courseId": "mod-go-backend-c-1",
-        "lessonId": "mod-go-backend-l-1"
+        "lessonId": "mod-go-backend-l-2"
+      },
+      {
+        "order": 2,
+        "title": "HTTP 超时防御与生产级优雅停机（Graceful Shutdown）",
+        "description": "生产 HTTP 服务稳定运行的必备基线。",
+        "courseId": "mod-go-backend-c-2",
+        "lessonId": "mod-go-backend-l-4"
       },
       {
         "order": 3,
-        "title": "Go语言与后端服务开发 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-        "courseId": "mod-go-backend-c-2",
-        "lessonId": "mod-go-backend-l-3"
-      },
-      {
-        "order": 5,
-        "title": "Go语言与后端服务开发 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "database/sql 连接池调优与事务安全封装",
+        "description": "解决线上数据库连接耗尽与事务泄漏。",
         "courseId": "mod-go-backend-c-3",
         "lessonId": "mod-go-backend-l-5"
+      },
+      {
+        "order": 4,
+        "title": "pprof 性能剖析与多阶段极小镜像构建",
+        "description": "掌握线上 CPU/内存/协程排障利器。",
+        "courseId": "mod-go-backend-c-4",
+        "lessonId": "mod-go-backend-l-8"
       }
     ]
   }

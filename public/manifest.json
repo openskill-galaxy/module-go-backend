@@ -1,6 +1,7 @@
 {
-  "short_name": "OpenSkill Module",
-  "name": "OpenSkill Galaxy — 学习自测模块",
+  "short_name": "Go语言与后端服务开发",
+  "name": "OpenSkill Galaxy — Go语言与后端服务开发",
+  "description": "面向后端云原生和分布式系统学习者的Go语法结构体接口错误处理goroutinechannelcontextHTTP服务Gin数据库Redis测试与项目实战训练。",
   "icons": [
     {
       "src": "favicon.svg",
@@ -8,9 +9,10 @@
       "sizes": "any"
     }
   ],
-  "start_url": ".",
-  "background_color": "#fbfbfd",
-  "theme_color": "#4f46e5",
+  "start_url": "/module-go-backend/",
+  "scope": "/module-go-backend/",
+  "background_color": "#f4f5fa",
+  "theme_color": "#3039c9",
   "display": "standalone",
   "orientation": "portrait"
 }
